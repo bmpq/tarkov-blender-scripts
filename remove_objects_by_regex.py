@@ -1,10 +1,12 @@
 import re
 import bpy
 
-regex_list = [".*LOD1.*", ".*LOD2.*", ".*LOD3.*", ".*LOD4.*", ".*SHADOW.*", ".*BALLISTIC.*", ".*BALISTIC.*", ".*COLLIDER.*", ".*COLIDER.*", ".*COLISION.*",".*COLLISION.*", ".*TRIGGER.*", ".*TRIGER.*", "^Pull\w*", "^Push\w*", "^KeyGrip\w*", "^Occlusion\w*"]
+regex_list = [".*LOD1.*", ".*LOD2.*", ".*LOD3.*", ".*LOD4.*", ".*lod\..*", ".*lod_2\..*", ".*SHADOW.*", ".*BALLISTIC.*", ".*BALISTIC.*", ".*COLLIDER.*", ".*COLIDER.*", ".*COLISION.*",".*COLLISION.*", ".*TRIGGER.*", ".*TRIGER.*", "^Pull\w*", "^Push\w*", "^KeyGrip\w*", "^Occlusion\w*"]
 
 removed_count = 0
 removed_child_count = 0;
+
+skip_if_no_siblings = True
 
 # recursively remove all children of an object
 def remove_children(obj):
@@ -22,6 +24,10 @@ for obj in bpy.context.scene.objects:
     for regex in regex_list:
         pattern = re.compile(regex, re.IGNORECASE)
         if pattern.match(obj.name):
+            if skip_if_no_siblings and len(obj.parent.children) == 1:
+                print('Skipping ' + obj.name + ' (no siblings)')
+                continue
+            
             removed_count += 1
             removed_child_delta = remove_children(obj)
             removed_child_count += removed_child_delta
