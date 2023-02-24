@@ -1,7 +1,7 @@
 import re
 import bpy
 
-regex_list = [".*LOD1.*", ".*LOD2.*", ".*LOD3.*", ".*LOD4.*", ".*SHADOW.*", ".*BALLISTIC.*", ".*BALISTIC.*", ".*COLLIDER.*", ".*COLIDER.*", ".*TRIGGER.*", ".*TRIGER.*"]
+regex_list = [".*LOD1.*", ".*LOD2.*", ".*LOD3.*", ".*LOD4.*", ".*SHADOW.*", ".*BALLISTIC.*", ".*BALISTIC.*", ".*COLLIDER.*", ".*COLIDER.*", ".*COLISION.*",".*COLLISION.*", ".*TRIGGER.*", ".*TRIGER.*", "^Pull\w*", "^Push\w*", "^KeyGrip\w*", "^Occlusion\w*"]
 
 removed_count = 0
 removed_child_count = 0;
