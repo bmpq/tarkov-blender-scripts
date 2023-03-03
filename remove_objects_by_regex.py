@@ -1,8 +1,21 @@
 import re
 import bpy
 
+## I made this to cleanup scenes exported from Escape from Tarkov
+
+# the goal is to delete all the meshes that are not LOD0, this list is separate because of reasons below
 regex_list_lod = [".*LOD1.*", ".*LOD2.*", ".*LOD3.*", ".*LOD4.*", ".*lod\..*", ".*lod_2\..*", ".*_lod$"]
-regex_list = [".*SHADOW.*", ".*BALLISTIC.*", ".*BALISTIC.*", ".*COLLIDER.*", ".*COLIDER.*", ".*COLISION.*",".*COLLISION.*", ".*TRIGGER.*", ".*TRIGER.*", ".*TRG.*", "^Pull\w*", "^Push\w*", "^KeyGrip\w*", ".*sg_pivot.*", ".*sg_targets.*", ".*test_hand.*"]
+regex_list = [
+    # a lot of meshes on the scene have their own dedicated simplified meshes for shadow projection
+    ".*SHADOW.*", "^Stensil\w*", "^Stencil\w*", 
+    # physics and bullet penetration colliders
+    ".*BALLISTIC.*", ".*BALISTIC.*", ".*COLLIDER.*", ".*COLIDER.*", ".*COLISION.*",".*COLLISION.*", ".*LowPen.*", ".*HighPen.*"
+    # gameplay related triggers
+    ".*TRIGGER.*", ".*TRIGER.*", ".*TRG.*", 
+    # almost every door in the game has a placeholder hand rig stuck to its handle for some reason, they are not even used in the game
+    "^Pull\w*", "^Push\w*", "^KeyGrip\w*", ".*sg_pivot.*", ".*sg_targets.*", ".*test_hand.*", ".*HumanLPalm.*", ".*HumanRPalm.*", 
+    # level border or player restricted area meshes
+    ".*BLOCKER.*", "^Cube.*"]
 
 removed_count = 0
 removed_child_count = 0
@@ -46,6 +59,9 @@ for obj in bpy.context.scene.objects:
     for regex in regex_list_lod:
         pattern = re.compile(regex, re.IGNORECASE)
         if pattern.match(obj.name):
+            # tarkov has meshes with bad naming conventions
+            # an LOD0 mesh might have a '*_lod' name
+            # when the correct name should end with '*_LOD0'
             if skip_if_no_siblings and len(obj.parent.children) == 1:
                 print('Skipping ' + obj.name + ' (lod object with no siblings)')
                 break
