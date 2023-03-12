@@ -4,18 +4,22 @@ import bpy
 ## I made this to cleanup scenes exported from Escape from Tarkov
 
 # the goal is to delete all the meshes that are not LOD0, this list is separate because of reasons below
-regex_list_lod = [".*LOD1.*", ".*LOD2.*", ".*LOD3.*", ".*LOD4.*", ".*lod\..*", ".*lod_2\..*", ".*_lod$"]
+regex_list_lod = [".*lod(_)?[1-4].*", "_lod$"]
 regex_list = [
     # a lot of meshes on the scene have their own dedicated simplified meshes for shadow projection
-    ".*SHADOW.*", "^Stensil\w*", "^Stencil\w*", 
+    "SHADOW", ".*Sten(s|c)il.*",
     # physics and bullet penetration colliders
-    ".*BALLISTIC.*", ".*BALISTIC.*", ".*COLLIDER.*", ".*COLIDER.*", ".*COLISION.*",".*COLLISION.*", ".*LowPen.*", ".*HighPen.*"
+    ".*BAL(L)?ISTIC.*", ".*COL(L)?IDER.*", ".*COL(L)?ISION.*", ".*LowPen.*", ".*HighPen.*",
     # gameplay related triggers
-    ".*TRIGGER.*", ".*TRIGER.*", ".*TRG.*", 
+    ".*TRIG(G)?ER.*", "^TRG.*",
     # almost every door in the game has a placeholder hand rig stuck to its handle for some reason, they are not even used in the game
-    "^Pull\w*", "^Push\w*", "^KeyGrip\w*", ".*sg_pivot.*", ".*sg_targets.*", ".*test_hand.*", ".*HumanLPalm.*", ".*HumanRPalm.*", 
+    "^Pull\w*", "^Push\w*", ".*KeyGrip.*", ".*sg_pivot.*", ".*sg_targets.*", ".*test_hand.*", ".*HumanLPalm.*", ".*HumanRPalm.*",
     # level border or player restricted area meshes
-    ".*BLOCKER.*", "^Cube.*"]
+    ".*BLOCKER.*", "^Cube.*",
+    # culling
+    ".*culling.*",
+    # yeah i dont know, big box meshes
+     "^stones_.*"]
 
 removed_count = 0
 removed_child_count = 0
@@ -47,7 +51,7 @@ print('Checking ' + str(len(bpy.context.scene.objects)) + ' objects')
 for obj in bpy.context.scene.objects:
     removed = False
     for regex in regex_list:
-        pattern = re.compile(regex, re.IGNORECASE)
+        pattern = re.compile(regex, re.IGNORECASE | re.DOTALL)
         if pattern.match(obj.name):
             remove(obj)
             removed = True
@@ -67,5 +71,5 @@ for obj in bpy.context.scene.objects:
                 break
             remove(obj)
             break
-        
+
 print('Removed ' + str(removed_count) + ' objects with ' + str(removed_child_count) + ' children')
