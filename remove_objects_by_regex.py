@@ -4,10 +4,10 @@ import bpy
 ## I made this to cleanup scenes exported from Escape from Tarkov
 
 # the goal is to delete all the meshes that are not LOD0, this list is separate because of reasons below
-regex_list_lod = [".*lod(_)?[1-4].*", "_lod$"]
+regex_list_lod = [".*lod(_)?[1-4].*", ".*_lod($|\.)"]
 regex_list = [
     # a lot of meshes on the scene have their own dedicated simplified meshes for shadow projection
-    "SHADOW", ".*Sten(s|c)il.*",
+    ".*SHADOW.*", ".*Sten(s|c)il.*",
     # physics and bullet penetration colliders
     ".*BAL(L)?ISTIC.*", ".*COL(L)?IDER.*", ".*COL(L)?ISION.*", ".*LowPen.*", ".*HighPen.*",
     # gameplay related triggers
