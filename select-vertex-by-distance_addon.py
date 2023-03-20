@@ -49,39 +49,43 @@ class MESH_OT_vertex_select(bpy.types.Operator):
     bl_options = {'REGISTER', 'UNDO'}
 
     def execute(self, context):
-        obj = context.active_object
-        me = obj.data
-        bm = bmesh.from_edit_mesh(me)
+        objs = bpy.context.selected_objects
+        for obj in objs:
+            if obj.mode != 'EDIT':
+                continue
 
-        size = len(bm.verts)
-        kd = kdtree.KDTree(size)
-        for i, vtx in enumerate(bm.verts):
-            kd.insert(vtx.co, i)
-        kd.balance()
+            me = obj.data
+            bm = bmesh.from_edit_mesh(me)
 
-        threshold = context.scene.threshold
-        changed = True
-        while changed:
-            changed = False
+            size = len(bm.verts)
+            kd = kdtree.KDTree(size)
+            for i, vtx in enumerate(bm.verts):
+                kd.insert(vtx.co, i)
+            kd.balance()
 
-            for v in bm.verts:
-                if not v.select:
-                    continue
+            threshold = context.scene.threshold
+            changed = True
+            while changed:
+                changed = False
 
-                # select connected vertices
-                for e in v.link_edges:
-                    if not e.select:
-                        e.select = True
-                        changed = True
+                for v in bm.verts:
+                    if not v.select:
+                        continue
 
-                # select vertices by proximity
-                for (co, index, dist) in kd.find_range(v.co, threshold):
-                    if not bm.verts[index].select:
-                        bm.verts[index].select = True
-                        changed = True
+                    # select connected vertices
+                    for e in v.link_edges:
+                        if not e.select:
+                            e.select = True
+                            changed = True
 
-        bm.select_flush(True)
-        bmesh.update_edit_mesh(me)
+                    # select vertices by proximity
+                    for (co, index, dist) in kd.find_range(v.co, threshold):
+                        if not bm.verts[index].select:
+                            bm.verts[index].select = True
+                            changed = True
+
+            bm.select_flush(True)
+            bmesh.update_edit_mesh(me)
 
         return {'FINISHED'}
 
