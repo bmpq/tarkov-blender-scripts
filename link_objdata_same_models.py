@@ -1,9 +1,5 @@
 import bpy
 
-# Threshold value for the vertex coordinate comparison
-threshold = 0.0001
-
-# Get all mesh objects in the scene
 mesh_objs = [obj for obj in bpy.context.scene.objects if obj.type == 'MESH']
 
 print('Found ' + str(len(mesh_objs)) + ' mesh objects')
@@ -22,12 +18,12 @@ for obj in mesh_objs:
     if mesh_key not in mesh_dict:
         mesh_dict[mesh_key] = []
     mesh_dict[mesh_key].append(obj)
-    
-print('Found ' + str(len(mesh_dict)) + ' unique mesh data blocks')
+
+print(f'Found {len(mesh_dict)} unique mesh data blocks')
 
 already_linked = 0
 total_linked = 0
-    
+
 # Link object data for objects with matching mesh data
 for key, objs in mesh_dict.items():
     if len(objs) > 1:
@@ -35,12 +31,12 @@ for key, objs in mesh_dict.items():
             if objs[i+1].data == objs[0].data:
                 already_linked += 1
                 continue
-                
+
             objs[i+1].data = objs[0].data
             print('Linked ' + objs[0].name + ' with ' + objs[i+1].name)
             total_linked += 1
-            
-print('Successfully linked ' + str(total_linked) + ' objects')
-            
+
+print(f'Successfully linked {total_linked} objects')
+
 if already_linked > 0:
-    print('Info: ' + str(already_linked) + ' objects were already linked')
+    print(f'Info: {already_linked} objects were already linked')
