@@ -41,24 +41,25 @@ for i in range(len(trees)):
         tree2, (obj2, bm2) = trees[j]
         overlap_pairs = tree1.overlap(tree2)
         if overlap_pairs:
-            p1, p2 = overlap_pairs[0]
+            face1 = bm1.faces[overlap_pairs[0][0]]
+            face2 = bm2.faces[overlap_pairs[0][1]]
+            loc = (face1.verts[0].co + face2.verts[0].co) / 2
+            min_dist = (face1.verts[0].co - face2.verts[0].co).length
+
+            for p1, p2 in overlap_pairs:
+                face1 = bm1.faces[p1]
+                face2 = bm2.faces[p2]
+
+                for v1 in face1.verts:
+                    for v2 in face2.verts:
+                        if (v1.co - v2.co).length < min_dist:
+                            min_dist = (v1.co - v2.co).length
+                            loc = (v1.co + v2.co) / 2
 
             empty_name = f'{obj1.name}_{obj2.name}'
-            face1 = bm1.faces[p1]
-            face2 = bm2.faces[p2]
-
             empty = bpy.data.objects.new(empty_name, None)
             empty.empty_display_size = 0.2
 
-            loc = face1.verts[0].co - face2.verts[0].co
-
-            min_dist = (face1.verts[0].co - face2.verts[0].co).length
-
-            for v1 in face1.verts:
-                for v2 in face2.verts:
-                    if (v1.co - v2.co).length < min_dist:
-                        min_dist = (v1.co - v2.co).length
-                        loc = (v1.co + v2.co) / 2
-
             empty.location = loc
             col_empties.objects.link(empty)
+            bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
