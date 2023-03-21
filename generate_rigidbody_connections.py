@@ -20,6 +20,16 @@ else:
 
 bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=4)
 
+for ob in col_mesh.objects:
+    #is_rigid_body = ob.rigid_body is not None
+    #if is_rigid_body:
+    #    bpy.context.view_layer.objects.active = ob
+    #    bpy.ops.rigidbody.object_remove()
+    bpy.context.view_layer.objects.active = ob
+    bpy.ops.rigidbody.object_add()
+    ob.rigid_body.mass = 10.0
+
+
 trees = []
 for obj in col_mesh.objects:
     mat = obj.matrix_world
@@ -63,3 +73,16 @@ for i in range(len(trees)):
             empty.location = loc
             col_empties.objects.link(empty)
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
+
+            bpy.context.view_layer.objects.active = empty
+            empty.select_set(True)
+            bpy.ops.rigidbody.constraint_add(type='HINGE')
+            bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
+
+            bpy.context.object.rigid_body_constraint.use_breaking = True
+            bpy.context.object.rigid_body_constraint.breaking_threshold = 30
+
+            bpy.context.object.rigid_body_constraint.object1 = obj1
+            bpy.context.object.rigid_body_constraint.object2 = obj2
+
+            empty.select_set(False)
