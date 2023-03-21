@@ -1,6 +1,7 @@
 from mathutils.bvhtree import BVHTree
 import bpy
 import bmesh
+import math
 
 print(f'working in {bpy.context.collection.name} collection')
 col_mesh = bpy.context.collection
@@ -18,25 +19,38 @@ else:
     for ob in col_empties.objects:
         col_empties.objects.unlink(ob)
 
-bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=4)
+THRESHOLD = 0.05
+
+bpy.context.scene.frame_current = 0
+bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
 
 for ob in col_mesh.objects:
-    #is_rigid_body = ob.rigid_body is not None
-    #if is_rigid_body:
-    #    bpy.context.view_layer.objects.active = ob
-    #    bpy.ops.rigidbody.object_remove()
-    bpy.context.view_layer.objects.active = ob
-    bpy.ops.rigidbody.object_add()
+    if 'foundation' in ob.name:
+        continue
+    if ob.type != 'MESH':
+        continue
+
+    if ob.rigid_body is None:
+        bpy.context.view_layer.objects.active = ob
+        bpy.ops.rigidbody.object_add()
+
     ob.rigid_body.mass = 10.0
+    ob.rigid_body.collision_shape = 'CONVEX_HULL'
 
+    print(f'adding rigid body to {ob.name}')
 
+print(f'processing {len(col_mesh.objects)} objects')
+print('caching mesh data...')
 trees = []
 for obj in col_mesh.objects:
+    if obj.type != 'MESH':
+        continue
     mat = obj.matrix_world
     bm = bmesh.new()
     bm.from_mesh(obj.data)
     bmesh.ops.transform(bm, matrix=obj.matrix_world, verts=bm.verts)
-    bmesh.ops.subdivide_edges(bm, edges=bm.edges, cuts=10)
+    bmesh.ops.solidify(bm, geom=bm.faces, thickness=THRESHOLD)
+    bmesh.ops.subdivide_edges(bm, edges=bm.edges, cuts=5)
 
     bm.verts.ensure_lookup_table()
     bm.edges.ensure_lookup_table()
@@ -72,17 +86,16 @@ for i in range(len(trees)):
 
             empty.location = loc
             col_empties.objects.link(empty)
-            bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
 
             bpy.context.view_layer.objects.active = empty
-            empty.select_set(True)
-            bpy.ops.rigidbody.constraint_add(type='HINGE')
-            bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
+            bpy.ops.rigidbody.constraint_add(type='FIXED')
 
+            bpy.context.object.rigid_body_constraint.disable_collisions = True
             bpy.context.object.rigid_body_constraint.use_breaking = True
-            bpy.context.object.rigid_body_constraint.breaking_threshold = 30
+            bpy.context.object.rigid_body_constraint.breaking_threshold = 70
 
             bpy.context.object.rigid_body_constraint.object1 = obj1
             bpy.context.object.rigid_body_constraint.object2 = obj2
 
-            empty.select_set(False)
+    progress = i / (len(trees) - 1)
+    print('Progress: ' + '{:.0%}'.format(progress))
