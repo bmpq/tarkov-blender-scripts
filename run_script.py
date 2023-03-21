@@ -1,5 +1,6 @@
 import bpy
 import os
+import runpy
 
 bl_info = {
     "name": "Run python script",
@@ -33,7 +34,7 @@ class RunScriptOperator(bpy.types.Operator):
         scene = context.scene
         script_path = scene.script_path
         if os.path.isfile(script_path) and script_path.endswith(".py"):
-            exec(open(script_path).read())
+            runpy.run_path(script_path)
             self.report(
                 {'INFO'}, f"Script {os.path.basename(script_path)} executed successfully")
         else:
