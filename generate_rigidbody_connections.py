@@ -28,38 +28,45 @@ class MainPanel(Panel):
         constprops = context.scene.rbtool_constprops
 
         col_selected = context.collection
+        col_overlaps = col_selected.children.get(col_selected.name + '_overlaps')
+        generated = col_overlaps is not None and len(col_overlaps.objects) > 0
 
         if 'overlaps' in col_selected.name:
             layout.label(text='Overlap collection selected')
             return
 
+        if generated:
+            layout.label(text=f'{len(col_overlaps.objects)} generated constraints')
+        layout.prop(constprops, "input_type", text="Constraint type")
+        layout.prop(constprops, "input_enable_collisions", text="Enable local collisions")
+        layout.prop(constprops, "input_break_threshold", text="Break threshold")
+        layout.prop(constprops, "input_show_in_front", text="Show in front")
+        if generated:
+            layout.operator("rbtool.button_modify_const", icon='RIGID_BODY_CONSTRAINT')
+
+        layout.separator(factor=2)
+
         mesh_amount = 0
         for ob in context.collection.objects:
             if ob.type == 'MESH':
                 mesh_amount += 1
-
-        layout.prop(constprops, "input_enable_collisions", text="Enable local collisions")
-        layout.prop(constprops, "input_show_in_front", text="Show in front")
-        layout.prop(constprops, "input_break_threshold", text="Break threshold")
-        col_overlaps = col_selected.children.get(col_selected.name + '_overlaps')
-        generated = col_overlaps is not None and len(col_overlaps.objects) > 0
-        if generated:
-            layout.label(text=f'{len(col_overlaps.objects)} generated constraints')
-            layout.operator("rbtool.button_modify_const")
-
         layout.label(text=f'{mesh_amount} mesh objects in [{col_selected.name}]')
 
-        layout.prop(overlapprops, "input_overlap_margin")
+        layout.prop(overlapprops, "input_solidify")
+        if overlapprops.input_solidify:
+            layout.prop(overlapprops, "input_overlap_margin")
         layout.prop(overlapprops, "input_subd")
 
         if overlapprops.progress > 0.0 and overlapprops.progress < 1.0:
             layout.label(text=f"Progress: {overlapprops.progress*100:.2f}%")
         else:
-            layout.operator("rbtool.button_generate")
-        layout.separator()
+            layout.operator("rbtool.button_generate", icon='MOD_MESHDEFORM')
+
+        layout.separator(factor=2)
 
         layout.prop(rbprops, property="input_rbshape", text="Collision shape")
-        layout.operator("rbtool.button_setrb")
+        layout.operator("rbtool.button_setrb", icon='RIGID_BODY')
+        layout.operator("rbtool.button_remrb", icon='REMOVE')
 
 
 class OverlapProps(PropertyGroup):
@@ -72,6 +79,9 @@ class OverlapProps(PropertyGroup):
         min=0,
         max=100,
         default=4
+    )
+    input_solidify: bpy.props.BoolProperty(
+        name="Overlap margin"
     )
     progress: bpy.props.FloatProperty(
         name="Progress",
@@ -89,6 +99,10 @@ class RBProps(PropertyGroup):
 
 
 class ConstraintProps(PropertyGroup):
+    const_types = bpy.types.RigidBodyConstraint.bl_rna.properties["type"].enum_items
+    input_type: bpy.props.EnumProperty(
+        items=[(item.identifier, item.name, item.description) for item in const_types]
+    )
     input_enable_collisions: bpy.props.BoolProperty(
         name="Enable collisions",
         default=False
@@ -107,7 +121,7 @@ class ConstraintProps(PropertyGroup):
 
 class SetRigidbodies(Operator):
     bl_idname = "rbtool.button_setrb"
-    bl_label = "Modify rigid bodies"
+    bl_label = "Add/Update rigid bodies"
 
     def execute(self, context):
         props = context.scene.rbtool_rbprops
@@ -122,6 +136,25 @@ class SetRigidbodies(Operator):
 
             ob.rigid_body.mass = 10.0
             ob.rigid_body.collision_shape = props.input_rbshape
+
+        return {'FINISHED'}
+
+
+class RemoveRigidbodies(Operator):
+    bl_idname = "rbtool.button_remrb"
+    bl_label = "Remove rigid bodies"
+
+    def execute(self, context):
+        props = context.scene.rbtool_rbprops
+
+        for ob in context.collection.objects:
+            if ob.type != 'MESH':
+                continue
+
+            if ob.rigid_body is not None:
+                bpy.context.view_layer.objects.active = ob
+                bpy.ops.rigidbody.object_remove()
+                print(f'removed rb in {ob.name}')
 
         return {'FINISHED'}
 
@@ -145,7 +178,7 @@ class ModifyConstraints(Operator):
         return {'FINISHED'}
 
 
-def get_bvh(collection, solidify_thickness, subd):
+def get_bvh(collection, solidify, solidify_thickness, subd):
     trees = []
     for obj in collection.objects:
         if obj.type != 'MESH':
@@ -153,9 +186,13 @@ def get_bvh(collection, solidify_thickness, subd):
 
         bm = bmesh.new()
         bm.from_mesh(obj.data)
+
+        if len(bm.verts) == 0:
+            print('todo remove empty mesh objects')
+
         bmesh.ops.transform(bm, matrix=obj.matrix_world, verts=bm.verts)
 
-        if not math.isclose(solidify_thickness, 0):
+        if solidify:
             bmesh.ops.solidify(bm, geom=bm.faces, thickness=solidify_thickness)
 
         if subd > 0:
@@ -196,10 +233,11 @@ class StructureGenerator(Operator):
         props_const = context.scene.rbtool_constprops
         collection = context.collection
 
-        context.scene.frame_current = 0
+        bpy.context.scene.frame_current = 0
+        bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
         props.progress = 0.01
 
-        trees = get_bvh(collection, props.input_overlap_margin, props.input_subd)
+        trees = get_bvh(collection, props.input_solidify, props.input_overlap_margin, props.input_subd)
         col_empties = reset_collection(collection)
 
         for i in range(len(trees)):
@@ -243,6 +281,7 @@ class StructureGenerator(Operator):
 
             props.progress = (i + 1) / (len(trees))
             bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
+            print(f"Progress: {props.progress*100:.2f}%")
 
         return {'FINISHED'}
 
@@ -254,6 +293,7 @@ classes = [
     ConstraintProps,
     StructureGenerator,
     SetRigidbodies,
+    RemoveRigidbodies,
     ModifyConstraints,
     MainPanel
 ]
