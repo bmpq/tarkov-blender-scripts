@@ -25,6 +25,7 @@ class MainPanel(Panel):
         layout = self.layout
         rbprops = context.scene.rbtool_rbprops
         overlapprops = context.scene.rbtool_overlapprops
+        constprops = context.scene.rbtool_constprops
 
         col_selected = context.collection
 
@@ -37,6 +38,15 @@ class MainPanel(Panel):
             if ob.type == 'MESH':
                 mesh_amount += 1
 
+        layout.prop(constprops, "input_enable_collisions", text="Enable local collisions")
+        layout.prop(constprops, "input_show_in_front", text="Show in front")
+        layout.prop(constprops, "input_break_threshold", text="Break threshold")
+        col_overlaps = col_selected.children.get(col_selected.name + '_overlaps')
+        generated = col_overlaps is not None and len(col_overlaps.objects) > 0
+        if generated:
+            layout.label(text=f'{len(col_overlaps.objects)} generated constraints')
+            layout.operator("rbtool.button_modify_const")
+
         layout.label(text=f'{mesh_amount} mesh objects in [{col_selected.name}]')
 
         layout.prop(overlapprops, "input_overlap_margin")
@@ -46,7 +56,6 @@ class MainPanel(Panel):
             layout.label(text=f"Progress: {overlapprops.progress*100:.2f}%")
         else:
             layout.operator("rbtool.button_generate")
-
         layout.separator()
 
         layout.prop(rbprops, property="input_rbshape", text="Collision shape")
@@ -79,9 +88,26 @@ class RBProps(PropertyGroup):
     )
 
 
+class ConstraintProps(PropertyGroup):
+    input_enable_collisions: bpy.props.BoolProperty(
+        name="Enable collisions",
+        default=False
+    )
+    input_break_threshold: bpy.props.FloatProperty(
+        name="Break threshold",
+        min=0.0,
+        max=1000.0,
+        default=40
+    )
+    input_show_in_front: bpy.props.BoolProperty(
+        name="Show in front",
+        default=True
+    )
+
+
 class SetRigidbodies(Operator):
     bl_idname = "rbtool.button_setrb"
-    bl_label = "Set rigid bodies"
+    bl_label = "Modify rigid bodies"
 
     def execute(self, context):
         props = context.scene.rbtool_rbprops
@@ -96,6 +122,25 @@ class SetRigidbodies(Operator):
 
             ob.rigid_body.mass = 10.0
             ob.rigid_body.collision_shape = props.input_rbshape
+
+        return {'FINISHED'}
+
+
+class ModifyConstraints(Operator):
+    bl_idname = "rbtool.button_modify_const"
+    bl_label = "Update constraints"
+
+    def execute(self, context):
+        props = context.scene.rbtool_constprops
+        collection = context.collection.children.get(context.collection.name  + '_overlaps')
+
+        for ob in collection.objects:
+            bpy.context.view_layer.objects.active = ob
+
+            bpy.context.object.rigid_body_constraint.disable_collisions = not props.input_enable_collisions
+            bpy.context.object.rigid_body_constraint.use_breaking = True
+            bpy.context.object.rigid_body_constraint.breaking_threshold = props.input_break_threshold
+            bpy.context.object.show_in_front = props.input_show_in_front
 
         return {'FINISHED'}
 
@@ -148,6 +193,7 @@ class StructureGenerator(Operator):
 
     def execute(self, context):
         props = context.scene.rbtool_overlapprops
+        props_const = context.scene.rbtool_constprops
         collection = context.collection
 
         context.scene.frame_current = 0
@@ -187,9 +233,10 @@ class StructureGenerator(Operator):
                     bpy.context.view_layer.objects.active = empty
                     bpy.ops.rigidbody.constraint_add(type='FIXED')
 
-                    bpy.context.object.rigid_body_constraint.disable_collisions = True
+                    bpy.context.object.rigid_body_constraint.disable_collisions = not props_const.input_enable_collisions
                     bpy.context.object.rigid_body_constraint.use_breaking = True
-                    bpy.context.object.rigid_body_constraint.breaking_threshold = 50
+                    bpy.context.object.rigid_body_constraint.breaking_threshold = props_const.input_break_threshold
+                    bpy.context.object.show_in_front = props_const.input_show_in_front
 
                     bpy.context.object.rigid_body_constraint.object1 = obj1
                     bpy.context.object.rigid_body_constraint.object2 = obj2
@@ -204,8 +251,10 @@ class StructureGenerator(Operator):
 classes = [
     OverlapProps,
     RBProps,
-    SetRigidbodies,
+    ConstraintProps,
     StructureGenerator,
+    SetRigidbodies,
+    ModifyConstraints,
     MainPanel
 ]
 
@@ -216,6 +265,7 @@ def register():
 
     bpy.types.Scene.rbtool_rbprops = bpy.props.PointerProperty(type=RBProps)
     bpy.types.Scene.rbtool_overlapprops = bpy.props.PointerProperty(type=OverlapProps)
+    bpy.types.Scene.rbtool_constprops = bpy.props.PointerProperty(type=ConstraintProps)
 
 
 def unregister():
@@ -224,6 +274,7 @@ def unregister():
 
    del bpy.types.Scene.rbtool_rbprops
    del bpy.types.Scene.rbtool_overlapprops
+   del bpy.types.Scene.rbtool_constprops
 
 
 if __name__ == "__main__":
