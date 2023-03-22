@@ -7,8 +7,11 @@ import time
 
 print_progress = True
 
+delete_decals = False
+
 # the goal is to delete all the meshes that are not LOD0, this list is separate because of reasons below
 regex_list_lod = [".*lod(_)?[1-4].*", ".*_lod($|\.)"]
+regex_list_decals = [".*de(c|k)al.*", ".*dekal.*", ".*dec_.*"]
 regex_list = [
     # a lot of meshes on the scene have their own dedicated simplified meshes for shadow projection
     ".*SHADOW.*", ".*Sten(s|c)il.*",
@@ -86,6 +89,17 @@ for obj in bpy.context.scene.objects:
             remove(obj)
             removed = True
             break
+
+    if removed:
+        continue
+
+    if delete_decals:
+        for regex in regex_list_decals:
+            pattern = re.compile(regex, re.IGNORECASE | re.DOTALL)
+            if pattern.match(obj.name):
+                remove(obj)
+                removed = True
+                break
 
     if removed or not obj.parent:
         continue
