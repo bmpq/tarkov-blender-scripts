@@ -182,6 +182,7 @@ class SetRigidbodies(Operator):
                 bm.from_mesh(ob.data)
 
                 if len(bm.verts) == 0:
+                    context.collection.objects.unlink(ob)
                     continue
 
                 bm.verts.ensure_lookup_table()
@@ -337,6 +338,7 @@ def get_bvh(collection, solidify, solidify_thickness, subd):
 
 
 def reset_collection(parent_collection, name):
+    col_reset = None
     for col in bpy.data.collections:
         if col.name == name:
             col_reset = col
