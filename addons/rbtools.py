@@ -55,9 +55,11 @@ class MainPanel(Panel):
         layout.separator(factor=2)
 
         mesh_amount = 0
+
         for ob in context.collection.objects:
             if ob.type == 'MESH':
                 mesh_amount += 1
+
         layout.label(text=f'{mesh_amount} mesh objects in [{col_selected.name}]')
 
         layout.prop(overlapprops, "input_solidify")
@@ -70,7 +72,46 @@ class MainPanel(Panel):
         else:
             layout.operator("rbtool.button_generate", icon='MOD_MESHDEFORM')
 
+        if len(context.selected_objects) == 0:
+            return
+
         layout.separator(factor=2)
+
+        selected_solidified = False
+        mesh_amount = 0
+        rb_amount = 0
+        rb_shapes = bpy.types.RigidBodyObject.bl_rna.properties["collision_shape"].enum_items
+        sh_amount = dict.fromkeys(rb_shapes, 0)
+        for ob in context.selected_objects:
+            if '_solidified' in ob.name:
+                selected_solidified = True
+            if ob.type == 'MESH':
+                mesh_amount += 1
+                rb = ob.rigid_body
+                if rb is None:
+                    continue
+                rb_amount += 1
+                for sh in rb_shapes:
+                    if sh.identifier == ob.rigid_body.collision_shape:
+                        sh_amount[sh] += 1
+                        break
+
+        layout.label(text=f'{mesh_amount} mesh selected ({rb_amount} RB)')
+
+
+        b = layout.box()
+        for sh in sh_amount:
+            if sh_amount[sh] == 0:
+                continue
+            r = b.row()
+            r.scale_y = 0.7
+            c1 = r.column()
+            c1.alignment = 'LEFT'
+            c1.label(text=f'{sh.name}')
+
+            c2 = r.column()
+            c2.alignment = 'RIGHT'
+            c2.label(text=f'{sh_amount[sh]}')
 
         layout.prop(rbprops, property="input_rbshape", text="Collision shape")
         if rbprops.input_rbshape == 'COMPOUND':
@@ -80,6 +121,8 @@ class MainPanel(Panel):
 
         if rbprops.progress > 0.0 and rbprops.progress < 1.0:
             layout.label(text=f"Progress: {rbprops.progress*100:.2f}%")
+        elif selected_solidified:
+            layout.label(text=f"Selected a solidified mesh")
         else:
             layout.operator("rbtool.button_setrb", icon='RIGID_BODY')
             layout.operator("rbtool.button_remrb", icon='REMOVE')
@@ -165,8 +208,6 @@ class SetRigidbodies(Operator):
 
     def execute(self, context):
         props = context.scene.rbtool_rbprops
-        col_compound = reset_collection(context.collection, context.collection.name + '_compound')
-
         cmpnd = props.input_rbshape == 'COMPOUND'
 
         bpy.ops.outliner.orphans_purge(do_local_ids=True)
@@ -174,7 +215,7 @@ class SetRigidbodies(Operator):
         if cmpnd:
             biggest_mesh = 0
             mesh_data = {}
-            for ob in context.collection.objects:
+            for ob in context.selected_objects:
                 if ob.type != 'MESH':
                     continue
 
@@ -202,15 +243,20 @@ class SetRigidbodies(Operator):
                     biggest_mesh = max_vert_dist
 
         index = 0
-        for ob in context.collection.objects:
+        init_active_ob = bpy.context.view_layer.objects.active
+        for ob in context.selected_objects:
             if ob.type != 'MESH':
                 continue
 
+            bpy.context.view_layer.objects.active = ob
+            for ch in ob.children_recursive:
+                bpy.data.objects.remove(ch, do_unlink=True)
+
             if ob.rigid_body is None:
-                bpy.context.view_layer.objects.active = ob
                 bpy.ops.rigidbody.object_add()
 
-            ob.rigid_body.mass = 10.0
+            bpy.ops.rigidbody.mass_calculate(material='Brass')
+            ob.rigid_body.use_deactivation = True
             ob.rigid_body.collision_shape = props.input_rbshape
 
             if cmpnd:
@@ -232,7 +278,7 @@ class SetRigidbodies(Operator):
                 bm.free()
 
                 new_ob = bpy.data.objects.new(ob.name + "_solidified", new_me)
-                col_compound.objects.link(new_ob)
+                context.collection.objects.link(new_ob)
                 new_ob.parent = ob
                 bpy.context.view_layer.objects.active = new_ob
 
@@ -255,10 +301,10 @@ class SetRigidbodies(Operator):
                 new_ob.show_in_front = True
 
                 index += 1
-                props.progress = index / len(context.collection.objects)
+                props.progress = index / len(context.selected_objects)
                 bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
 
-
+        bpy.context.view_layer.objects.active = init_active_ob
         return {'FINISHED'}
 
 
