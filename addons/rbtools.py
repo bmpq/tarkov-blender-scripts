@@ -245,6 +245,8 @@ class SetRigidbodies(Operator):
                 if biggest_mesh < max_vert_dist:
                     biggest_mesh = max_vert_dist
 
+        trees = []
+
         index = 0
         init_active_ob = bpy.context.view_layer.objects.active
         for ob in context.selected_objects:
@@ -276,6 +278,9 @@ class SetRigidbodies(Operator):
 
                 new_me = bpy.data.meshes.new(ob.name + "_solidified")
                 bm.to_mesh(new_me)
+
+                bmesh.ops.transform(bm, matrix=ob.matrix_world, verts=bm.verts)
+                trees.append((ob, BVHTree.FromBMesh(bm)))
                 bm.free()
 
                 new_ob = bpy.data.objects.new(ob.name + "_solidified", new_me)
@@ -307,6 +312,17 @@ class SetRigidbodies(Operator):
                 bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
 
         bpy.context.view_layer.objects.active = init_active_ob
+
+        if cmpnd:
+            for i in range(len(trees)):
+                for j in range(i + 1, len(trees)):
+                    obj1, tree1 = trees[i]
+                    obj2, tree2 = trees[j]
+                    overlap_pairs = tree1.overlap(tree2)
+                    if overlap_pairs:
+                        print(f'--------WARNING: {obj1.name} collides with {obj2.name}')
+
+
         return {'FINISHED'}
 
 
@@ -359,6 +375,8 @@ def get_bvh(collection, solidify, solidify_thickness, subd):
     trees = []
     for obj in collection.objects:
         if obj.type != 'MESH':
+            continue
+        if 'solidif' in obj.name:
             continue
 
         bm = bmesh.new()
