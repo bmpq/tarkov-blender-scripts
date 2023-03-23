@@ -115,7 +115,7 @@ class MainPanel(Panel):
 
         layout.prop(rbprops, property="input_rbshape", text="Collision shape")
         if rbprops.input_rbshape == 'COMPOUND':
-            layout.prop(rbprops, "input_compound_offset")
+            layout.prop(rbprops, "input_compound_scale")
             layout.prop(rbprops, "input_compound_voxel_size")
             layout.prop(rbprops, "input_compound_dm_ratio")
 
@@ -149,17 +149,18 @@ class OverlapProps(PropertyGroup):
         default=0.0
     )
 
+import sys
 
 class RBProps(PropertyGroup):
     rb_shapes = bpy.types.RigidBodyObject.bl_rna.properties["collision_shape"].enum_items
     input_rbshape: bpy.props.EnumProperty(
         items=[(item.identifier, item.name, item.description) for item in rb_shapes]
     )
-    input_compound_offset: bpy.props.FloatProperty(
-        min=-1.0,
-        max=1.0,
-        default=0.0,
-        name='Scale offset'
+    input_compound_scale: bpy.props.FloatVectorProperty(
+        name='Scale', subtype='XYZ',
+        default=(1.0, 1.0, 1.0),
+        min= 0.0,
+        max = 2.0
     )
     input_compound_voxel_size: bpy.props.FloatProperty(
         name='Voxel size',
@@ -207,6 +208,8 @@ class SetRigidbodies(Operator):
     bl_label = "Add/Update rigid bodies"
 
     def execute(self, context):
+        context.scene.frame_current = 0
+
         props = context.scene.rbtool_rbprops
         cmpnd = props.input_rbshape == 'COMPOUND'
 
@@ -255,21 +258,19 @@ class SetRigidbodies(Operator):
             if ob.rigid_body is None:
                 bpy.ops.rigidbody.object_add()
 
-            bpy.ops.rigidbody.mass_calculate(material='Brass')
+            ob.rigid_body.mass = 10
             ob.rigid_body.use_deactivation = True
             ob.rigid_body.collision_shape = props.input_rbshape
 
             if cmpnd:
                 bm, max_dist = mesh_data[ob]
-                scale_offset = 1 + props.input_compound_offset * biggest_mesh / max_dist * 0.5
-
                 target_map = bmesh.ops.find_doubles(bm, verts=bm.verts, dist=0.01)["targetmap"]
                 bmesh.ops.weld_verts(bm, targetmap=target_map)
                 bmesh.ops.holes_fill(bm, edges=bm.edges, sides=4)
 
                 bmesh.ops.scale(
                     bm,
-                    vec= (scale_offset, scale_offset, scale_offset),
+                    vec=props.input_compound_scale,
                     verts=bm.verts
                 )
 
@@ -299,6 +300,7 @@ class SetRigidbodies(Operator):
 
                 #new_ob.display_type = 'WIRE'
                 new_ob.show_in_front = True
+                new_ob.hide_select = True
 
                 index += 1
                 props.progress = index / len(context.selected_objects)
