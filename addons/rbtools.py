@@ -297,6 +297,7 @@ class ModifyConstraints(Operator):
         for ob in collection.objects:
             bpy.context.view_layer.objects.active = ob
 
+            bpy.context.object.rigid_body_constraint.type = props.input_type
             bpy.context.object.rigid_body_constraint.disable_collisions = not props.input_enable_collisions
             bpy.context.object.rigid_body_constraint.use_breaking = True
             bpy.context.object.rigid_body_constraint.breaking_threshold = props.input_break_threshold
@@ -340,15 +341,21 @@ def reset_collection(parent_collection, name):
         if col.name == name:
             col_reset = col
         if 'RigidBodyWorld' in col.name:
-            colrwb = col
+            colrbw = col
+        if 'RigidBodyConstraints' in col.name:
+            colrbc = col
     if col_reset is None:
         col_reset = bpy.data.collections.new(name)
         parent_collection.children.link(col_reset)
     else:
         for ob in col_reset.objects:
-            if colrwb.objects.get(ob.name) is not None:
-                colrwb.objects.unlink(ob)
+            if colrbw.objects.get(ob.name) is not None:
+                colrbw.objects.unlink(ob)
+            if colrbc.objects.get(ob.name) is not None:
+                colrbc.objects.unlink(ob)
             col_reset.objects.unlink(ob)
+
+    bpy.ops.outliner.orphans_purge(do_local_ids=True)
 
     return col_reset
 
@@ -364,7 +371,6 @@ class StructureGenerator(Operator):
 
         bpy.context.scene.frame_current = 0
         bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
-        props.progress = 0.01
 
         trees = get_bvh(collection, props.input_solidify, props.input_overlap_margin, props.input_subd)
         col_empties = reset_collection(collection, collection.name + '_overlaps')
@@ -390,7 +396,7 @@ class StructureGenerator(Operator):
                                     min_dist = (v1.co - v2.co).length
                                     loc = (v1.co + v2.co) / 2
 
-                    empty_name = f'{obj1.name}_{obj2.name}'
+                    empty_name = f'{obj1.name}_{obj2.name}_overlap'
                     empty = bpy.data.objects.new(empty_name, None)
                     empty.empty_display_size = 0.2
 
@@ -398,7 +404,7 @@ class StructureGenerator(Operator):
                     col_empties.objects.link(empty)
 
                     bpy.context.view_layer.objects.active = empty
-                    bpy.ops.rigidbody.constraint_add(type='FIXED')
+                    bpy.ops.rigidbody.constraint_add(type=props_const.input_type)
 
                     bpy.context.object.rigid_body_constraint.disable_collisions = not props_const.input_enable_collisions
                     bpy.context.object.rigid_body_constraint.use_breaking = True
