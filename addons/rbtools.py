@@ -145,6 +145,9 @@ class ConstraintProps(PropertyGroup):
     )
 
 
+def distance(point1, point2):
+    return math.sqrt((point2.x - point1.x)**2 + (point2.y - point1.y)**2 + (point2.z - point1.z)**2)
+
 class SetRigidbodies(Operator):
     bl_idname = "rbtool.button_setrb"
     bl_label = "Add/Update rigid bodies"
@@ -153,7 +156,38 @@ class SetRigidbodies(Operator):
         props = context.scene.rbtool_rbprops
         col_compound = reset_collection(context.collection, context.collection.name + '_compound')
 
+        cmpnd = props.input_rbshape == 'COMPOUND'
+
         bpy.ops.outliner.orphans_purge(do_local_ids=True)
+
+        if cmpnd:
+            biggest_mesh = 0
+            mesh_data = {}
+            for ob in context.collection.objects:
+                if ob.type != 'MESH':
+                    continue
+
+                bm = bmesh.new()
+                bm.from_mesh(ob.data)
+
+                if len(bm.verts) == 0:
+                    continue
+
+                bm.verts.ensure_lookup_table()
+                bm.edges.ensure_lookup_table()
+                bm.faces.ensure_lookup_table()
+
+                max_vert_dist = 0
+                for i in range(len(bm.verts)):
+                    for j in range(i+1, len(bm.verts)):
+                        dist = distance(bm.verts[i].co, bm.verts[j].co)
+                        if dist > max_vert_dist:
+                            max_vert_dist = dist
+
+                mesh_data[ob] = bm, max_vert_dist
+
+                if biggest_mesh < max_vert_dist:
+                    biggest_mesh = max_vert_dist
 
         for ob in context.collection.objects:
             if ob.type != 'MESH':
@@ -166,24 +200,19 @@ class SetRigidbodies(Operator):
             ob.rigid_body.mass = 10.0
             ob.rigid_body.collision_shape = props.input_rbshape
 
-            if props.input_rbshape == 'COMPOUND':
-                bm = bmesh.new()
-                bm.from_mesh(ob.data)
+            if cmpnd:
+                bm, max_dist = mesh_data[ob]
+                scale_offset = 1 + props.input_compound_offset * biggest_mesh / max_dist * 0.5
 
-                if len(bm.verts) == 0:
-                    continue
-
-                o = 1 + props.input_compound_offset
+                target_map = bmesh.ops.find_doubles(bm, verts=bm.verts, dist=0.01)["targetmap"]
+                bmesh.ops.weld_verts(bm, targetmap=target_map)
+                bmesh.ops.holes_fill(bm, edges=bm.edges, sides=4)
 
                 bmesh.ops.scale(
                     bm,
-                    vec= (o, o, o),
+                    vec= (scale_offset, scale_offset, scale_offset),
                     verts=bm.verts
                 )
-
-                bm.verts.ensure_lookup_table()
-                bm.edges.ensure_lookup_table()
-                bm.faces.ensure_lookup_table()
 
                 new_me = bpy.data.meshes.new(ob.name + "_solidified")
                 bm.to_mesh(new_me)
