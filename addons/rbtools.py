@@ -31,6 +31,10 @@ class MainPanel(Panel):
         col_overlaps = col_selected.children.get(col_selected.name + '_overlaps')
         generated = col_overlaps is not None and len(col_overlaps.objects) > 0
 
+        if col_selected == context.scene.collection:
+            layout.label(text='Scene collection selected')
+            return
+
         if 'overlaps' in col_selected.name:
             layout.label(text='Overlap collection selected')
             return
@@ -74,8 +78,11 @@ class MainPanel(Panel):
             layout.prop(rbprops, "input_compound_voxel_size")
             layout.prop(rbprops, "input_compound_dm_ratio")
 
-        layout.operator("rbtool.button_setrb", icon='RIGID_BODY')
-        layout.operator("rbtool.button_remrb", icon='REMOVE')
+        if rbprops.progress > 0.0 and rbprops.progress < 1.0:
+            layout.label(text=f"Progress: {rbprops.progress*100:.2f}%")
+        else:
+            layout.operator("rbtool.button_setrb", icon='RIGID_BODY')
+            layout.operator("rbtool.button_remrb", icon='REMOVE')
 
 
 class OverlapProps(PropertyGroup):
@@ -121,6 +128,10 @@ class RBProps(PropertyGroup):
         min=0.0,
         max=1.0,
         default=0.15
+    )
+    progress: bpy.props.FloatProperty(
+        name='Progress',
+        default=0
     )
 
 
@@ -189,6 +200,7 @@ class SetRigidbodies(Operator):
                 if biggest_mesh < max_vert_dist:
                     biggest_mesh = max_vert_dist
 
+        index = 0
         for ob in context.collection.objects:
             if ob.type != 'MESH':
                 continue
@@ -241,6 +253,9 @@ class SetRigidbodies(Operator):
                 #new_ob.display_type = 'WIRE'
                 new_ob.show_in_front = True
 
+                index += 1
+                props.progress = index / len(context.collection.objects)
+                bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
 
 
         return {'FINISHED'}
