@@ -16,7 +16,7 @@ bl_info = {
 
 class MainPanel(Panel):
     bl_idname = "OBJECT_PT_rbtool_panel"
-    bl_label = "Rigd body tool"
+    bl_label = "Rigid body tool"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
     bl_category = "Tools"
@@ -33,6 +33,10 @@ class MainPanel(Panel):
 
         if 'overlaps' in col_selected.name:
             layout.label(text='Overlap collection selected')
+            return
+
+        if 'compound' in col_selected.name:
+            layout.label(text='Compound collection selected')
             return
 
         if generated:
@@ -65,6 +69,11 @@ class MainPanel(Panel):
         layout.separator(factor=2)
 
         layout.prop(rbprops, property="input_rbshape", text="Collision shape")
+        if rbprops.input_rbshape == 'COMPOUND':
+            layout.prop(rbprops, "input_compound_offset")
+            layout.prop(rbprops, "input_compound_voxel_size")
+            layout.prop(rbprops, "input_compound_dm_ratio")
+
         layout.operator("rbtool.button_setrb", icon='RIGID_BODY')
         layout.operator("rbtool.button_remrb", icon='REMOVE')
 
@@ -96,6 +105,23 @@ class RBProps(PropertyGroup):
     input_rbshape: bpy.props.EnumProperty(
         items=[(item.identifier, item.name, item.description) for item in rb_shapes]
     )
+    input_compound_offset: bpy.props.FloatProperty(
+        min=-1.0,
+        max=1.0,
+        default=0.0,
+        name='Scale offset'
+    )
+    input_compound_voxel_size: bpy.props.FloatProperty(
+        name='Voxel size',
+        min=0.01,
+        default=0.04
+    )
+    input_compound_dm_ratio: bpy.props.FloatProperty(
+        name='Decimate ratio',
+        min=0.0,
+        max=1.0,
+        default=0.15
+    )
 
 
 class ConstraintProps(PropertyGroup):
@@ -125,6 +151,9 @@ class SetRigidbodies(Operator):
 
     def execute(self, context):
         props = context.scene.rbtool_rbprops
+        col_compound = reset_collection(context.collection, context.collection.name + '_compound')
+
+        bpy.ops.outliner.orphans_purge(do_local_ids=True)
 
         for ob in context.collection.objects:
             if ob.type != 'MESH':
@@ -136,6 +165,54 @@ class SetRigidbodies(Operator):
 
             ob.rigid_body.mass = 10.0
             ob.rigid_body.collision_shape = props.input_rbshape
+
+            if props.input_rbshape == 'COMPOUND':
+                bm = bmesh.new()
+                bm.from_mesh(ob.data)
+
+                if len(bm.verts) == 0:
+                    continue
+
+                o = 1 + props.input_compound_offset
+
+                bmesh.ops.scale(
+                    bm,
+                    vec= (o, o, o),
+                    verts=bm.verts
+                )
+
+                bm.verts.ensure_lookup_table()
+                bm.edges.ensure_lookup_table()
+                bm.faces.ensure_lookup_table()
+
+                new_me = bpy.data.meshes.new(ob.name + "_solidified")
+                bm.to_mesh(new_me)
+                bm.free()
+
+                new_ob = bpy.data.objects.new(ob.name + "_solidified", new_me)
+                col_compound.objects.link(new_ob)
+                new_ob.parent = ob
+                bpy.context.view_layer.objects.active = new_ob
+
+                modifier = new_ob.modifiers.new(name="Remesh", type="REMESH")
+                modifier.mode = "VOXEL"
+                modifier.voxel_size = props.input_compound_voxel_size
+                bpy.ops.object.modifier_apply(modifier=modifier.name)
+
+                modifier = new_ob.modifiers.new(name="Decimate", type="DECIMATE")
+                modifier.decimate_type = "COLLAPSE"
+                modifier.use_collapse_triangulate = True
+                modifier.ratio = props.input_compound_dm_ratio
+                bpy.ops.object.modifier_apply(modifier=modifier.name)
+
+                bpy.ops.rigidbody.object_add()
+                new_ob.rigid_body.collision_shape = 'MESH'
+                new_ob.rigid_body.collision_margin = 0
+
+                #new_ob.display_type = 'WIRE'
+                new_ob.show_in_front = True
+
+
 
         return {'FINISHED'}
 
@@ -155,6 +232,12 @@ class RemoveRigidbodies(Operator):
                 bpy.context.view_layer.objects.active = ob
                 bpy.ops.rigidbody.object_remove()
                 print(f'removed rb in {ob.name}')
+
+                for ch in ob.children_recursive:
+                    bpy.data.objects.remove(ch, do_unlink=True)
+
+                ## check the rigidbodyworld collection
+                ## might not be deleting fully
 
         return {'FINISHED'}
 
@@ -208,20 +291,22 @@ def get_bvh(collection, solidify, solidify_thickness, subd):
     return trees
 
 
-def reset_collection(parent_collection):
-    col_empties = None
+def reset_collection(parent_collection, name):
     for col in bpy.data.collections:
-        if col.name == (parent_collection.name + '_overlaps'):
-            col_empties = col
-    if col_empties is None:
-        col_empties = bpy.data.collections.new(
-            parent_collection.name + '_overlaps')
-        parent_collection.children.link(col_empties)
+        if col.name == name:
+            col_reset = col
+        if 'RigidBodyWorld' in col.name:
+            colrwb = col
+    if col_reset is None:
+        col_reset = bpy.data.collections.new(name)
+        parent_collection.children.link(col_reset)
     else:
-        for ob in col_empties.objects:
-            col_empties.objects.unlink(ob)
+        for ob in col_reset.objects:
+            if colrwb.objects.get(ob.name) is not None:
+                colrwb.objects.unlink(ob)
+            col_reset.objects.unlink(ob)
 
-    return col_empties
+    return col_reset
 
 
 class StructureGenerator(Operator):
@@ -238,7 +323,7 @@ class StructureGenerator(Operator):
         props.progress = 0.01
 
         trees = get_bvh(collection, props.input_solidify, props.input_overlap_margin, props.input_subd)
-        col_empties = reset_collection(collection)
+        col_empties = reset_collection(collection, collection.name + '_overlaps')
 
         for i in range(len(trees)):
             for j in range(i + 1, len(trees)):
