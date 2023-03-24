@@ -53,9 +53,13 @@ class MainPanel(Panel):
         if generated:
             layout.label(text=f'{len(col_overlaps.objects)} generated constraints')
         layout.prop(constprops, "input_type", text="Constraint type")
+        if constprops.input_type == 'GENERIC':
+            r = layout.row()
+            r.prop(constprops, "input_joint_range_linear")
+            r.prop(constprops, "input_joint_range_angular")
+
         layout.prop(constprops, "input_enable_collisions", text="Enable local collisions")
         layout.prop(constprops, "input_break_threshold", text="Break threshold")
-        layout.prop(constprops, "input_show_in_front", text="Show in front")
         if generated:
             layout.operator("rbtool.button_modify_const", icon='RIGID_BODY_CONSTRAINT')
 
@@ -214,9 +218,17 @@ class ConstraintProps(PropertyGroup):
         max=1000.0,
         default=40
     )
-    input_show_in_front: bpy.props.BoolProperty(
-        name="Show in front",
-        default=True
+    input_joint_range_angular: bpy.props.FloatProperty(
+        name="Angular range",
+        min=0.0,
+        max=10.0,
+        default=1
+    )
+    input_joint_range_linear: bpy.props.FloatProperty(
+        name="Linear range",
+        min=0.0,
+        max=1.0,
+        default=0.01,
     )
 
 
@@ -284,6 +296,7 @@ class SetRigidbodies(Operator):
             ob.rigid_body.mass = 10
             ob.rigid_body.use_deactivation = True
             ob.rigid_body.collision_shape = props.input_rbshape
+            ob.rigid_body.collision_margin = 0
 
             if cmpnd:
                 bm, max_dist = mesh_data[ob]
@@ -326,7 +339,7 @@ class SetRigidbodies(Operator):
 
                 #new_ob.display_type = 'WIRE'
                 new_ob.show_in_front = True
-                new_ob.hide_select = True
+                new_ob.hide_select = not props.input_selectable
 
                 index += 1
                 props.progress = index / len(context.selected_objects)
@@ -372,6 +385,36 @@ class RemoveRigidbodies(Operator):
         return {'FINISHED'}
 
 
+def modify_active_const(props):
+    bpy.context.object.rigid_body_constraint.type = props.input_type
+    bpy.context.object.rigid_body_constraint.disable_collisions = not props.input_enable_collisions
+    bpy.context.object.rigid_body_constraint.use_breaking = True
+    bpy.context.object.rigid_body_constraint.breaking_threshold = props.input_break_threshold
+
+    ang_max = math.radians(props.input_joint_range_angular)
+    lin_max = props.input_joint_range_linear
+
+    bpy.context.object.rigid_body_constraint.use_limit_ang_x = True
+    bpy.context.object.rigid_body_constraint.limit_ang_x_lower = 0
+    bpy.context.object.rigid_body_constraint.limit_ang_x_upper = ang_max
+    bpy.context.object.rigid_body_constraint.use_limit_ang_y = True
+    bpy.context.object.rigid_body_constraint.limit_ang_y_lower = 0
+    bpy.context.object.rigid_body_constraint.limit_ang_y_upper = ang_max
+    bpy.context.object.rigid_body_constraint.use_limit_ang_z = True
+    bpy.context.object.rigid_body_constraint.limit_ang_z_lower = 0
+    bpy.context.object.rigid_body_constraint.limit_ang_z_upper = ang_max
+
+    bpy.context.object.rigid_body_constraint.use_limit_lin_x = True
+    bpy.context.object.rigid_body_constraint.limit_lin_x_lower = 0
+    bpy.context.object.rigid_body_constraint.limit_lin_x_upper = lin_max
+    bpy.context.object.rigid_body_constraint.use_limit_lin_y = True
+    bpy.context.object.rigid_body_constraint.limit_lin_y_lower = 0
+    bpy.context.object.rigid_body_constraint.limit_lin_y_upper = lin_max
+    bpy.context.object.rigid_body_constraint.use_limit_lin_z = True
+    bpy.context.object.rigid_body_constraint.limit_lin_z_lower = 0
+    bpy.context.object.rigid_body_constraint.limit_lin_z_upper = lin_max
+
+
 class ModifyConstraints(Operator):
     bl_idname = "rbtool.button_modify_const"
     bl_label = "Update constraints"
@@ -382,12 +425,7 @@ class ModifyConstraints(Operator):
 
         for ob in collection.objects:
             bpy.context.view_layer.objects.active = ob
-
-            bpy.context.object.rigid_body_constraint.type = props.input_type
-            bpy.context.object.rigid_body_constraint.disable_collisions = not props.input_enable_collisions
-            bpy.context.object.rigid_body_constraint.use_breaking = True
-            bpy.context.object.rigid_body_constraint.breaking_threshold = props.input_break_threshold
-            bpy.context.object.show_in_front = props.input_show_in_front
+            modify_active_const(props)
 
         return {'FINISHED'}
 
@@ -483,7 +521,9 @@ class PrintColliderOverlaps(Operator):
     def execute(self, context):
         trees = []
         for ob in bpy.data.objects:
-            if 'solidif' in ob.name:
+            if ob.rigid_body is None:
+                continue
+            if 'solidif' in ob.name or ob.rigid_body.collision_shape == 'CONVEX_HULL':
                 bm = bmesh.new()
                 bm.from_mesh(ob.data)
                 if len(bm.verts) == 0:
@@ -492,14 +532,26 @@ class PrintColliderOverlaps(Operator):
                 bm.verts.ensure_lookup_table()
                 bm.edges.ensure_lookup_table()
                 bm.faces.ensure_lookup_table()
-                trees.append((ob, BVHTree.FromBMesh(bm)))
+
+                tree = BVHTree.FromBMesh(bm)
+
+                ret = bmesh.ops.convex_hull(bm, input=bm.verts)
+                bmesh.ops.delete(bm, geom=ret['geom_interior'])
+                bmesh.ops.delete(bm, geom=ret['geom_unused'])
+
+                tree_convex = BVHTree.FromBMesh(bm)
+                bm.free()
+
+                trees.append((ob, tree, tree_convex))
 
         not_found = True
         for i in range(len(trees)):
             for j in range(i + 1, len(trees)):
-                ob1, tree1 = trees[i]
-                ob2, tree2 = trees[j]
+                ob1, tree1, tree1_convex = trees[i]
+                ob2, tree2, tree2_convex = trees[j]
                 overlap_pairs = tree1.overlap(tree2)
+                if not overlap_pairs:
+                    tree1.overlap(tree2_convex)
                 if overlap_pairs:
                     not_found = False
                     print(f'--------WARNING: {ob1.name} collides with {ob2.name}')
@@ -556,10 +608,7 @@ class StructureGenerator(Operator):
                     bpy.context.view_layer.objects.active = empty
                     bpy.ops.rigidbody.constraint_add(type=props_const.input_type)
 
-                    bpy.context.object.rigid_body_constraint.disable_collisions = not props_const.input_enable_collisions
-                    bpy.context.object.rigid_body_constraint.use_breaking = True
-                    bpy.context.object.rigid_body_constraint.breaking_threshold = props_const.input_break_threshold
-                    bpy.context.object.show_in_front = props_const.input_show_in_front
+                    modify_active_const(props_const)
 
                     bpy.context.object.rigid_body_constraint.object1 = obj1
                     bpy.context.object.rigid_body_constraint.object2 = obj2
