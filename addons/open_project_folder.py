@@ -2,17 +2,17 @@ import bpy
 import os
 
 bl_info = {
-    "name": "My Addon",
-    "author": "John Doe",
+    "name": "Open project folder",
+    "author": "bmpq",
     "version": (1, 0),
     "blender": (2, 93, 0),
     "location": "View3D > Sidebar > Tools",
-    "description": "Opens the local folder of the currently opened project in the File Explorer.",
-    "category": "Development",
+    "description": "Opens the local folder of the current project in the File Explorer.",
+    "category": "Development"
 }
 
 class MyAddonPanel(bpy.types.Panel):
-    bl_label = "My Addon"
+    bl_label = "Project folder"
     bl_idname = "VIEW3D_PT_my_addon"
     bl_space_type = "VIEW_3D"
     bl_region_type = "UI"
