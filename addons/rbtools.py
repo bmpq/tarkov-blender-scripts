@@ -35,6 +35,7 @@ class MainPanel(Panel):
         r = layout.row()
         r.operator("rbtool.viewport_hide", icon='HIDE_ON' if viewprops.input_viewport_hide else 'HIDE_OFF')
         r.operator("rbtool.selectable", icon='RESTRICT_SELECT_OFF' if viewprops.input_selectable else 'RESTRICT_SELECT_ON')
+        r.operator("rbtool.print_collider_overlaps", icon='ALIGN_LEFT')
         layout.separator(factor=2)
 
         if col_selected == context.scene.collection:
@@ -475,6 +476,39 @@ class CompoundViewport(Operator):
 
         return {'FINISHED'}
 
+class PrintColliderOverlaps(Operator):
+    bl_idname = "rbtool.print_collider_overlaps"
+    bl_label = "Print overlaps"
+
+    def execute(self, context):
+        trees = []
+        for ob in bpy.data.objects:
+            if 'solidif' in ob.name:
+                bm = bmesh.new()
+                bm.from_mesh(ob.data)
+                if len(bm.verts) == 0:
+                    continue
+                bmesh.ops.transform(bm, matrix=ob.matrix_world, verts=bm.verts)
+                bm.verts.ensure_lookup_table()
+                bm.edges.ensure_lookup_table()
+                bm.faces.ensure_lookup_table()
+                trees.append((ob, BVHTree.FromBMesh(bm)))
+
+        not_found = True
+        for i in range(len(trees)):
+            for j in range(i + 1, len(trees)):
+                ob1, tree1 = trees[i]
+                ob2, tree2 = trees[j]
+                overlap_pairs = tree1.overlap(tree2)
+                if overlap_pairs:
+                    not_found = False
+                    print(f'--------WARNING: {ob1.name} collides with {ob2.name}')
+
+        if not_found:
+            print('No overlaps found')
+        return {'FINISHED'}
+
+
 
 class StructureGenerator(Operator):
     bl_idname = "rbtool.button_generate"
@@ -546,6 +580,8 @@ classes = [
 
     CompoundViewport,
     ToggleSelectable,
+    PrintColliderOverlaps,
+
     StructureGenerator,
     SetRigidbodies,
     RemoveRigidbodies,
