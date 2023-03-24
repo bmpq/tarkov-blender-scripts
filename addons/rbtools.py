@@ -26,10 +26,16 @@ class MainPanel(Panel):
         rbprops = context.scene.rbtool_rbprops
         overlapprops = context.scene.rbtool_overlapprops
         constprops = context.scene.rbtool_constprops
+        viewprops = context.scene.rbtool_viewprops
 
         col_selected = context.collection
         col_overlaps = col_selected.children.get(col_selected.name + '_overlaps')
         generated = col_overlaps is not None and len(col_overlaps.objects) > 0
+
+        r = layout.row()
+        r.operator("rbtool.viewport_hide", icon='HIDE_ON' if viewprops.input_viewport_hide else 'HIDE_OFF')
+        r.operator("rbtool.selectable", icon='RESTRICT_SELECT_OFF' if viewprops.input_selectable else 'RESTRICT_SELECT_ON')
+        layout.separator(factor=2)
 
         if col_selected == context.scene.collection:
             layout.label(text='Scene collection selected')
@@ -128,6 +134,20 @@ class MainPanel(Panel):
             layout.operator("rbtool.button_remrb", icon='REMOVE')
 
 
+
+
+
+class ViewportProps(PropertyGroup):
+    input_viewport_hide: bpy.props.BoolProperty(
+        name="Toggle collider viewport and render visibility",
+        default=False
+    )
+    input_selectable: bpy.props.BoolProperty(
+        name="Toggle selectable in viewport",
+        default=False
+    )
+
+
 class OverlapProps(PropertyGroup):
     input_overlap_margin: bpy.props.FloatProperty(
         name="Overlap margin",
@@ -149,7 +169,6 @@ class OverlapProps(PropertyGroup):
         default=0.0
     )
 
-import sys
 
 class RBProps(PropertyGroup):
     rb_shapes = bpy.types.RigidBodyObject.bl_rna.properties["collision_shape"].enum_items
@@ -202,6 +221,7 @@ class ConstraintProps(PropertyGroup):
 
 def distance(point1, point2):
     return math.sqrt((point2.x - point1.x)**2 + (point2.y - point1.y)**2 + (point2.z - point1.z)**2)
+
 
 class SetRigidbodies(Operator):
     bl_idname = "rbtool.button_setrb"
@@ -427,6 +447,34 @@ def reset_collection(parent_collection, name):
 
     return col_reset
 
+class ToggleSelectable(Operator):
+    bl_idname = "rbtool.selectable"
+    bl_label = "Selectable"
+
+    def execute(self, context):
+        props = context.scene.rbtool_viewprops
+        props.input_selectable = not props.input_selectable
+        for ob in bpy.data.objects:
+            if 'solidif' in ob.name:
+                ob.hide_select = not props.input_selectable
+
+        return {'FINISHED'}
+
+
+class CompoundViewport(Operator):
+    bl_idname = "rbtool.viewport_hide"
+    bl_label = "Visible"
+
+    def execute(self, context):
+        props = context.scene.rbtool_viewprops
+        props.input_viewport_hide = not props.input_viewport_hide
+        for ob in bpy.data.objects:
+            if 'solidif' in ob.name:
+                ob.hide_viewport = props.input_viewport_hide
+                ob.hide_render = props.input_viewport_hide
+
+        return {'FINISHED'}
+
 
 class StructureGenerator(Operator):
     bl_idname = "rbtool.button_generate"
@@ -494,10 +542,15 @@ classes = [
     OverlapProps,
     RBProps,
     ConstraintProps,
+    ViewportProps,
+
+    CompoundViewport,
+    ToggleSelectable,
     StructureGenerator,
     SetRigidbodies,
     RemoveRigidbodies,
     ModifyConstraints,
+
     MainPanel
 ]
 
@@ -509,6 +562,7 @@ def register():
     bpy.types.Scene.rbtool_rbprops = bpy.props.PointerProperty(type=RBProps)
     bpy.types.Scene.rbtool_overlapprops = bpy.props.PointerProperty(type=OverlapProps)
     bpy.types.Scene.rbtool_constprops = bpy.props.PointerProperty(type=ConstraintProps)
+    bpy.types.Scene.rbtool_viewprops = bpy.props.PointerProperty(type=ViewportProps)
 
 
 def unregister():
@@ -518,6 +572,7 @@ def unregister():
    del bpy.types.Scene.rbtool_rbprops
    del bpy.types.Scene.rbtool_overlapprops
    del bpy.types.Scene.rbtool_constprops
+   del bpy.types.Scene.rbtool_viewprops
 
 
 if __name__ == "__main__":
