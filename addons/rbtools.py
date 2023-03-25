@@ -35,6 +35,7 @@ class MainPanel(Panel):
         r = layout.row()
         r.operator("rbtool.viewport_hide", icon='HIDE_ON' if viewprops.input_viewport_hide else 'HIDE_OFF')
         r.operator("rbtool.selectable", icon='RESTRICT_SELECT_OFF' if viewprops.input_selectable else 'RESTRICT_SELECT_ON')
+        r.operator("rbtool.show_in_front", icon='XRAY' if viewprops.show_in_front else 'CUBE')
         r.operator("rbtool.print_collider_overlaps", icon='ALIGN_LEFT')
         layout.separator(factor=2)
 
@@ -150,6 +151,10 @@ class ViewportProps(PropertyGroup):
     input_selectable: bpy.props.BoolProperty(
         name="Toggle selectable in viewport",
         default=False
+    )
+    show_in_front: bpy.props.BoolProperty(
+        name="Toggle in front",
+        default=True
     )
 
 
@@ -338,8 +343,8 @@ class SetRigidbodies(Operator):
                 new_ob.rigid_body.collision_margin = 0
 
                 #new_ob.display_type = 'WIRE'
-                new_ob.show_in_front = True
-                new_ob.hide_select = not props.input_selectable
+                new_ob.show_in_front = context.scene.rbtool_viewprops.show_in_front
+                new_ob.hide_select = not context.scene.rbtool_viewprops.input_selectable
 
                 index += 1
                 props.progress = index / len(context.selected_objects)
@@ -486,6 +491,20 @@ def reset_collection(parent_collection, name):
 
     return col_reset
 
+class ToggleInFront(Operator):
+    bl_idname = "rbtool.show_in_front"
+    bl_label = "In front"
+
+    def execute(self, context):
+        props = context.scene.rbtool_viewprops
+        props.show_in_front = not props.show_in_front
+        for ob in bpy.data.objects:
+            if 'solidif' in ob.name:
+                ob.show_in_front = props.show_in_front
+
+        return {'FINISHED'}
+
+
 class ToggleSelectable(Operator):
     bl_idname = "rbtool.selectable"
     bl_label = "Selectable"
@@ -629,6 +648,7 @@ classes = [
 
     CompoundViewport,
     ToggleSelectable,
+    ToggleInFront,
     PrintColliderOverlaps,
 
     StructureGenerator,
