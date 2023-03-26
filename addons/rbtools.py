@@ -89,15 +89,14 @@ class MainPanel(Panel):
 
         layout.separator(factor=2)
 
-        selected_solidified = False
         mesh_amount = 0
         rb_amount = 0
         rb_shapes = bpy.types.RigidBodyObject.bl_rna.properties["collision_shape"].enum_items
         sh_amount = dict.fromkeys(rb_shapes, 0)
         for ob in context.selected_objects:
-            if '_solidified' in ob.name:
-                selected_solidified = True
             if ob.type == 'MESH':
+                if 'solidif' in ob.name:
+                    ob = ob.parent
                 mesh_amount += 1
                 rb = ob.rigid_body
                 if rb is None:
@@ -133,8 +132,6 @@ class MainPanel(Panel):
 
         if rbprops.progress > 0.0 and rbprops.progress < 1.0:
             layout.label(text=f"Progress: {rbprops.progress*100:.2f}%")
-        elif selected_solidified:
-            layout.label(text=f"Selected a solidified mesh")
         else:
             layout.operator("rbtool.button_setrb", icon='RIGID_BODY')
             layout.operator("rbtool.button_remrb", icon='REMOVE')
@@ -260,6 +257,9 @@ class SetRigidbodies(Operator):
                 if ob.type != 'MESH':
                     continue
 
+                if 'solidif' in ob.name:
+                    ob = ob.parent
+
                 bm = bmesh.new()
                 bm.from_mesh(ob.data)
 
@@ -286,8 +286,10 @@ class SetRigidbodies(Operator):
         trees = []
 
         index = 0
-        init_active_ob = bpy.context.view_layer.objects.active
         for ob in context.selected_objects:
+            if 'solidif' in ob.name:
+                ob = ob.parent
+
             if ob.type != 'MESH':
                 continue
 
@@ -332,25 +334,20 @@ class SetRigidbodies(Operator):
                 modifier.voxel_size = props.input_compound_voxel_size
                 bpy.ops.object.modifier_apply(modifier=modifier.name)
 
-                modifier = new_ob.modifiers.new(name="Decimate", type="DECIMATE")
-                modifier.decimate_type = "COLLAPSE"
-                modifier.use_collapse_triangulate = True
-                modifier.ratio = props.input_compound_dm_ratio
-                bpy.ops.object.modifier_apply(modifier=modifier.name)
-
                 bpy.ops.rigidbody.object_add()
                 new_ob.rigid_body.collision_shape = 'MESH'
                 new_ob.rigid_body.collision_margin = 0
 
-                #new_ob.display_type = 'WIRE'
                 new_ob.show_in_front = context.scene.rbtool_viewprops.show_in_front
                 new_ob.hide_select = not context.scene.rbtool_viewprops.input_selectable
 
                 index += 1
-                props.progress = index / len(context.selected_objects)
+                props.progress = index / len(mesh_data)
                 bpy.ops.wm.redraw_timer(type='DRAW_WIN_SWAP', iterations=1)
 
-        bpy.context.view_layer.objects.active = init_active_ob
+        if bpy.context.view_layer.objects.active == None:
+            if len(context.selectable_objects) > 0:
+                bpy.context.view_layer.objects.active = context.selectable_objects[0]
 
         if cmpnd:
             for i in range(len(trees)):
