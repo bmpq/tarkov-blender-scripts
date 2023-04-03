@@ -134,6 +134,12 @@ for m in bpy.data.materials:
         socketNormal = n1.inputs[22];
         socketRough = n1.inputs[9]
 
+        ## telling blender that the alpha channel in diffuse texture is not alpha channel
+        link = get_connected_link(tree.nodes, socketBaseColor)
+        if link:
+            node_tex = link.from_node
+            node_tex.image.alpha_mode = 'CHANNEL_PACKED'
+
         ## metallic to 0.00
         socketMetal.default_value = 0
         r = socketRough.default_value
