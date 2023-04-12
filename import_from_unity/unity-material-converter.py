@@ -174,6 +174,17 @@ for m in bpy.data.materials:
                 tree.links.new(tex_d.outputs[1], socketSpec)
                 tree.links.remove(linkAlpha);
 
+        ## puddles are just mirrors
+        is_puddle = 'puddle' in m.name.lower()
+        if is_puddle:
+            ## remove diffuse texture link
+            linkDiffuse = get_connected_link(tree.nodes, socketBaseColor)
+            if linkDiffuse != None:
+                tree.links.remove(linkDiffuse)
+
+            ## set color to black
+            socketBaseColor.default_value = 0,0,0,1
+
         ## getting the normal texture node
         linkColor = get_connected_link(tree.nodes, socketNormal)
         if linkColor != None:
