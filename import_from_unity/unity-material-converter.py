@@ -163,10 +163,8 @@ for m in bpy.data.materials:
         alpha_keywords = ['decal', 'dekal', 'puddle', 'graffiti', 'grafiti', 'paintcrack', 'wall_crack', 'spiral_bruno']
         has_alpha_channel = any(keyword in m.name.lower() for keyword in alpha_keywords)
 
-        ## disable emission and set blend mode
-        if has_alpha_channel == True:
-            socketEmissionStrength.default_value = 0
-            m.blend_method = 'HASHED'
+        socketEmissionStrength.default_value = 0
+        m.blend_method = 'HASHED'
 
         ## replugging diffuse's alpha to specular, by default blender plugs it in BSDF alpha
         if has_alpha_channel == False:
