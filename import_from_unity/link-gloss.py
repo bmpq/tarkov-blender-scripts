@@ -18,13 +18,25 @@ for m in bpy.data.materials:
         if n1.type != "BSDF_PRINCIPLED":
             continue
         
-        string = m.name
-        separator = '_'
-        string = separator.join(string.split(separator)[:-1])
+        socketBaseColor = n1.inputs[0]
+        socketRough = n1.inputs[9]
+        
+        link = get_connected_link(tree.nodes, socketRough)
+        if link:
+            continue
+        
+        link = get_connected_link(tree.nodes, socketBaseColor)
+        if link is None:
+            continue
+        
+        node_tex = link.from_node
+        string = node_tex.image.name
+        string = string.replace(".png", "")
+        string = string.rsplit("_", 1)[0]
         
         name_variants = ["GLOSS", "gloss", "G", "g", "glos", "GLOS"]
         for to_append in name_variants:
-            name_appended = string + separator + to_append
+            name_appended = string + '_' + to_append
             path = '//' + name_appended + '.png'
             
             tex = None
