@@ -1,22 +1,28 @@
 import bpy
 
 ## unity normal maps are packed in a specific way, this creates a node setup that unpacks them
-def implement_normal_converter(tree, nodeImageTexture, socketInputNormalMap):
-    nodeImageTexture.location.y -= 500
-    xy = nodeImageTexture.location
+def create_nodegroup_normal_converter():
+    tree = bpy.data.node_groups.new('Unpack.Unity.Normal', 'ShaderNodeTree')
+
+    inputs = tree.nodes.new('NodeGroupInput')
+    inputs.location = (-300, -300)
+    tree.inputs.new('NodeSocketColor', 'Color').default_value = (0.5, 0.5, 1, 1)
+    tree.inputs.new('NodeSocketFloat', 'Alpha').default_value = 1
+
+    xy = inputs.location
     offset = 40
 
     n0 = tree.nodes.new('ShaderNodeSeparateRGB')
     n0.location = xy
-    n0.location.x += offset + nodeImageTexture.width
-    tree.links.new(nodeImageTexture.outputs[0], n0.inputs[0])
+    n0.location.x += offset + inputs.width
+    tree.links.new(inputs.outputs[0], n0.inputs[0])
 
     n1 = tree.nodes.new('ShaderNodeCombineRGB')
     n1.location = n0.location
     n1.location.x += offset + n0.width
     n1.inputs[2].default_value = 1
     tree.links.new(n0.outputs[1], n1.inputs[0])
-    tree.links.new(nodeImageTexture.outputs[1], n1.inputs[1])
+    tree.links.new(inputs.outputs[1], n1.inputs[1])
 
     n2 = tree.nodes.new('ShaderNodeSeparateXYZ')
     n2.location = n1.location
@@ -104,7 +110,24 @@ def implement_normal_converter(tree, nodeImageTexture, socketInputNormalMap):
     tree.links.new(n11.outputs[0], n12.inputs[1])
     tree.links.new(n10.outputs[0], n12.inputs[2])
 
-    tree.links.new(n12.outputs[0], socketInputNormalMap)
+    outputs = tree.nodes.new('NodeGroupOutput')
+    outputs.location = n12.location
+    outputs.location.x += offset + n12.width
+    outputs.location.y = n12.location.y
+    tree.outputs.new('NodeSocketVector', 'Color')
+    tree.links.new(n12.outputs[0], outputs.inputs[0])
+
+    return tree
+
+
+ng_converter = None
+for ng in bpy.data.node_groups:
+    if ng.name == "Unpack.Unity.Normal":
+        ng_converter = ng
+        break
+if ng_converter == None:
+    ng_converter = create_nodegroup_normal_converter()
+
 
 def get_connected_link(nodes, inputSocket):
     for n in nodes:
@@ -113,6 +136,20 @@ def get_connected_link(nodes, inputSocket):
                 if l.to_socket == inputSocket:
                     return l
     return None
+
+
+def convert_normalmap(tree, nodeImageTexture, socketInputNormalMap):
+    ng = tree.nodes.new('ShaderNodeGroup')
+    ng.node_tree = ng_converter
+    ng.location.x = nodeImageTexture.location.x + 300
+    ng.location.y = nodeImageTexture.location.y
+    tree.links.new(nodeImageTexture.outputs[0], ng.inputs[0])
+    tree.links.new(nodeImageTexture.outputs[1], ng.inputs[1])
+
+    tree.links.new(ng.outputs[0], socketInputNormalMap)
+
+
+mat_num = 0
 
 for m in bpy.data.materials:
     if m.use_nodes == False:
@@ -197,4 +234,9 @@ for m in bpy.data.materials:
 
             tex_n = linkColor.from_node
 
-            implement_normal_converter(tree, linkImage.from_node, linkImage.to_socket)
+            convert_normalmap(tree, linkImage.from_node, linkImage.to_socket)
+
+    mat_num += 1
+
+
+print(f'Successfully converted {mat_num} materials')
