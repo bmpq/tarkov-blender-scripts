@@ -1,3 +1,6 @@
+## this script is used to convert materials in an imported unity scene
+## the scene is expected to be exported as an fbx with AssetStudioGUI
+
 import bpy
 
 ## unity normal maps are packed in a specific way, this creates a node setup that unpacks them
@@ -149,6 +152,25 @@ def convert_normalmap(tree, nodeImageTexture, socketInputNormalMap):
     tree.links.new(ng.outputs[0], socketInputNormalMap)
 
 
+def check_normalmap_valid(tree, socketNormal):
+    link_normal = get_connected_link(tree.nodes, socketNormal)
+    if link_normal == None:
+        return None
+
+    socket_color = link_normal.from_node.inputs[1]
+    if socket_color == None:
+        return None
+
+    link_image_normal = get_connected_link(tree.nodes, socket_color)
+    if link_image_normal == None:
+        return None
+
+    if link_image_normal.from_node.type != 'TEX_IMAGE':
+        return None
+
+    return link_image_normal
+
+
 mat_num = 0
 
 for m in bpy.data.materials:
@@ -159,83 +181,77 @@ for m in bpy.data.materials:
     m.show_transparent_back = False
 
     tree = m.node_tree
-    for n1 in tree.nodes:
-        if n1.type != "BSDF_PRINCIPLED":
-            continue
+    bsdf = None
+    for n in tree.nodes:
+        if n.type == "BSDF_PRINCIPLED":
+            bsdf = n
+            break
+    if bsdf == None:
+        continue
 
-        socketBaseColor = n1.inputs[0]
-        socketMetal = n1.inputs[6]
-        socketSpec = n1.inputs[7]
-        socketEmissionStrength = n1.inputs[20]
-        socketAlpha = n1.inputs[21]
-        socketNormal = n1.inputs[22]
-        socketRough = n1.inputs[9]
+    socketBaseColor = bsdf.inputs[0]
+    socketMetal = bsdf.inputs[6]
+    socketSpec = bsdf.inputs[7]
+    socketEmissionStrength = bsdf.inputs[20]
+    socketAlpha = bsdf.inputs[21]
+    socketNormal = bsdf.inputs[22]
+    socketRough = bsdf.inputs[9]
 
-        ## telling blender that the alpha channel in diffuse texture is not alpha channel
-        link = get_connected_link(tree.nodes, socketBaseColor)
-        if link:
-            node_tex = link.from_node
-            node_tex.image.alpha_mode = 'CHANNEL_PACKED'
+    ## telling blender that the alpha channel in diffuse texture is not alpha channel
+    link = get_connected_link(tree.nodes, socketBaseColor)
+    if link:
+        node_tex = link.from_node
+        node_tex.image.alpha_mode = 'CHANNEL_PACKED'
 
-        ## metallic to 0.00
-        socketMetal.default_value = 0
-        r = socketRough.default_value
+    ## metallic to 0.00
+    socketMetal.default_value = 0
+    r = socketRough.default_value
 
-        ## in blender it's roughness, in unity it's glossiness, so have to invert
-        ## and for some reason the value is between 0.9 and 1.0
-        ## but in some materials the roughness value is normalized between 0.0-1.0
-        ## i dont know whats going on, not sure i got this right
-        if r > 0.9:
-            r = r - 0.9
-            r = r * 10
-            r = 1 - r
-            socketRough.default_value = r
+    ## in blender it's roughness, in unity it's glossiness, so have to invert
+    ## and for some reason the value is between 0.9 and 1.0
+    ## but in some materials the roughness value is normalized between 0.0-1.0
+    ## i dont know whats going on, not sure i got this right
+    if r > 0.9:
+        r = r - 0.9
+        r = r * 10
+        r = 1 - r
+        socketRough.default_value = r
 
-        ## flag to skip specular conversion if the material has transparency
-        ## because there is no dedicated specular texture file
-        ## and it is stored in the diffuse texture's alpha channel
-        ## except when the material is supposed to have transparency
-        ## in that case the alpha channel is actually for alpha
-        ## and the specular texture just doesn't exist I guess
-        alpha_keywords = ['decal', 'dekal', 'puddle', 'graffiti', 'grafiti', 'paintcrack', 'wall_crack', 'spiral_bruno']
-        has_alpha_channel = any(keyword in m.name.lower() for keyword in alpha_keywords)
+    ## flag to skip specular conversion if the material has transparency
+    ## because there is no dedicated specular texture file
+    ## and it is stored in the diffuse texture's alpha channel
+    ## except when the material is supposed to have transparency
+    ## in that case the alpha channel is actually for alpha
+    ## and the specular texture just doesn't exist I guess
+    alpha_keywords = ['decal', 'dekal', 'puddle', 'graffiti', 'grafiti', 'paintcrack', 'wall_crack', 'spiral_bruno']
+    has_alpha_channel = any(keyword in m.name.lower() for keyword in alpha_keywords)
 
-        socketEmissionStrength.default_value = 0
-        m.blend_method = 'HASHED'
+    socketEmissionStrength.default_value = 0
+    m.blend_method = 'HASHED'
 
-        ## replugging diffuse's alpha to specular, by default blender plugs it in BSDF alpha
-        if has_alpha_channel == False:
-            linkAlpha = get_connected_link(tree.nodes, socketAlpha)
-            if linkAlpha != None:
-                tex_d = linkAlpha.from_node
-                tree.links.new(tex_d.outputs[1], socketSpec)
-                tree.links.remove(linkAlpha)
+    ## replugging diffuse's alpha to specular, by default blender plugs it in BSDF alpha
+    if has_alpha_channel == False:
+        linkAlpha = get_connected_link(tree.nodes, socketAlpha)
+        if linkAlpha != None:
+            tex_d = linkAlpha.from_node
+            tree.links.new(tex_d.outputs[1], socketSpec)
+            tree.links.remove(linkAlpha)
 
-        ## puddles are just mirrors
-        is_puddle = 'puddle' in m.name.lower()
-        if is_puddle:
-            ## remove diffuse texture link
-            linkDiffuse = get_connected_link(tree.nodes, socketBaseColor)
-            if linkDiffuse != None:
-                tree.links.remove(linkDiffuse)
+    ## puddles are just mirrors
+    is_puddle = 'puddle' in m.name.lower()
+    if is_puddle:
+        ## remove diffuse texture link
+        linkDiffuse = get_connected_link(tree.nodes, socketBaseColor)
+        if linkDiffuse != None:
+            tree.links.remove(linkDiffuse)
 
-            ## set color to black
-            socketBaseColor.default_value = 0,0,0,1
+        ## set color to black
+        socketBaseColor.default_value = 0,0,0,1
 
-        ## getting the normal texture node
-        linkColor = get_connected_link(tree.nodes, socketNormal)
-        if linkColor != None:
-            socketColor = linkColor.from_node.inputs[1]
-            if socketColor == None:
-                continue
-            linkImage = get_connected_link(tree.nodes, socketColor)
-
-            if linkImage == None:
-                continue
-
-            tex_n = linkColor.from_node
-
-            convert_normalmap(tree, linkImage.from_node, linkImage.to_socket)
+    ## convert normal map
+    link_image_normal = check_normalmap_valid(tree, socketNormal)
+    if link_image_normal != None:
+        convert_normalmap(tree, link_image_normal.from_node, link_image_normal.to_socket)
 
     mat_num += 1
 
