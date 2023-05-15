@@ -153,22 +153,22 @@ mat_num = 0
 
 for m in bpy.data.materials:
     if m.use_nodes == False:
-        continue;
+        continue
 
     ## disable backface rendering
     m.show_transparent_back = False
 
-    tree = m.node_tree;
+    tree = m.node_tree
     for n1 in tree.nodes:
         if n1.type != "BSDF_PRINCIPLED":
             continue
 
-        socketBaseColor = n1.inputs[0];
-        socketMetal = n1.inputs[6];
-        socketSpec = n1.inputs[7];
-        socketEmissionStrength = n1.inputs[20];
-        socketAlpha = n1.inputs[21];
-        socketNormal = n1.inputs[22];
+        socketBaseColor = n1.inputs[0]
+        socketMetal = n1.inputs[6]
+        socketSpec = n1.inputs[7]
+        socketEmissionStrength = n1.inputs[20]
+        socketAlpha = n1.inputs[21]
+        socketNormal = n1.inputs[22]
         socketRough = n1.inputs[9]
 
         ## telling blender that the alpha channel in diffuse texture is not alpha channel
@@ -209,7 +209,7 @@ for m in bpy.data.materials:
             if linkAlpha != None:
                 tex_d = linkAlpha.from_node
                 tree.links.new(tex_d.outputs[1], socketSpec)
-                tree.links.remove(linkAlpha);
+                tree.links.remove(linkAlpha)
 
         ## puddles are just mirrors
         is_puddle = 'puddle' in m.name.lower()
@@ -229,6 +229,7 @@ for m in bpy.data.materials:
             if socketColor == None:
                 continue
             linkImage = get_connected_link(tree.nodes, socketColor)
+
             if linkImage == None:
                 continue
 
