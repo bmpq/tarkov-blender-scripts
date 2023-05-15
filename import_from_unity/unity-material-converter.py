@@ -223,8 +223,10 @@ for m in bpy.data.materials:
     ## except when the material is supposed to have transparency
     ## in that case the alpha channel is actually for alpha
     ## and the specular texture just doesn't exist I guess
-    alpha_keywords = ['decal', 'dekal', 'puddle', 'graffiti', 'grafiti', 'paintcrack', 'wall_crack', 'spiral_bruno']
+    alpha_keywords = ['decal', 'dekal', 'puddle', 'graffiti', 'grafiti', 'paintcrack', 'wall_crack', 'spiral_bruno', 'chain']
     has_alpha_channel = any(keyword in m.name.lower() for keyword in alpha_keywords)
+    if has_alpha_channel == False and link != None:
+        has_alpha_channel = any(keyword in node_tex.image.name.lower() for keyword in alpha_keywords)
 
     socketEmissionStrength.default_value = 0
     m.blend_method = 'HASHED'
