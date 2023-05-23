@@ -230,6 +230,9 @@ for m in bpy.data.materials:
 
     socketEmissionStrength.default_value = 0
     m.blend_method = 'HASHED'
+    m.shadow_method = 'HASHED'
+
+    socketSpec.default_value = 0
 
     ## replugging diffuse's alpha to specular, by default blender plugs it in BSDF alpha
     if has_alpha_channel == False:
