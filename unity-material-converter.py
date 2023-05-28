@@ -227,8 +227,9 @@ for m in bpy.data.materials:
     if r > 0.9:
         r = r - 0.9
         r = r * 10
-        r = 1 - r
-        socketRough.default_value = r
+
+    r = 1 - r
+    socketRough.default_value = r
 
     ## flag to skip specular conversion if the material has transparency
     ## because there is no dedicated specular texture file
@@ -245,7 +246,7 @@ for m in bpy.data.materials:
     m.blend_method = 'HASHED'
     m.shadow_method = 'HASHED'
 
-    socketSpec.default_value = 0
+    socketSpec.default_value = 0.5
 
     ## replugging diffuse's alpha to specular, by default blender plugs it in BSDF alpha
     if has_alpha_channel == False:
