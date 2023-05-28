@@ -7,8 +7,6 @@ import time
 
 print_progress = True
 
-delete_decals = False
-
 # the goal is to delete all the meshes that are not LOD0, this list is separate because of reasons below
 regex_list_lod = [".*lod(_)?[1-4].*", ".*_lod($|\.)"]
 regex_list_decals = [".*de(c|k)al.*", ".*dekal.*", ".*dec_.*"]
@@ -82,38 +80,31 @@ print('Checking ' + str(len(bpy.context.scene.objects)) + ' objects')
 
 # Loop through all objects in the scene
 for obj in bpy.context.scene.objects:
-    removed = False
     for regex in regex_list:
         pattern = re.compile(regex, re.IGNORECASE | re.DOTALL)
         if pattern.match(obj.name):
             remove(obj)
-            removed = True
             break
 
-    if removed:
-        continue
-
-    if delete_decals:
-        for regex in regex_list_decals:
-            pattern = re.compile(regex, re.IGNORECASE | re.DOTALL)
-            if pattern.match(obj.name):
-                remove(obj)
-                removed = True
-                break
-
-    if removed or not obj.parent:
+for obj in bpy.context.scene.objects:
+    if obj.parent is None:
         continue
 
     for regex in regex_list_lod:
         pattern = re.compile(regex, re.IGNORECASE)
         if pattern.match(obj.name):
-            # tarkov has meshes with bad naming conventions
-            # an LOD0 mesh might have a '*_lod' name
-            # when the correct name should end with '*_LOD0'
-            if skip_if_no_siblings and len(obj.parent.children) == 1:
-                print('Skipping ' + obj.name + ' (lod object with no siblings)')
-                break
-            remove(obj)
+            lod0found = False
+            for sibling in obj.parent.children:
+                if sibling == obj:
+                    continue
+                if sibling.name.split('.')[0].endswith('_LOD0'):
+                    if sibling.type != 'MESH':
+                        continue
+                    lod0found = True
+                    break
+
+            if lod0found:
+                remove(obj)
             break
 
 print('Total removed: ' + str(removed_count) + ' objects with ' + str(removed_child_count) + ' children')
