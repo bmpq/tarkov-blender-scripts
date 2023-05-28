@@ -203,6 +203,19 @@ for m in bpy.data.materials:
         node_tex = link.from_node
         node_tex.image.alpha_mode = 'CHANNEL_PACKED'
 
+        bc = socketBaseColor.default_value
+        if bc[0] != 1 or bc[1] != 1 or bc[2] != 1 or bc[3] != 1:
+            print("mat %d base color: %f %f %f %f" % (mat_num, bc[0], bc[1], bc[2], bc[3]))
+            ## mix node_tex by base color default value
+            n = tree.nodes.new('ShaderNodeMixRGB')
+            n.location = node_tex.location
+            n.blend_type = 'MULTIPLY'
+            n.inputs[0].default_value = 1
+            tree.links.new(node_tex.outputs[0], n.inputs[1])
+            n.inputs[2].default_value = socketBaseColor.default_value
+            tree.links.new(n.outputs[0], socketBaseColor)
+            node_tex.location.x -= 300
+
     ## metallic to 0.00
     socketMetal.default_value = 0
     r = socketRough.default_value
