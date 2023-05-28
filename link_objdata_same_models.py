@@ -12,6 +12,11 @@ mesh_dict = {}
 for obj in mesh_objs:
     mesh_data = obj.data
     verts = [v.co for v in mesh_data.vertices]
+
+    # skip planes (probably decals)
+    if len(verts) <= 4:
+        continue
+
     verts_key = tuple([(round(v.x, 4), round(v.y, 4), round(v.z, 4)) for v in verts])
     poly_key = tuple([(f.vertices[0], f.vertices[1], f.vertices[2]) for f in mesh_data.polygons])
     mesh_key = (len(verts), verts_key, poly_key)
