@@ -97,7 +97,7 @@ for obj in bpy.context.scene.objects:
             for sibling in obj.parent.children:
                 if sibling == obj:
                     continue
-                if sibling.name.split('.')[0].endswith('_LOD0'):
+                if sibling.name.split('.')[0].lower().endswith('_lod0'):
                     if sibling.type != 'MESH':
                         continue
                     lod0found = True
