@@ -196,6 +196,7 @@ for m in bpy.data.materials:
     socketAlpha = bsdf.inputs[21]
     socketNormal = bsdf.inputs[22]
     socketRough = bsdf.inputs[9]
+    socketTransmission = bsdf.inputs[17]
 
     ## telling blender that the alpha channel in diffuse texture is not alpha channel
     link = get_connected_link(tree.nodes, socketBaseColor)
@@ -264,8 +265,8 @@ for m in bpy.data.materials:
         if linkDiffuse != None:
             tree.links.remove(linkDiffuse)
 
-        ## set color to black
-        socketBaseColor.default_value = 0,0,0,1
+        socketBaseColor.default_value = 1,1,1,1
+        socketTransmission.default_value = 1.0
 
     ## convert normal map
     link_image_normal = check_normalmap_valid(tree, socketNormal)
