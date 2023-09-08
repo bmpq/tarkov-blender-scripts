@@ -244,8 +244,8 @@ for m in bpy.data.materials:
         has_alpha_channel = any(keyword in node_tex.image.name.lower() for keyword in alpha_keywords)
 
     socketEmissionStrength.default_value = 0
-    m.blend_method = 'HASHED'
-    m.shadow_method = 'HASHED'
+    m.blend_method = 'CLIP'
+    m.shadow_method = 'CLIP'
 
     socketSpec.default_value = 0.5
 
