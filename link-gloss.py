@@ -53,7 +53,7 @@ for m in bpy.data.materials:
             if tex == None:
                 continue
 
-            tex.colorspace_settings.name = 'sRGB'
+            tex.colorspace_settings.name = 'Non-Color'
             tex.alpha_mode = 'CHANNEL_PACKED'
 
             node_tex = tree.nodes.new('ShaderNodeTexImage')
