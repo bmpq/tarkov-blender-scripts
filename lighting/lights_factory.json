@@ -1,0 +1,11702 @@
+[
+  {
+    "name": "Point Light area",
+    "position": [
+      -28.57,
+      13.127,
+      47.473
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      0.9811321,
+      0.517013252,
+      0.226771116,
+      1.0
+    ],
+    "intensity": 2.0,
+    "range": 6.17,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      -28.57,
+      13.127,
+      47.473
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8212788,
+      0.5330188,
+      1.0
+    ],
+    "intensity": 7.5,
+    "range": 7.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light area",
+    "position": [
+      -28.57,
+      13.127,
+      47.473
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      0.9811321,
+      0.517013252,
+      0.226771116,
+      1.0
+    ],
+    "intensity": 2.0,
+    "range": 6.17,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      -28.57,
+      13.127,
+      47.473
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8212788,
+      0.5330188,
+      1.0
+    ],
+    "intensity": 7.5,
+    "range": 7.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light area",
+    "position": [
+      -28.57,
+      13.127,
+      47.473
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      0.9811321,
+      0.517013252,
+      0.226771116,
+      1.0
+    ],
+    "intensity": 2.0,
+    "range": 6.17,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      -28.57,
+      13.127,
+      47.473
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8212788,
+      0.5330188,
+      1.0
+    ],
+    "intensity": 7.5,
+    "range": 7.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light area",
+    "position": [
+      -28.57,
+      13.127,
+      47.473
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      0.9811321,
+      0.517013252,
+      0.226771116,
+      1.0
+    ],
+    "intensity": 2.0,
+    "range": 6.17,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      -28.57,
+      13.127,
+      47.473
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8212788,
+      0.5330188,
+      1.0
+    ],
+    "intensity": 7.5,
+    "range": 7.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light area",
+    "position": [
+      -28.57,
+      13.127,
+      47.473
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      0.9811321,
+      0.517013252,
+      0.226771116,
+      1.0
+    ],
+    "intensity": 2.0,
+    "range": 6.17,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      -28.57,
+      13.127,
+      47.473
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8212788,
+      0.5330188,
+      1.0
+    ],
+    "intensity": 7.5,
+    "range": 7.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light area",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      0.9811321,
+      0.517013252,
+      0.226771116,
+      1.0
+    ],
+    "intensity": 6.0,
+    "range": 8.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.5935458,
+      0.3537736,
+      1.0
+    ],
+    "intensity": 12.0,
+    "range": 11.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light area",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      0.9811321,
+      0.517013252,
+      0.226771116,
+      1.0
+    ],
+    "intensity": 6.0,
+    "range": 8.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.5935458,
+      0.3537736,
+      1.0
+    ],
+    "intensity": 12.0,
+    "range": 11.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light area",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      0.9811321,
+      0.517013252,
+      0.226771116,
+      1.0
+    ],
+    "intensity": 6.0,
+    "range": 8.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.5935458,
+      0.3537736,
+      1.0
+    ],
+    "intensity": 12.0,
+    "range": 11.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light area",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      0.9811321,
+      0.517013252,
+      0.226771116,
+      1.0
+    ],
+    "intensity": 6.0,
+    "range": 8.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.5935458,
+      0.3537736,
+      1.0
+    ],
+    "intensity": 12.0,
+    "range": 11.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light area",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      0.9811321,
+      0.517013252,
+      0.226771116,
+      1.0
+    ],
+    "intensity": 6.0,
+    "range": 8.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.5935458,
+      0.3537736,
+      1.0
+    ],
+    "intensity": 12.0,
+    "range": 11.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8632472,
+      0.6462264,
+      1.0
+    ],
+    "intensity": 3.0,
+    "range": 6.17,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8632472,
+      0.6462264,
+      1.0
+    ],
+    "intensity": 3.0,
+    "range": 6.17,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8632472,
+      0.6462264,
+      1.0
+    ],
+    "intensity": 3.0,
+    "range": 6.17,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8632472,
+      0.6462264,
+      1.0
+    ],
+    "intensity": 3.0,
+    "range": 6.17,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8632472,
+      0.6462264,
+      1.0
+    ],
+    "intensity": 3.0,
+    "range": 6.17,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.5935458,
+      0.3537736,
+      1.0
+    ],
+    "intensity": 12.0,
+    "range": 11.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.5935458,
+      0.3537736,
+      1.0
+    ],
+    "intensity": 12.0,
+    "range": 11.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.5935458,
+      0.3537736,
+      1.0
+    ],
+    "intensity": 12.0,
+    "range": 11.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.5935458,
+      0.3537736,
+      1.0
+    ],
+    "intensity": 12.0,
+    "range": 11.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.5935458,
+      0.3537736,
+      1.0
+    ],
+    "intensity": 12.0,
+    "range": 11.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8202493,
+      0.5424528,
+      1.0
+    ],
+    "intensity": 2.0,
+    "range": 3.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8202493,
+      0.5424528,
+      1.0
+    ],
+    "intensity": 2.0,
+    "range": 3.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8202493,
+      0.5424528,
+      1.0
+    ],
+    "intensity": 2.0,
+    "range": 3.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8202493,
+      0.5424528,
+      1.0
+    ],
+    "intensity": 2.0,
+    "range": 3.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8202493,
+      0.5424528,
+      1.0
+    ],
+    "intensity": 2.0,
+    "range": 3.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light area",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      0.9811321,
+      0.517013252,
+      0.226771116,
+      1.0
+    ],
+    "intensity": 4.0,
+    "range": 8.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.5935458,
+      0.3537736,
+      1.0
+    ],
+    "intensity": 10.0,
+    "range": 10.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light area",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      0.9811321,
+      0.517013252,
+      0.226771116,
+      1.0
+    ],
+    "intensity": 4.0,
+    "range": 8.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.5935458,
+      0.3537736,
+      1.0
+    ],
+    "intensity": 10.0,
+    "range": 10.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light area",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      0.9811321,
+      0.517013252,
+      0.226771116,
+      1.0
+    ],
+    "intensity": 4.0,
+    "range": 8.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.5935458,
+      0.3537736,
+      1.0
+    ],
+    "intensity": 10.0,
+    "range": 10.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light area",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      0.9811321,
+      0.517013252,
+      0.226771116,
+      1.0
+    ],
+    "intensity": 4.0,
+    "range": 8.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.5935458,
+      0.3537736,
+      1.0
+    ],
+    "intensity": 10.0,
+    "range": 10.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light area",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      0.9811321,
+      0.517013252,
+      0.226771116,
+      1.0
+    ],
+    "intensity": 4.0,
+    "range": 8.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point Light",
+    "position": [
+      0.0,
+      0.352000237,
+      2.98023224E-08
+    ],
+    "rotation": [
+      -0.707106769,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.5935458,
+      0.3537736,
+      1.0
+    ],
+    "intensity": 10.0,
+    "range": 10.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "sun",
+    "position": [
+      -22.9,
+      44.3,
+      67.4
+    ],
+    "rotation": [
+      0.287852556,
+      0.890892565,
+      -0.1544924,
+      0.3155685
+    ],
+    "color": [
+      0.9701493,
+      0.739484549,
+      0.485074639,
+      1.0
+    ],
+    "intensity": 2.0,
+    "range": 10.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Directional"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -13.1025286,
+      2.97372246,
+      -36.664238
+    ],
+    "rotation": [
+      -0.1252099,
+      -2.82283139E-07,
+      1.35048353E-07,
+      -0.992130339
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 5.9,
+    "range": 8.24,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -13.0505266,
+      2.98372221,
+      -35.25425
+    ],
+    "rotation": [
+      0.0,
+      -3.27825546E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 1.12,
+    "range": 3.84,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -13.1025286,
+      2.973722,
+      -35.9112473
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      4.02331352E-07
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -19.4155083,
+      0.356018066,
+      -42.845253
+    ],
+    "rotation": [
+      0.0,
+      -0.707107067,
+      0.0,
+      -0.7071066
+    ],
+    "color": [
+      0.625,
+      0.8137932,
+      1.0,
+      1.0
+    ],
+    "intensity": 0.78,
+    "range": 2.46,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -19.8745117,
+      0.456018448,
+      -42.8822479
+    ],
+    "rotation": [
+      0.0,
+      -0.707106531,
+      0.0,
+      0.7071071
+    ],
+    "color": [
+      0.9705882,
+      0.9920893,
+      1.0,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 95.4536,
+    "spotAngle": 113.678955,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -20.43151,
+      0.451018333,
+      -42.8822479
+    ],
+    "rotation": [
+      -0.022795843,
+      -0.7067395,
+      0.0227958765,
+      -0.706739
+    ],
+    "color": [
+      0.8602941,
+      0.942190647,
+      1.0,
+      1.0
+    ],
+    "intensity": 0.83,
+    "range": 7.47,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 106.9,
+    "type": "Spot"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light",
+    "position": [
+      44.818634,
+      10.7154579,
+      36.0916023
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      1.0,
+      0.8626448,
+      0.6492537,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 14.8633347,
+    "innerSpotAngle": 72.1733551,
+    "spotAngle": 90.8,
+    "type": "Spot"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (3)",
+    "position": [
+      16.1002617,
+      2.167458,
+      37.4065552
+    ],
+    "rotation": [
+      -0.499773741,
+      -0.5002258,
+      0.499768883,
+      -0.5002313
+    ],
+    "color": [
+      0.8235294,
+      0.858650863,
+      1.0,
+      1.0
+    ],
+    "intensity": 0.68,
+    "range": 3.48,
+    "innerSpotAngle": 79.41763,
+    "spotAngle": 98.24974,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light (8)",
+    "position": [
+      34.181488,
+      8.3500185,
+      -14.88925
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.637691259,
+      0.2352941,
+      1.0
+    ],
+    "intensity": 0.53,
+    "range": 7.07,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (2)",
+    "position": [
+      30.0040016,
+      11.103,
+      35.37156
+    ],
+    "rotation": [
+      0.499771059,
+      0.5002282,
+      -0.499771535,
+      0.500229
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 7.5,
+    "range": 4.4094,
+    "innerSpotAngle": 79.41763,
+    "spotAngle": 98.24974,
+    "type": "Spot"
+  },
+  {
+    "name": "point light",
+    "position": [
+      30.0040016,
+      10.7291145,
+      35.37156
+    ],
+    "rotation": [
+      0.4997711,
+      0.5002282,
+      -0.4997715,
+      0.500229
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.3,
+    "range": 1.23,
+    "innerSpotAngle": 97.11431,
+    "spotAngle": 115.2,
+    "type": "Point"
+  },
+  {
+    "name": "Point light window (11)",
+    "position": [
+      12.1754885,
+      6.143719,
+      49.15375
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.6641791,
+      0.816825,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.724667,
+    "range": 2.45,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light (1)",
+    "position": [
+      21.4719658,
+      1.68001842,
+      38.6093674
+    ],
+    "rotation": [
+      -7.450581E-09,
+      0.9042248,
+      7.450581E-09,
+      0.427056968
+    ],
+    "color": [
+      0.448529422,
+      0.7261664,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.18,
+    "range": 4.23,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light (2)",
+    "position": [
+      35.06249,
+      3.43701839,
+      1.70400238
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.637691259,
+      0.2352941,
+      1.0
+    ],
+    "intensity": 0.98,
+    "range": 4.88,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (3)",
+    "position": [
+      35.5194168,
+      4.490334,
+      42.9825745
+    ],
+    "rotation": [
+      -0.499773741,
+      -0.5002259,
+      0.499768883,
+      -0.500231445
+    ],
+    "color": [
+      0.8235294,
+      0.8970539,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 4.0,
+    "innerSpotAngle": 79.41763,
+    "spotAngle": 98.24974,
+    "type": "Point"
+  },
+  {
+    "name": "Point light window (4)",
+    "position": [
+      26.8979988,
+      6.143719,
+      49.15375
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.6641791,
+      0.816825,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.81,
+    "range": 2.45,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (22)",
+    "position": [
+      18.6532078,
+      10.921751,
+      7.604025
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      1.0,
+      0.8626448,
+      0.6492537,
+      1.0
+    ],
+    "intensity": 7.92382956,
+    "range": 22.76,
+    "innerSpotAngle": 45.0740128,
+    "spotAngle": 60.0,
+    "type": "Spot"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -18.18251,
+      0.6920185,
+      -51.2432556
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 2.0,
+    "range": 2.77,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -17.7007484,
+      0.336804867,
+      21.0098057
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -22.62651,
+      4.96501827,
+      -3.97624969
+    ],
+    "rotation": [
+      0.0,
+      -0.707106531,
+      0.0,
+      0.7071071
+    ],
+    "color": [
+      1.0,
+      0.996146,
+      0.9705882,
+      1.0
+    ],
+    "intensity": 7.83970547,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -23.1445122,
+      4.96501827,
+      -3.97624969
+    ],
+    "rotation": [
+      -0.0794707,
+      -0.7026272,
+      0.07947052,
+      -0.7026266
+    ],
+    "color": [
+      1.0,
+      0.935446262,
+      0.8602941,
+      1.0
+    ],
+    "intensity": 9.453321,
+    "range": 8.3,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 114.2,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -20.52951,
+      4.83801842,
+      -3.95025253
+    ],
+    "rotation": [
+      0.0,
+      -0.707107067,
+      0.0,
+      -0.7071066
+    ],
+    "color": [
+      1.0,
+      0.8015721,
+      0.33088237,
+      1.0
+    ],
+    "intensity": 3.15089035,
+    "range": 3.92,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      42.541,
+      0.141000271,
+      -36.5720062
+    ],
+    "rotation": [
+      0.0,
+      0.707107067,
+      0.0,
+      0.7071066
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      41.694,
+      0.599,
+      -36.5200043
+    ],
+    "rotation": [
+      0.0678927153,
+      0.7038402,
+      -0.06789276,
+      0.7038397
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 3.48,
+    "range": 5.252566,
+    "innerSpotAngle": 64.0,
+    "spotAngle": 64.0,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      42.4260025,
+      0.603000164,
+      -36.5200043
+    ],
+    "rotation": [
+      0.0,
+      0.707106531,
+      0.0,
+      -0.7071071
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "Point light (6)",
+    "position": [
+      46.5642166,
+      0.800999165,
+      -30.56835
+    ],
+    "rotation": [
+      -0.560984731,
+      -0.430459827,
+      -0.430459082,
+      0.560986161
+    ],
+    "color": [
+      1.0,
+      0.8196655,
+      0.536764741,
+      1.0
+    ],
+    "intensity": 1.34,
+    "range": 3.03489733,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light (1)",
+    "position": [
+      -6.43251133,
+      -1.70098114,
+      -21.69525
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 0.58,
+    "range": 3.3,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -43.326004,
+      1.55506611,
+      60.3139954
+    ],
+    "rotation": [
+      0.0,
+      0.969150066,
+      -2.98023224E-08,
+      -0.246471718
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light",
+    "position": [
+      31.653,
+      5.057,
+      16.6537514
+    ],
+    "rotation": [
+      0.707107,
+      0.0,
+      0.0,
+      0.70710665
+    ],
+    "color": [
+      1.0,
+      0.7005639,
+      0.365671635,
+      1.0
+    ],
+    "intensity": 0.67,
+    "range": 4.22,
+    "innerSpotAngle": 51.5481453,
+    "spotAngle": 67.78691,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      35.78049,
+      4.49701834,
+      -7.75124931
+    ],
+    "rotation": [
+      0.0,
+      0.969150066,
+      -2.98023224E-08,
+      -0.246471718
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 2.65,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight light condey light",
+    "position": [
+      -20.1049957,
+      -0.653900146,
+      42.0958
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.411764681,
+      0.221020743,
+      0.221020743,
+      1.0
+    ],
+    "intensity": 5.0199995,
+    "range": 1.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      0.475489855,
+      -3.62698174,
+      -16.09825
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      1.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.18,
+    "range": 4.13,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light",
+    "position": [
+      6.89388752,
+      3.16675043,
+      1.70400238
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.637691259,
+      0.2352941,
+      1.0
+    ],
+    "intensity": 1.54,
+    "range": 3.77,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      27.341,
+      0.001999855,
+      -21.4929943
+    ],
+    "rotation": [
+      0.0,
+      -0.707106233,
+      0.0,
+      0.707107365
+    ],
+    "color": [
+      0.9528302,
+      0.716964841,
+      0.467426121,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      27.909,
+      -1.39299965,
+      -21.1809978
+    ],
+    "rotation": [
+      0.0,
+      -0.7071073,
+      0.0,
+      -0.7071063
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 2.2,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      26.5880013,
+      0.001999855,
+      -21.4929943
+    ],
+    "rotation": [
+      -0.0678926855,
+      -0.703840435,
+      0.06789278,
+      -0.7038394
+    ],
+    "color": [
+      1.0,
+      0.7859534,
+      0.536764741,
+      1.0
+    ],
+    "intensity": 7.02,
+    "range": 7.71,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 75.0,
+    "type": "Spot"
+  },
+  {
+    "name": "GI_light",
+    "position": [
+      -18.6487923,
+      3.44084716,
+      33.5040245
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.754722834,
+      0.298507452,
+      1.0
+    ],
+    "intensity": 0.72,
+    "range": 2.13,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      38.7169952,
+      0.8209996,
+      -35.7439957
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      5.21540642E-07
+    ],
+    "color": [
+      1.0,
+      0.996146,
+      0.9705882,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      38.7169952,
+      0.8210001,
+      -36.497
+    ],
+    "rotation": [
+      0.06641542,
+      -4.311796E-07,
+      -2.87003488E-08,
+      -0.997792065
+    ],
+    "color": [
+      1.0,
+      0.935446262,
+      0.8602941,
+      1.0
+    ],
+    "intensity": 0.0,
+    "range": 8.21,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      38.719,
+      0.5239997,
+      -35.3539963
+    ],
+    "rotation": [
+      0.0,
+      -4.47034836E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 2.2,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "Point light (1)",
+    "position": [
+      9.304999,
+      6.85800076,
+      37.846
+    ],
+    "rotation": [
+      -0.7071068,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.4137931,
+      0.0,
+      1.0
+    ],
+    "intensity": 2.49,
+    "range": 1.78540421,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light",
+    "position": [
+      9.304999,
+      5.44500065,
+      37.846
+    ],
+    "rotation": [
+      -0.7071068,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.4137931,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 1.82,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      12.9782782,
+      4.936248,
+      44.1597481
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 1.59,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (18)",
+    "position": [
+      -4.90879345,
+      20.67675,
+      -25.0839748
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.6544118,
+      0.78549695,
+      1.0,
+      1.0
+    ],
+    "intensity": 6.24,
+    "range": 9.24058,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light",
+    "position": [
+      -6.380801,
+      2.72675037,
+      0.101024628
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.637691259,
+      0.2352941,
+      1.0
+    ],
+    "intensity": 0.8,
+    "range": 6.28,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      14.61449,
+      -0.164981842,
+      -21.38725
+    ],
+    "rotation": [
+      0.0,
+      -0.7071071,
+      0.0,
+      -0.707106531
+    ],
+    "color": [
+      1.0,
+      0.996146,
+      0.9705882,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      12.5384893,
+      -0.7339821,
+      -21.3352489
+    ],
+    "rotation": [
+      0.0,
+      0.7071066,
+      0.0,
+      -0.707107067
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.12,
+    "range": 3.84,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      15.3674879,
+      -0.164981842,
+      -21.38725
+    ],
+    "rotation": [
+      -0.1994089,
+      0.6784069,
+      -0.199408785,
+      -0.6784074
+    ],
+    "color": [
+      1.0,
+      0.85999316,
+      0.697,
+      1.0
+    ],
+    "intensity": 3.42,
+    "range": 9.90879,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (2)",
+    "position": [
+      9.074561,
+      4.226,
+      36.249
+    ],
+    "rotation": [
+      -0.4997704,
+      0.500229955,
+      -0.4997723,
+      -0.5002272
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 3.78,
+    "range": 4.74,
+    "innerSpotAngle": 79.41763,
+    "spotAngle": 111.9,
+    "type": "Spot"
+  },
+  {
+    "name": "point light",
+    "position": [
+      9.074561,
+      3.85211468,
+      36.249
+    ],
+    "rotation": [
+      -0.499770373,
+      0.500229955,
+      -0.4997723,
+      -0.5002272
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.3,
+    "range": 1.23,
+    "innerSpotAngle": 97.11431,
+    "spotAngle": 115.2,
+    "type": "Point"
+  },
+  {
+    "name": "Point light (1)",
+    "position": [
+      39.681488,
+      1.022872,
+      -15.4186382
+    ],
+    "rotation": [
+      -0.6099125,
+      0.0819436759,
+      -0.3577804,
+      0.702342749
+    ],
+    "color": [
+      1.0,
+      0.9113591,
+      0.7205882,
+      1.0
+    ],
+    "intensity": 0.887438059,
+    "range": 0.83,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light (2)",
+    "position": [
+      39.2994,
+      1.20787239,
+      -15.7013988
+    ],
+    "rotation": [
+      -0.2831993,
+      0.4530931,
+      -0.7880958,
+      0.305630535
+    ],
+    "color": [
+      1.0,
+      0.8482759,
+      0.75,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 1.00600934,
+    "innerSpotAngle": 45.8932762,
+    "spotAngle": 61.0,
+    "type": "Spot"
+  },
+  {
+    "name": "Point light",
+    "position": [
+      39.3695145,
+      1.18687248,
+      -15.6705608
+    ],
+    "rotation": [
+      -0.6099125,
+      0.0819436759,
+      -0.357780427,
+      0.702342749
+    ],
+    "color": [
+      1.0,
+      0.8482759,
+      0.75,
+      1.0
+    ],
+    "intensity": 0.239899635,
+    "range": 0.2,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight light condey light",
+    "position": [
+      59.51449,
+      1.43239975,
+      -48.741806
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.411764681,
+      0.221020743,
+      0.221020743,
+      1.0
+    ],
+    "intensity": 8.199997,
+    "range": 1.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light (5)",
+    "position": [
+      -8.668511,
+      2.75501823,
+      -34.1192474
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.637691259,
+      0.2352941,
+      1.0
+    ],
+    "intensity": 0.53,
+    "range": 6.28,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -17.4949989,
+      -1.33236122,
+      41.28
+    ],
+    "rotation": [
+      7.450581E-09,
+      0.904224753,
+      7.450581E-09,
+      0.4270569
+    ],
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.79348421,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (21)",
+    "position": [
+      -22.2987938,
+      17.34675,
+      1.866024
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.6544118,
+      0.78549695,
+      1.0,
+      1.0
+    ],
+    "intensity": 6.24,
+    "range": 9.24058,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -16.740509,
+      -3.6339817,
+      -4.10324669
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 3.62,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      57.139,
+      0.3635664,
+      62.8379974
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -22.1249962,
+      2.41900063,
+      21.1330013
+    ],
+    "rotation": [
+      -7.582884E-08,
+      0.99538,
+      -0.09601483,
+      -7.861129E-07
+    ],
+    "color": [
+      0.9056604,
+      0.7757022,
+      0.4699181,
+      1.0
+    ],
+    "intensity": 5.57,
+    "range": 4.09992361,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 108.9,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -22.104,
+      2.11300039,
+      20.4320011
+    ],
+    "rotation": [
+      0.0,
+      1.0,
+      0.0,
+      -8.046627E-07
+    ],
+    "color": [
+      1.0,
+      0.8015721,
+      0.33088237,
+      1.0
+    ],
+    "intensity": 1.09,
+    "range": 2.82,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -22.1249962,
+      2.41900015,
+      20.722
+    ],
+    "rotation": [
+      0.0,
+      -8.791685E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      1.0,
+      0.996146,
+      0.9705882,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "point light",
+    "position": [
+      14.29,
+      10.7291145,
+      35.37156
+    ],
+    "rotation": [
+      0.4997711,
+      0.5002282,
+      -0.4997715,
+      0.500229
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.3,
+    "range": 1.23,
+    "innerSpotAngle": 97.11431,
+    "spotAngle": 115.2,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (2)",
+    "position": [
+      14.29,
+      11.103,
+      35.37156
+    ],
+    "rotation": [
+      0.499771059,
+      0.5002282,
+      -0.499771535,
+      0.500229
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 7.5,
+    "range": 4.4094,
+    "innerSpotAngle": 79.41763,
+    "spotAngle": 98.24974,
+    "type": "Spot"
+  },
+  {
+    "name": "point light",
+    "position": [
+      28.1045647,
+      6.675206,
+      36.4750557
+    ],
+    "rotation": [
+      9.18329E-08,
+      0.8662538,
+      -0.499604285,
+      1.25540987E-06
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.3,
+    "range": 1.23,
+    "innerSpotAngle": 97.11431,
+    "spotAngle": 115.2,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (2)",
+    "position": [
+      28.1052322,
+      7.298648,
+      36.835
+    ],
+    "rotation": [
+      4.566795E-08,
+      0.8662538,
+      -0.499604285,
+      1.245963E-06
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 7.5,
+    "range": 4.4094,
+    "innerSpotAngle": 79.41763,
+    "spotAngle": 98.24974,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      23.2759781,
+      -2.30647564,
+      -14.5872478
+    ],
+    "rotation": [
+      0.0,
+      -0.707106531,
+      0.0,
+      0.7071071
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      23.4159279,
+      -2.28058434,
+      -14.6236324
+    ],
+    "rotation": [
+      0.0,
+      -0.707107067,
+      0.0,
+      -0.7071066
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      22.805748,
+      -2.30647564,
+      -14.5872478
+    ],
+    "rotation": [
+      -7.678011E-15,
+      0.707107067,
+      -7.67800554E-15,
+      0.7071066
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 2.83,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "Point light (1)",
+    "position": [
+      -19.7109718,
+      2.36680365,
+      -59.4850159
+    ],
+    "rotation": [
+      1.1920929E-07,
+      -2.10734214E-07,
+      -4.214683E-08,
+      1.0
+    ],
+    "color": [
+      0.365517259,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 1.14401245,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light",
+    "position": [
+      -19.7109718,
+      2.52980375,
+      -60.0971069
+    ],
+    "rotation": [
+      1.1920929E-07,
+      -2.10734214E-07,
+      -4.214683E-08,
+      1.0
+    ],
+    "color": [
+      0.365517259,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 0.5,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (3)",
+    "position": [
+      24.0976067,
+      1.71903419,
+      41.9459076
+    ],
+    "rotation": [
+      -0.499773741,
+      -0.5002259,
+      0.499768823,
+      -0.5002314
+    ],
+    "color": [
+      0.8235294,
+      0.8970539,
+      1.0,
+      1.0
+    ],
+    "intensity": 0.48,
+    "range": 4.0,
+    "innerSpotAngle": 79.41763,
+    "spotAngle": 98.24974,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (14)",
+    "position": [
+      -20.02,
+      17.83675,
+      -35.63398
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.6544118,
+      0.78549695,
+      1.0,
+      1.0
+    ],
+    "intensity": 6.24,
+    "range": 9.24058,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      19.2862358,
+      -2.40582848,
+      -0.12569046
+    ],
+    "rotation": [
+      0.0,
+      0.943877935,
+      0.0,
+      -0.330294728
+    ],
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.79348421,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (6)",
+    "position": [
+      0.31999898,
+      16.27,
+      36.07
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.6544118,
+      0.78549695,
+      1.0,
+      1.0
+    ],
+    "intensity": 3.32,
+    "range": 9.24058,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -14.1815081,
+      -0.4549818,
+      -25.8732433
+    ],
+    "rotation": [
+      -0.499999821,
+      0.49999994,
+      -0.5000002,
+      -0.5000001
+    ],
+    "color": [
+      0.7352941,
+      0.890466452,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.5,
+    "range": 10.47,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 110.0,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -14.1735086,
+      -0.780981064,
+      -25.873251
+    ],
+    "rotation": [
+      -0.500000238,
+      0.5000002,
+      0.4999998,
+      0.499999851
+    ],
+    "color": [
+      0.9705882,
+      0.9920893,
+      1.0,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 95.4536,
+    "spotAngle": 113.678955,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -14.1395082,
+      -2.46398163,
+      -26.0312481
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      0.625,
+      0.8137932,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 4.17359161,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      22.5949974,
+      -0.133999825,
+      11.3250027
+    ],
+    "rotation": [
+      -0.2002252,
+      -8.46765829E-07,
+      1.7304815E-07,
+      -0.979749858
+    ],
+    "color": [
+      1.0,
+      0.935446262,
+      0.8602941,
+      1.0
+    ],
+    "intensity": 5.12,
+    "range": 5.54,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      22.647,
+      -1.03499985,
+      12.6460018
+    ],
+    "rotation": [
+      0.0,
+      -8.791685E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.1,
+    "range": 3.98,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      22.5949974,
+      -0.1340003,
+      12.078001
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      9.536743E-07
+    ],
+    "color": [
+      1.0,
+      0.996146,
+      0.9705882,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -23.64172,
+      -2.41547585,
+      45.790554
+    ],
+    "rotation": [
+      0.0,
+      -0.707106531,
+      0.0,
+      0.7071071
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -24.11195,
+      -2.41547585,
+      45.790554
+    ],
+    "rotation": [
+      -7.678011E-15,
+      0.707107067,
+      -7.67800554E-15,
+      0.7071066
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 2.83,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -23.50177,
+      -2.38958454,
+      45.75417
+    ],
+    "rotation": [
+      0.0,
+      -0.707107067,
+      0.0,
+      -0.7071066
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "Point light (1)",
+    "position": [
+      -64.1010056,
+      3.42380333,
+      58.32997
+    ],
+    "rotation": [
+      5.96046448E-08,
+      0.70710665,
+      -1.1920929E-07,
+      0.707106948
+    ],
+    "color": [
+      0.365517259,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 1.14401245,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light",
+    "position": [
+      -64.7131,
+      3.58680367,
+      58.32997
+    ],
+    "rotation": [
+      5.96046448E-08,
+      0.70710665,
+      -1.1920929E-07,
+      0.707106948
+    ],
+    "color": [
+      0.365517259,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 0.5,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "point light",
+    "position": [
+      16.0263557,
+      3.255857,
+      37.3830338
+    ],
+    "rotation": [
+      -0.499773741,
+      -0.5002257,
+      0.499768853,
+      -0.5002313
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.66,
+    "range": 1.74,
+    "innerSpotAngle": 97.11431,
+    "spotAngle": 115.2,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (2)",
+    "position": [
+      16.0263557,
+      3.96130085,
+      37.3823624
+    ],
+    "rotation": [
+      -0.499773741,
+      -0.5002258,
+      0.499768883,
+      -0.5002313
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 7.5,
+    "range": 4.4094,
+    "innerSpotAngle": 79.41763,
+    "spotAngle": 115.8,
+    "type": "Spot"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (1)",
+    "position": [
+      44.818634,
+      1.87375069,
+      36.0916023
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      1.0,
+      0.8626448,
+      0.6492537,
+      1.0
+    ],
+    "intensity": 0.0,
+    "range": 10.06,
+    "innerSpotAngle": 72.1733551,
+    "spotAngle": 90.8,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light",
+    "position": [
+      -23.46854,
+      1.014667,
+      45.0309753
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.754722834,
+      0.298507452,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.83571625,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light",
+    "position": [
+      56.5157623,
+      -1.5977335,
+      -29.0053
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.650349557,
+      0.0,
+      1.0
+    ],
+    "intensity": 6.28265142,
+    "range": 2.11,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light (1)",
+    "position": [
+      38.7000427,
+      1.81901836,
+      -11.95265
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.69,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light",
+    "position": [
+      62.5739975,
+      2.113,
+      41.9951019
+    ],
+    "rotation": [
+      6.57472E-08,
+      -1.0,
+      2.08616257E-07,
+      -3.41370736E-08
+    ],
+    "color": [
+      0.365517259,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 0.5,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light (1)",
+    "position": [
+      62.5739975,
+      1.94999981,
+      40.916
+    ],
+    "rotation": [
+      6.57472E-08,
+      -1.0,
+      2.08616257E-07,
+      -3.41370736E-08
+    ],
+    "color": [
+      0.365517259,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 1.9080162,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (2)",
+    "position": [
+      13.687232,
+      7.48390341,
+      39.026
+    ],
+    "rotation": [
+      4.3979324E-07,
+      0.7074301,
+      -0.706783354,
+      1.29629859E-06
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 7.5,
+    "range": 4.4094,
+    "innerSpotAngle": 79.41763,
+    "spotAngle": 103.0,
+    "type": "Spot"
+  },
+  {
+    "name": "point light",
+    "position": [
+      13.6865606,
+      7.036115,
+      39.026
+    ],
+    "rotation": [
+      4.819401E-07,
+      0.7074301,
+      -0.706783354,
+      1.31737193E-06
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.3,
+    "range": 1.23,
+    "innerSpotAngle": 97.11431,
+    "spotAngle": 115.2,
+    "type": "Point"
+  },
+  {
+    "name": "Point light window (8)",
+    "position": [
+      29.30949,
+      6.143719,
+      49.15375
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.6641791,
+      0.816825,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.81,
+    "range": 2.45,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light window",
+    "position": [
+      19.57904,
+      9.136019,
+      38.89511
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.754722834,
+      0.298507452,
+      1.0
+    ],
+    "intensity": 0.59,
+    "range": 4.23615265,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      36.663002,
+      3.50501823,
+      -3.80324936
+    ],
+    "rotation": [
+      0.0,
+      -0.7071071,
+      0.0,
+      -0.707106531
+    ],
+    "color": [
+      1.0,
+      0.996146,
+      0.9705882,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      37.378,
+      3.50501847,
+      -3.80324936
+    ],
+    "rotation": [
+      -0.1994089,
+      0.6784069,
+      -0.199408785,
+      -0.6784074
+    ],
+    "color": [
+      1.0,
+      0.85999316,
+      0.697,
+      1.0
+    ],
+    "intensity": 5.9,
+    "range": 14.97,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      34.587,
+      2.658018,
+      -3.75124741
+    ],
+    "rotation": [
+      0.0,
+      0.7071066,
+      0.0,
+      -0.707107067
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.12,
+    "range": 3.84,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (20)",
+    "position": [
+      30.84521,
+      10.7154579,
+      25.2630234
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      1.0,
+      0.8626448,
+      0.6492537,
+      1.0
+    ],
+    "intensity": 15.3001652,
+    "range": 14.43,
+    "innerSpotAngle": 72.1733551,
+    "spotAngle": 90.8,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      53.6224442,
+      1.2555871,
+      -31.480093
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      3.71536942E-07
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      53.6645355,
+      0.2349844,
+      -30.4489727
+    ],
+    "rotation": [
+      -1.08583424E-14,
+      1.0,
+      3.8724735E-21,
+      -3.5663578E-07
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 4.55,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      53.6645355,
+      0.2349844,
+      -30.8617458
+    ],
+    "rotation": [
+      0.0,
+      4.46042748E-07,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "Point light window (1)",
+    "position": [
+      21.4630013,
+      8.921,
+      40.759
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.6468348,
+      0.298507452,
+      1.0
+    ],
+    "intensity": 1.7,
+    "range": 0.9586525,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (15)",
+    "position": [
+      -1.1887939,
+      19.25675,
+      -3.36397552
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.6544118,
+      0.78549695,
+      1.0,
+      1.0
+    ],
+    "intensity": 6.24,
+    "range": 9.24058,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      58.63949,
+      0.432137966,
+      7.230751
+    ],
+    "rotation": [
+      0.0,
+      4.46042748E-07,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      58.5874863,
+      0.1671381,
+      6.834751
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      3.71536942E-07
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      58.63949,
+      0.432138443,
+      7.98374939
+    ],
+    "rotation": [
+      3.4242337E-08,
+      -0.99538,
+      0.09601483,
+      3.54988117E-07
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 2.303231,
+    "range": 5.252566,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      23.4159279,
+      -2.28058434,
+      -19.5358334
+    ],
+    "rotation": [
+      0.0,
+      -0.707107067,
+      0.0,
+      -0.7071066
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      22.805748,
+      -2.30647564,
+      -19.4994488
+    ],
+    "rotation": [
+      -7.678011E-15,
+      0.707107067,
+      -7.67800554E-15,
+      0.7071066
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 2.83,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      23.2759781,
+      -2.30647564,
+      -19.4994488
+    ],
+    "rotation": [
+      0.0,
+      -0.707106531,
+      0.0,
+      0.7071071
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      4.133998,
+      -0.6463833,
+      38.18819
+    ],
+    "rotation": [
+      -0.09440466,
+      0.6983094,
+      -0.119919658,
+      -0.699336231
+    ],
+    "color": [
+      1.0,
+      0.7281948,
+      0.411764681,
+      1.0
+    ],
+    "intensity": 5.2,
+    "range": 5.22,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 91.1,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      2.109998,
+      -2.68960381,
+      38.30204
+    ],
+    "rotation": [
+      0.0127678495,
+      0.706990838,
+      -0.0127678439,
+      -0.706992269
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 2.2,
+    "range": 3.69,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      3.56699872,
+      -0.6104069,
+      38.18689
+    ],
+    "rotation": [
+      0.012767842,
+      -0.7069923,
+      0.0127678514,
+      -0.7069908
+    ],
+    "color": [
+      0.8584906,
+      0.8052688,
+      0.485938072,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "point light",
+    "position": [
+      35.466,
+      4.452561,
+      42.49112
+    ],
+    "rotation": [
+      -0.707105041,
+      0.707108438,
+      0.000322802051,
+      -0.000323844433
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.3,
+    "range": 1.23,
+    "innerSpotAngle": 97.11431,
+    "spotAngle": 115.2,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (2)",
+    "position": [
+      35.466,
+      4.45256138,
+      42.865
+    ],
+    "rotation": [
+      -0.7071051,
+      0.7071084,
+      0.0003228126,
+      -0.0003238339
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 4.4094,
+    "innerSpotAngle": 79.41763,
+    "spotAngle": 121.1,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -6.52951336,
+      -2.46398163,
+      -32.5012436
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      0.625,
+      0.8137932,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 4.17359161,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -6.56351376,
+      -0.780981064,
+      -32.3432465
+    ],
+    "rotation": [
+      -0.500000238,
+      0.5000002,
+      0.4999998,
+      0.499999851
+    ],
+    "color": [
+      0.9705882,
+      0.9920893,
+      1.0,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 95.4536,
+    "spotAngle": 113.678955,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -6.571513,
+      -0.4549818,
+      -32.3432465
+    ],
+    "rotation": [
+      -0.499999821,
+      0.49999994,
+      -0.5000002,
+      -0.5000001
+    ],
+    "color": [
+      0.7352941,
+      0.890466452,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.5,
+    "range": 10.47,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 110.0,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      39.1060028,
+      0.611000061,
+      -5.43600273
+    ],
+    "rotation": [
+      0.0,
+      0.7071072,
+      0.0,
+      0.7071064
+    ],
+    "color": [
+      0.625,
+      0.8137932,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.76,
+    "range": 2.19,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      38.5230026,
+      0.434999943,
+      -5.846998
+    ],
+    "rotation": [
+      0.0,
+      0.707106352,
+      0.0,
+      -0.707107246
+    ],
+    "color": [
+      0.9705882,
+      0.9920893,
+      1.0,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 95.4536,
+    "spotAngle": 113.678955,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      37.8830032,
+      0.43500042,
+      -5.846998
+    ],
+    "rotation": [
+      0.0678927,
+      0.7038403,
+      -0.0678927749,
+      0.70383954
+    ],
+    "color": [
+      0.8602941,
+      0.942190647,
+      1.0,
+      1.0
+    ],
+    "intensity": 5.38,
+    "range": 4.09992361,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -17.48851,
+      4.593018,
+      -58.44226
+    ],
+    "rotation": [
+      2.8449125E-07,
+      -0.7071068,
+      -0.7071068,
+      2.8449125E-07
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -17.48851,
+      5.34600544,
+      -58.44226
+    ],
+    "rotation": [
+      -0.790078938,
+      -2.95097948E-07,
+      -1.04110718E-07,
+      -0.61300534
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 4.95,
+    "range": 8.24,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 103.4,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -17.436512,
+      3.936018,
+      -58.43225
+    ],
+    "rotation": [
+      -0.7071068,
+      -2.31807689E-07,
+      -2.31807689E-07,
+      -0.7071068
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 1.12,
+    "range": 3.84,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -9.83513,
+      -2.43211174,
+      18.7008572
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -22.59251,
+      2.973722,
+      3.20075226
+    ],
+    "rotation": [
+      0.0,
+      -0.707106531,
+      0.0,
+      0.7071071
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -21.9355087,
+      2.98372221,
+      3.14875031
+    ],
+    "rotation": [
+      0.0,
+      -0.707107067,
+      0.0,
+      -0.7071066
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 1.12,
+    "range": 3.84,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -23.3454971,
+      2.97372246,
+      3.20075226
+    ],
+    "rotation": [
+      -0.08853668,
+      -0.7015423,
+      0.08853687,
+      -0.70154196
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 5.9,
+    "range": 8.24,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "GI_light_vol",
+    "position": [
+      -18.49651,
+      3.57001829,
+      37.73075
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.754722834,
+      0.298507452,
+      1.0
+    ],
+    "intensity": 0.8,
+    "range": 5.526948,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      7.457999,
+      3.22061777,
+      35.56219
+    ],
+    "rotation": [
+      -0.121450894,
+      0.6917586,
+      -0.14652358,
+      -0.696599364
+    ],
+    "color": [
+      1.0,
+      0.935446262,
+      0.8602941,
+      1.0
+    ],
+    "intensity": 3.5,
+    "range": 5.9,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 88.0,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      6.016,
+      2.056284,
+      35.38011
+    ],
+    "rotation": [
+      0.0127678495,
+      0.706990838,
+      -0.0127678439,
+      -0.706992269
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.78,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      6.891,
+      3.25659418,
+      35.56089
+    ],
+    "rotation": [
+      0.012767842,
+      -0.7069923,
+      0.0127678514,
+      -0.7069908
+    ],
+    "color": [
+      1.0,
+      0.996146,
+      0.9705882,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      12.99249,
+      0.320000172,
+      -17.9642467
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      4.02331352E-07
+    ],
+    "color": [
+      0.9705882,
+      0.9920893,
+      1.0,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 95.4536,
+    "spotAngle": 113.678955,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      12.9554892,
+      0.220000267,
+      -17.5052471
+    ],
+    "rotation": [
+      0.0,
+      -3.27825546E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      0.625,
+      0.8137932,
+      1.0,
+      1.0
+    ],
+    "intensity": 0.78,
+    "range": 1.61,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      12.99249,
+      0.315000534,
+      -18.521246
+    ],
+    "rotation": [
+      -0.03223821,
+      -3.08774E-07,
+      2.374099E-08,
+      -0.9994802
+    ],
+    "color": [
+      0.8602941,
+      0.942190647,
+      1.0,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 6.0,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 69.49331,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      70.20569,
+      0.2349844,
+      -29.9939022
+    ],
+    "rotation": [
+      0.0,
+      -0.7071071,
+      0.0,
+      -0.707106531
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      69.58733,
+      0.264930725,
+      -29.95181
+    ],
+    "rotation": [
+      0.0,
+      0.7071066,
+      0.0,
+      -0.707107067
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      70.61846,
+      0.2349844,
+      -29.9939022
+    ],
+    "rotation": [
+      7.67800554E-15,
+      -0.7071066,
+      -7.678011E-15,
+      0.707107067
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 4.55,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      30.5014915,
+      2.02149677,
+      43.8797531
+    ],
+    "rotation": [
+      0.0,
+      -0.4275394,
+      0.0,
+      0.9039968
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light (6)",
+    "position": [
+      16.06849,
+      2.21001816,
+      -26.1422482
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.637691259,
+      0.2352941,
+      1.0
+    ],
+    "intensity": 0.53,
+    "range": 4.28,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      64.2134857,
+      4.57001829,
+      -35.01925
+    ],
+    "rotation": [
+      2.8449125E-07,
+      -0.7071068,
+      -0.7071068,
+      2.8449125E-07
+    ],
+    "color": [
+      1.0,
+      0.926517665,
+      0.6132076,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      64.26549,
+      3.364018,
+      -35.0782471
+    ],
+    "rotation": [
+      -0.7071068,
+      -2.31807689E-07,
+      -2.31807689E-07,
+      -0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.12,
+    "range": 4.43,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      64.2134857,
+      5.323017,
+      -35.0362473
+    ],
+    "rotation": [
+      0.7071068,
+      2.95385519E-07,
+      1.49606478E-07,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.85999316,
+      0.697,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 9.0,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 95.2,
+    "type": "Spot"
+  },
+  {
+    "name": "point light",
+    "position": [
+      9.103562,
+      7.397115,
+      37.107
+    ],
+    "rotation": [
+      4.819401E-07,
+      0.7074301,
+      -0.706783354,
+      1.31737193E-06
+    ],
+    "color": [
+      0.8308824,
+      0.894345343,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.3,
+    "range": 1.23,
+    "innerSpotAngle": 97.11431,
+    "spotAngle": 115.2,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (2)",
+    "position": [
+      9.103562,
+      7.771,
+      37.107
+    ],
+    "rotation": [
+      4.3979324E-07,
+      0.7074301,
+      -0.706783354,
+      1.29629859E-06
+    ],
+    "color": [
+      0.8308824,
+      0.880349457,
+      1.0,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 6.31,
+    "innerSpotAngle": 79.41763,
+    "spotAngle": 98.24974,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      61.51876,
+      0.489784241,
+      54.3697
+    ],
+    "rotation": [
+      7.67800554E-15,
+      -0.7071066,
+      -7.678011E-15,
+      0.707107067
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 4.97,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      60.768486,
+      0.7641573,
+      54.4117851
+    ],
+    "rotation": [
+      0.0,
+      0.7071066,
+      0.0,
+      -0.707107067
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 3.2,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      61.1059875,
+      0.489784241,
+      54.3697
+    ],
+    "rotation": [
+      0.0,
+      -0.7071071,
+      0.0,
+      -0.707106531
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      56.1359863,
+      0.489784241,
+      43.5948
+    ],
+    "rotation": [
+      0.0,
+      -0.707106531,
+      0.0,
+      0.7071071
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      56.4734879,
+      0.7641573,
+      43.55271
+    ],
+    "rotation": [
+      0.0,
+      -0.707107067,
+      0.0,
+      -0.7071066
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 3.2,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      55.7232132,
+      0.489784241,
+      43.5948
+    ],
+    "rotation": [
+      -7.678011E-15,
+      0.707107067,
+      -7.67800554E-15,
+      0.7071066
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 4.97,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (3)",
+    "position": [
+      11.3012066,
+      2.39275074,
+      -10.6399746
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      1.0,
+      0.8626448,
+      0.6492537,
+      1.0
+    ],
+    "intensity": 0.5,
+    "range": 10.06,
+    "innerSpotAngle": 72.1733551,
+    "spotAngle": 90.8,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      67.6909943,
+      0.3170004,
+      14.229002
+    ],
+    "rotation": [
+      0.0227958746,
+      -0.706739,
+      0.022795843,
+      0.7067394
+    ],
+    "color": [
+      0.8602941,
+      0.942190647,
+      1.0,
+      1.0
+    ],
+    "intensity": 3.31,
+    "range": 5.48,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 69.49331,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      66.978,
+      0.414999962,
+      14.1920013
+    ],
+    "rotation": [
+      0.0,
+      -0.7071066,
+      0.0,
+      0.707107
+    ],
+    "color": [
+      0.625,
+      0.8137932,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.57,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      67.097,
+      0.320000172,
+      14.229002
+    ],
+    "rotation": [
+      0.0,
+      0.707107067,
+      0.0,
+      0.707106531
+    ],
+    "color": [
+      0.9705882,
+      0.9920893,
+      1.0,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 95.4536,
+    "spotAngle": 113.678955,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -6.56351376,
+      -0.780981064,
+      -12.58325
+    ],
+    "rotation": [
+      -0.500000238,
+      0.5000002,
+      0.4999998,
+      0.499999851
+    ],
+    "color": [
+      0.9705882,
+      0.9920893,
+      1.0,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 95.4536,
+    "spotAngle": 113.678955,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -6.52951336,
+      -1.92598152,
+      -12.7412472
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      0.625,
+      0.8137932,
+      1.0,
+      1.0
+    ],
+    "intensity": 0.65,
+    "range": 4.17359161,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -6.571513,
+      -0.4549818,
+      -12.58325
+    ],
+    "rotation": [
+      -0.499999821,
+      0.49999994,
+      -0.5000002,
+      -0.5000001
+    ],
+    "color": [
+      0.7352941,
+      0.890466452,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.5,
+    "range": 10.47,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 110.6,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -45.7765121,
+      4.26101828,
+      62.1307449
+    ],
+    "rotation": [
+      0.7071068,
+      2.2127098E-07,
+      2.21270952E-07,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.7281948,
+      0.411764681,
+      1.0
+    ],
+    "intensity": 3.15,
+    "range": 8.49,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -45.73652,
+      2.45301819,
+      62.24475
+    ],
+    "rotation": [
+      -0.7071068,
+      -2.31807689E-07,
+      -2.31807689E-07,
+      -0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 2.2,
+    "range": 3.44,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -45.7765121,
+      4.049018,
+      62.166748
+    ],
+    "rotation": [
+      2.8449125E-07,
+      -0.7071068,
+      -0.7071068,
+      2.8449125E-07
+    ],
+    "color": [
+      0.8584906,
+      0.8052688,
+      0.485938072,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "NewMultiFlareLight light condey light",
+    "position": [
+      67.87449,
+      1.43599987,
+      -7.791403
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.411764681,
+      0.221020743,
+      0.221020743,
+      1.0
+    ],
+    "intensity": 11.91,
+    "range": 1.9,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      57.0584641,
+      0.193333149,
+      22.9800873
+    ],
+    "rotation": [
+      0.0,
+      0.969150066,
+      -2.98023224E-08,
+      -0.246471718
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      15.6869993,
+      -1.06999969,
+      12.6820011
+    ],
+    "rotation": [
+      0.0,
+      -8.791685E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 2.2,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      15.6349974,
+      -0.168999672,
+      11.361002
+    ],
+    "rotation": [
+      -0.182569474,
+      -8.642344E-07,
+      7.54207E-09,
+      -0.983193
+    ],
+    "color": [
+      1.0,
+      0.935446262,
+      0.8602941,
+      1.0
+    ],
+    "intensity": 5.51,
+    "range": 5.58,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 103.0,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      15.6349974,
+      -0.169000149,
+      12.114
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      9.536743E-07
+    ],
+    "color": [
+      1.0,
+      0.996146,
+      0.9705882,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -17.3265114,
+      4.861018,
+      -47.6462555
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      4.02331352E-07
+    ],
+    "color": [
+      1.0,
+      0.996146,
+      0.9705882,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -17.3265114,
+      4.861018,
+      -48.3992462
+    ],
+    "rotation": [
+      -0.277858764,
+      -2.99839741E-07,
+      8.9542965E-08,
+      -0.960621953
+    ],
+    "color": [
+      1.0,
+      0.85999316,
+      0.697,
+      1.0
+    ],
+    "intensity": 3.93,
+    "range": 8.0,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 81.1,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -17.76051,
+      2.351018,
+      -45.57025
+    ],
+    "rotation": [
+      0.0,
+      -3.27825546E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 4.2,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (16)",
+    "position": [
+      27.781208,
+      15.8267508,
+      -3.36397552
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.6544118,
+      0.78549695,
+      1.0,
+      1.0
+    ],
+    "intensity": 6.24,
+    "range": 9.24058,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light_vol (6)",
+    "position": [
+      -3.22851062,
+      6.410018,
+      37.18075
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.754722834,
+      0.298507452,
+      1.0
+    ],
+    "intensity": 0.34,
+    "range": 14.8,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (12)",
+    "position": [
+      26.2,
+      18.14,
+      -0.200000763
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.6544118,
+      0.78549695,
+      1.0,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 11.19508,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light",
+    "position": [
+      33.10415,
+      2.93575048,
+      15.1480675
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.7005639,
+      0.365671635,
+      1.0
+    ],
+    "intensity": 1.1,
+    "range": 3.78590679,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (19)",
+    "position": [
+      -15.7487917,
+      21.87675,
+      -12.1239758
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.6544118,
+      0.78549695,
+      1.0,
+      1.0
+    ],
+    "intensity": 6.24,
+    "range": 9.24058,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      10.4906645,
+      8.317493,
+      38.1895828
+    ],
+    "rotation": [
+      7.450581E-09,
+      0.904224753,
+      7.450581E-09,
+      0.4270569
+    ],
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "intensity": 0.57,
+    "range": 4.37,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (9)",
+    "position": [
+      -20.02,
+      16.58,
+      28.42
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.6544118,
+      0.78549695,
+      1.0,
+      1.0
+    ],
+    "intensity": 3.32,
+    "range": 9.24058,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "Point light window",
+    "position": [
+      25.7073441,
+      9.64809,
+      40.05759
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.754722834,
+      0.298507452,
+      1.0
+    ],
+    "intensity": 3.2,
+    "range": 2.07,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light (1)",
+    "position": [
+      37.9389954,
+      9.186,
+      35.020752
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.5514706,
+      0.5514706,
+      1.0
+    ],
+    "intensity": 1.76,
+    "range": 1.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -23.26051,
+      0.315000534,
+      -15.4932461
+    ],
+    "rotation": [
+      -0.022795843,
+      -0.7067395,
+      0.0227958765,
+      -0.706739
+    ],
+    "color": [
+      0.8602941,
+      0.942190647,
+      1.0,
+      1.0
+    ],
+    "intensity": 3.35,
+    "range": 11.6,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 69.49331,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -21.81451,
+      0.220000267,
+      -15.4562511
+    ],
+    "rotation": [
+      0.0,
+      -0.707107067,
+      0.0,
+      -0.7071066
+    ],
+    "color": [
+      0.625,
+      0.8137932,
+      1.0,
+      1.0
+    ],
+    "intensity": 0.78,
+    "range": 2.46,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -22.70351,
+      0.320000172,
+      -15.4932461
+    ],
+    "rotation": [
+      0.0,
+      -0.707106531,
+      0.0,
+      0.7071071
+    ],
+    "color": [
+      0.9705882,
+      0.9920893,
+      1.0,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 95.4536,
+    "spotAngle": 113.678955,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      23.2759781,
+      -2.30647564,
+      -9.475447
+    ],
+    "rotation": [
+      0.0,
+      -0.707106531,
+      0.0,
+      0.7071071
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      22.805748,
+      -2.30647564,
+      -9.475447
+    ],
+    "rotation": [
+      -7.678011E-15,
+      0.707107067,
+      -7.67800554E-15,
+      0.7071066
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 2.83,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      23.4159279,
+      -2.28058434,
+      -9.511831
+    ],
+    "rotation": [
+      0.0,
+      -0.707107067,
+      0.0,
+      -0.7071066
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "Point light",
+    "position": [
+      32.84576,
+      1.31944466,
+      17.7469215
+    ],
+    "rotation": [
+      -0.6099125,
+      0.0819436759,
+      -0.357780427,
+      0.702342749
+    ],
+    "color": [
+      1.0,
+      0.8482759,
+      0.75,
+      1.0
+    ],
+    "intensity": 4.52202034,
+    "range": 0.4,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light (2)",
+    "position": [
+      32.7218361,
+      1.39500046,
+      17.7162743
+    ],
+    "rotation": [
+      -0.2831993,
+      0.4530931,
+      -0.7880958,
+      0.305630535
+    ],
+    "color": [
+      1.0,
+      0.8482759,
+      0.75,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 1.38,
+    "innerSpotAngle": 45.8932762,
+    "spotAngle": 61.0,
+    "type": "Spot"
+  },
+  {
+    "name": "Point light (1)",
+    "position": [
+      33.1039276,
+      1.21,
+      17.99904
+    ],
+    "rotation": [
+      -0.6099125,
+      0.0819436759,
+      -0.3577804,
+      0.702342749
+    ],
+    "color": [
+      1.0,
+      0.9113591,
+      0.7205882,
+      1.0
+    ],
+    "intensity": 1.71628618,
+    "range": 0.83,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -18.6185112,
+      0.486657143,
+      -32.4952469
+    ],
+    "rotation": [
+      7.450581E-09,
+      0.904224753,
+      7.450581E-09,
+      0.4270569
+    ],
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 3.48,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -10.9305124,
+      0.315000534,
+      -18.521246
+    ],
+    "rotation": [
+      -0.03223821,
+      -3.08774E-07,
+      2.374099E-08,
+      -0.9994802
+    ],
+    "color": [
+      0.8602941,
+      0.942190647,
+      1.0,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 11.05,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 69.49331,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -10.9305124,
+      0.320000172,
+      -17.9642467
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      4.02331352E-07
+    ],
+    "color": [
+      0.9705882,
+      0.9920893,
+      1.0,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 95.4536,
+    "spotAngle": 113.678955,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -10.9675112,
+      0.220000267,
+      -17.09725
+    ],
+    "rotation": [
+      0.0,
+      -3.27825546E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      0.625,
+      0.8137932,
+      1.0,
+      1.0
+    ],
+    "intensity": 0.45,
+    "range": 2.46,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      22.5235748,
+      -2.28058529,
+      -8.499014
+    ],
+    "rotation": [
+      0.0,
+      -3.27825546E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      22.4871864,
+      -2.30647659,
+      -9.10919
+    ],
+    "rotation": [
+      -3.39784026E-21,
+      3.12924385E-07,
+      -1.08583424E-14,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 2.83,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      22.4871864,
+      -2.30647659,
+      -8.63896
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      4.02331352E-07
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "GI_light (9)",
+    "position": [
+      -5.02451038,
+      2.22001839,
+      -4.79424858
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.637691259,
+      0.2352941,
+      1.0
+    ],
+    "intensity": 0.8,
+    "range": 6.28,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light window (6)",
+    "position": [
+      31.9244881,
+      9.352018,
+      38.52575
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.8113208,
+      0.555404544,
+      0.08419368,
+      1.0
+    ],
+    "intensity": 2.71,
+    "range": 2.4,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      1.03749013,
+      0.315000534,
+      -18.5192471
+    ],
+    "rotation": [
+      -0.03223821,
+      -3.08774E-07,
+      2.374099E-08,
+      -0.9994802
+    ],
+    "color": [
+      0.8602941,
+      0.942190647,
+      1.0,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 5.48,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 69.49331,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      1.00048947,
+      0.208000183,
+      -17.8952541
+    ],
+    "rotation": [
+      0.0,
+      -3.27825546E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      0.625,
+      0.8137932,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.36,
+    "range": 2.02,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      1.03749013,
+      0.320000172,
+      -17.9622478
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      4.02331352E-07
+    ],
+    "color": [
+      0.9705882,
+      0.9920893,
+      1.0,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 95.4536,
+    "spotAngle": 113.678955,
+    "type": "Spot"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -22.533,
+      1.23843956,
+      55.028
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light window (9)",
+    "position": [
+      17.7714882,
+      6.143719,
+      49.15375
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.6641791,
+      0.816825,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.724667,
+    "range": 2.45,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      74.139,
+      2.32700014,
+      -33.386
+    ],
+    "rotation": [
+      0.0,
+      0.707107067,
+      0.0,
+      0.707106531
+    ],
+    "color": [
+      0.9705882,
+      0.9920893,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 95.4536,
+    "spotAngle": 113.678955,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      69.2019958,
+      1.783,
+      -34.069
+    ],
+    "rotation": [
+      0.0,
+      -0.7071066,
+      0.0,
+      0.707107
+    ],
+    "color": [
+      0.625,
+      0.8137932,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.36,
+    "range": 3.13,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      74.779,
+      2.32700062,
+      -33.386
+    ],
+    "rotation": [
+      0.119650893,
+      -0.6969099,
+      0.119650826,
+      0.6969103
+    ],
+    "color": [
+      0.8602941,
+      0.942190647,
+      1.0,
+      1.0
+    ],
+    "intensity": 7.0,
+    "range": 7.41,
+    "innerSpotAngle": 58.8252373,
+    "spotAngle": 58.8252373,
+    "type": "Spot"
+  },
+  {
+    "name": "Point light",
+    "position": [
+      21.4247169,
+      8.958445,
+      37.131958
+    ],
+    "rotation": [
+      -0.441971123,
+      -0.174221262,
+      -0.55196166,
+      0.685308039
+    ],
+    "color": [
+      1.0,
+      0.8482759,
+      0.75,
+      1.0
+    ],
+    "intensity": 6.68,
+    "range": 0.4,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light (1)",
+    "position": [
+      21.4488983,
+      8.849,
+      37.492
+    ],
+    "rotation": [
+      -0.441971153,
+      -0.174221262,
+      -0.55196166,
+      0.685308039
+    ],
+    "color": [
+      1.0,
+      0.9113591,
+      0.7205882,
+      1.0
+    ],
+    "intensity": 1.09,
+    "range": 0.83,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light (2)",
+    "position": [
+      21.3528328,
+      9.034,
+      37.0264664
+    ],
+    "rotation": [
+      0.01684773,
+      0.314107358,
+      -0.837265134,
+      0.4472583
+    ],
+    "color": [
+      1.0,
+      0.8482759,
+      0.75,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 1.00600934,
+    "innerSpotAngle": 45.8932762,
+    "spotAngle": 61.0,
+    "type": "Spot"
+  },
+  {
+    "name": "Point light window",
+    "position": [
+      18.32249,
+      5.46560764,
+      46.15175
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.754722834,
+      0.298507452,
+      1.0
+    ],
+    "intensity": 1.67,
+    "range": 2.45,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (13)",
+    "position": [
+      -20.02,
+      16.8967514,
+      -8.393976
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.6544118,
+      0.78549695,
+      1.0,
+      1.0
+    ],
+    "intensity": 6.24,
+    "range": 9.24058,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -23.3454971,
+      2.97372246,
+      11.7197514
+    ],
+    "rotation": [
+      -0.08853668,
+      -0.7015423,
+      0.08853687,
+      -0.70154196
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 5.9,
+    "range": 8.24,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -21.9355087,
+      2.98372221,
+      11.6677494
+    ],
+    "rotation": [
+      0.0,
+      -0.707107067,
+      0.0,
+      -0.7071066
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 1.12,
+    "range": 3.84,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -22.59251,
+      2.973722,
+      11.7197495
+    ],
+    "rotation": [
+      0.0,
+      -0.707106531,
+      0.0,
+      0.7071071
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      37.416,
+      2.73500061,
+      -11.2970028
+    ],
+    "rotation": [
+      -0.15967159,
+      0.6888431,
+      -0.159671441,
+      -0.688843548
+    ],
+    "color": [
+      1.0,
+      0.85999316,
+      0.697,
+      1.0
+    ],
+    "intensity": 5.9,
+    "range": 9.90879,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      34.726,
+      1.64800024,
+      -11.2450008
+    ],
+    "rotation": [
+      0.0,
+      0.7071066,
+      0.0,
+      -0.707107067
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 0.93,
+    "range": 3.84,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      36.663002,
+      2.73500013,
+      -11.2970028
+    ],
+    "rotation": [
+      0.0,
+      -0.7071071,
+      0.0,
+      -0.707106531
+    ],
+    "color": [
+      1.0,
+      0.996146,
+      0.9705882,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "Point light (8)",
+    "position": [
+      43.52845,
+      1.56199312,
+      -31.4196377
+    ],
+    "rotation": [
+      -0.560984731,
+      -0.430459827,
+      -0.430459082,
+      0.560986161
+    ],
+    "color": [
+      1.0,
+      0.196913347,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.7,
+    "range": 4.22032166,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (2)",
+    "position": [
+      25.157,
+      6.215,
+      22.5160236
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.8586207,
+      1.0,
+      0.6985294,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 7.31,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      23.9976,
+      -1.45806122,
+      -35.1249
+    ],
+    "rotation": [
+      0.0,
+      0.943877935,
+      0.0,
+      -0.330294728
+    ],
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.79348421,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "point light",
+    "position": [
+      35.466,
+      3.45333242,
+      42.4921265
+    ],
+    "rotation": [
+      -0.707105041,
+      0.707108438,
+      0.000322802051,
+      -0.000323844433
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.3,
+    "range": 1.23,
+    "innerSpotAngle": 97.11431,
+    "spotAngle": 115.2,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (2)",
+    "position": [
+      35.466,
+      3.18056154,
+      42.865
+    ],
+    "rotation": [
+      -0.7071051,
+      0.7071084,
+      0.0003228126,
+      -0.0003238339
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 4.4094,
+    "innerSpotAngle": 79.41763,
+    "spotAngle": 121.1,
+    "type": "Spot"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (2)",
+    "position": [
+      24.2383537,
+      3.96301842,
+      42.393364
+    ],
+    "rotation": [
+      -0.499773741,
+      -0.500225842,
+      0.499768823,
+      -0.5002314
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 7.5,
+    "range": 4.4094,
+    "innerSpotAngle": 79.41763,
+    "spotAngle": 98.24974,
+    "type": "Spot"
+  },
+  {
+    "name": "point light",
+    "position": [
+      24.2383537,
+      3.41881847,
+      42.3940353
+    ],
+    "rotation": [
+      -0.499773741,
+      -0.500225842,
+      0.4997688,
+      -0.5002314
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.47,
+    "range": 1.64,
+    "innerSpotAngle": 97.11431,
+    "spotAngle": 115.2,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -58.9940033,
+      1.46056652,
+      58.505
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      56.1359863,
+      0.489784241,
+      48.8078
+    ],
+    "rotation": [
+      0.0,
+      -0.707106531,
+      0.0,
+      0.7071071
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      56.4734879,
+      0.7641573,
+      48.7657166
+    ],
+    "rotation": [
+      0.0,
+      -0.707107067,
+      0.0,
+      -0.7071066
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 3.2,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      55.7232132,
+      0.489784241,
+      48.8078
+    ],
+    "rotation": [
+      -7.678011E-15,
+      0.707107067,
+      -7.67800554E-15,
+      0.7071066
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 4.97,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -29.0570049,
+      1.5909996,
+      34.297
+    ],
+    "rotation": [
+      0.03223821,
+      5.91748858E-07,
+      -3.286834E-08,
+      0.9994802
+    ],
+    "color": [
+      0.8602941,
+      0.942190647,
+      1.0,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 6.56,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 69.49331,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -29.0570049,
+      1.58299971,
+      35.0580025
+    ],
+    "rotation": [
+      0.0,
+      1.0,
+      0.0,
+      -6.854534E-07
+    ],
+    "color": [
+      0.9705882,
+      0.9920893,
+      1.0,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 95.4536,
+    "spotAngle": 113.678955,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -29.2150021,
+      1.29799986,
+      35.8990021
+    ],
+    "rotation": [
+      0.0,
+      6.109476E-07,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.625,
+      0.8137932,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.09,
+    "range": 2.55,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      67.097,
+      0.320000172,
+      -3.161251
+    ],
+    "rotation": [
+      0.0,
+      0.707107067,
+      0.0,
+      0.707106531
+    ],
+    "color": [
+      0.9705882,
+      0.9920893,
+      1.0,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 95.4536,
+    "spotAngle": 113.678955,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      66.80299,
+      0.208000183,
+      -3.19824982
+    ],
+    "rotation": [
+      0.0,
+      -0.7071066,
+      0.0,
+      0.707107
+    ],
+    "color": [
+      0.625,
+      0.8137932,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 1.8,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      67.654,
+      0.315000534,
+      -3.161251
+    ],
+    "rotation": [
+      0.0227958746,
+      -0.706739,
+      0.022795843,
+      0.7067394
+    ],
+    "color": [
+      0.8602941,
+      0.942190647,
+      1.0,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 5.48,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 69.49331,
+    "type": "Spot"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      39.96022,
+      0.250062,
+      15.0171452
+    ],
+    "rotation": [
+      7.450581E-09,
+      0.904224753,
+      7.450581E-09,
+      0.4270569
+    ],
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.79348421,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      28.409,
+      2.60300016,
+      22.230999
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      9.536743E-07
+    ],
+    "color": [
+      1.0,
+      0.996146,
+      0.9705882,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      28.409,
+      2.62400055,
+      21.824
+    ],
+    "rotation": [
+      -0.334450632,
+      -8.14497E-07,
+      2.89054867E-07,
+      -0.94241333
+    ],
+    "color": [
+      1.0,
+      0.935446262,
+      0.8602941,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 4.36,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 93.1,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      28.4610023,
+      1.177,
+      23.6279984
+    ],
+    "rotation": [
+      0.0,
+      -8.791685E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.86,
+    "range": 2.72,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (8)",
+    "position": [
+      -32.61,
+      16.58,
+      61.2299957
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.6544118,
+      0.78549695,
+      1.0,
+      1.0
+    ],
+    "intensity": 3.32,
+    "range": 9.24058,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "Point light window (5)",
+    "position": [
+      32.42,
+      6.037,
+      49.2397537
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.8239835,
+      0.6641791,
+      1.0
+    ],
+    "intensity": 3.78,
+    "range": 2.45,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -21.8869972,
+      0.340566635,
+      23.528
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light",
+    "position": [
+      53.1299973,
+      1.16500044,
+      -17.1099987
+    ],
+    "rotation": [
+      -0.7071068,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.4137931,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.11,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light (1)",
+    "position": [
+      53.1299973,
+      2.51600075,
+      -17.1099987
+    ],
+    "rotation": [
+      -0.7071068,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.4137931,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.54,
+    "range": 1.78540421,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light window (10)",
+    "position": [
+      15.464488,
+      6.143719,
+      49.15375
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.6641791,
+      0.816825,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.724667,
+    "range": 2.45,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      18.5006866,
+      -2.30647659,
+      -8.63896
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      4.02331352E-07
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      18.5006866,
+      -2.30647659,
+      -9.10919
+    ],
+    "rotation": [
+      -3.39784026E-21,
+      3.12924385E-07,
+      -1.08583424E-14,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 2.83,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      18.537075,
+      -2.28058529,
+      -8.499014
+    ],
+    "rotation": [
+      0.0,
+      -3.27825546E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -35.6290054,
+      1.24456644,
+      67.138
+    ],
+    "rotation": [
+      0.0,
+      0.969150066,
+      -2.98023224E-08,
+      -0.246471718
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      6.67748928,
+      0.293018341,
+      -4.32724571
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 3.62,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light window (2)",
+    "position": [
+      13.5549994,
+      9.452019,
+      41.84475
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.6641791,
+      0.816825,
+      1.0,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 1.93,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light_vol (5)",
+    "position": [
+      -27.83751,
+      3.61001825,
+      57.25675
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.754722834,
+      0.298507452,
+      1.0
+    ],
+    "intensity": 0.52,
+    "range": 5.52,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -21.5595284,
+      2.97372246,
+      -36.664238
+    ],
+    "rotation": [
+      -0.1252099,
+      -2.82283139E-07,
+      1.35048353E-07,
+      -0.992130339
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 5.9,
+    "range": 8.24,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -21.5075264,
+      2.98372221,
+      -35.25425
+    ],
+    "rotation": [
+      0.0,
+      -3.27825546E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 1.12,
+    "range": 3.84,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -21.5595284,
+      2.973722,
+      -35.9112473
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      4.02331352E-07
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      36.21702,
+      8.12794,
+      37.69345
+    ],
+    "rotation": [
+      7.450581E-09,
+      0.904224753,
+      7.450581E-09,
+      0.4270569
+    ],
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.79348421,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (20)",
+    "position": [
+      12.8514643,
+      10.7154579,
+      -9.999914
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      1.0,
+      0.8626448,
+      0.6492537,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 18.13,
+    "innerSpotAngle": 72.1733551,
+    "spotAngle": 90.8,
+    "type": "Spot"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (10)",
+    "position": [
+      64.82,
+      16.46,
+      -5.48000145
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.6544118,
+      0.78549695,
+      1.0,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 9.24058,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light",
+    "position": [
+      61.45543,
+      2.89773178,
+      3.6905365
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.7352941,
+      0.338235319,
+      1.0
+    ],
+    "intensity": 4.2,
+    "range": 5.02129173,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      59.1915359,
+      0.2349844,
+      -30.8617458
+    ],
+    "rotation": [
+      0.0,
+      4.46042748E-07,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      59.1494446,
+      0.264930725,
+      -31.480093
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      3.71536942E-07
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      59.1915359,
+      0.2349844,
+      -30.4489727
+    ],
+    "rotation": [
+      -1.08583424E-14,
+      1.0,
+      3.8724735E-21,
+      -3.5663578E-07
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 4.55,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      37.156,
+      0.767626762,
+      31.4066982
+    ],
+    "rotation": [
+      -0.0551728755,
+      0.7024986,
+      -0.08059046,
+      -0.7049518
+    ],
+    "color": [
+      1.0,
+      0.935446262,
+      0.8602941,
+      1.0
+    ],
+    "intensity": 4.95,
+    "range": 6.177798,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 97.7,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      36.6620026,
+      0.817594051,
+      31.4048939
+    ],
+    "rotation": [
+      0.012767842,
+      -0.7069923,
+      0.0127678514,
+      -0.7069908
+    ],
+    "color": [
+      1.0,
+      0.996146,
+      0.9705882,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "GI_light (1)",
+    "position": [
+      18.61449,
+      3.16675043,
+      1.70400238
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.637691259,
+      0.2352941,
+      1.0
+    ],
+    "intensity": 1.54,
+    "range": 3.77,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -20.03751,
+      -0.164981842,
+      -7.00424767
+    ],
+    "rotation": [
+      0.0,
+      4.46042748E-07,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.996146,
+      0.9705882,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -20.03751,
+      -0.164981842,
+      -6.25124931
+    ],
+    "rotation": [
+      1.00573573E-07,
+      -0.9594125,
+      0.282006681,
+      3.42160831E-07
+    ],
+    "color": [
+      1.0,
+      0.85999316,
+      0.697,
+      1.0
+    ],
+    "intensity": 3.93,
+    "range": 11.95,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 108.5,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -20.0895119,
+      -0.7339821,
+      -9.080252
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      3.71536942E-07
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.12,
+    "range": 3.84,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      60.6849976,
+      0.398566246,
+      59.714
+    ],
+    "rotation": [
+      7.4505806E-08,
+      -0.392317951,
+      -1.04308128E-07,
+      -0.9198297
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (11)",
+    "position": [
+      40.7599945,
+      18.14,
+      14.76
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.6544118,
+      0.78549695,
+      1.0,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 9.24058,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "Point light window (12)",
+    "position": [
+      14.45449,
+      2.88401842,
+      44.5967522
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.6641791,
+      0.816825,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.12,
+    "range": 2.45,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      63.8899155,
+      0.231366158,
+      32.0044441
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light (4)",
+    "position": [
+      62.1834869,
+      1.65501833,
+      -26.8372478
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.637691259,
+      0.2352941,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 6.28,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      34.768,
+      10.3662014,
+      33.6171875
+    ],
+    "rotation": [
+      0.0180564579,
+      -8.49227661E-07,
+      -8.071859E-10,
+      -0.999837
+    ],
+    "color": [
+      1.0,
+      0.7961461,
+      0.5588235,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      34.768,
+      10.39339,
+      34.3696976
+    ],
+    "rotation": [
+      -7.536584E-08,
+      0.9934841,
+      -0.113972209,
+      -7.560923E-07
+    ],
+    "color": [
+      1.0,
+      0.7961461,
+      0.5588235,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 7.77893639,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      34.739,
+      8.951151,
+      31.75807
+    ],
+    "rotation": [
+      -2.15249685E-09,
+      0.999837,
+      -0.0180564579,
+      -7.74734E-07
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.5,
+    "range": 2.5,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light_vol (1)",
+    "position": [
+      -9.238511,
+      3.47001839,
+      44.59075
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.754722834,
+      0.298507452,
+      1.0
+    ],
+    "intensity": 0.52,
+    "range": 9.78,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      21.5014915,
+      1.10301828,
+      38.5177536
+    ],
+    "rotation": [
+      7.450581E-09,
+      0.904224753,
+      7.450581E-09,
+      0.4270569
+    ],
+    "color": [
+      0.7058823,
+      0.853955448,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.79348421,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      12.997489,
+      0.3360181,
+      0.197750092
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      4.02331352E-07
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      13.049489,
+      0.3360181,
+      0.374752045
+    ],
+    "rotation": [
+      0.0,
+      -3.27825546E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      12.9974871,
+      0.336018562,
+      -0.55524826
+    ],
+    "rotation": [
+      -0.09601483,
+      -3.114787E-07,
+      3.00453955E-08,
+      -0.99538
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 2.303231,
+    "range": 5.252566,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "NewMultiFlareLight light condey light",
+    "position": [
+      69.1860046,
+      1.43599987,
+      16.587
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.713235259,
+      0.3880839,
+      0.3880839,
+      1.0
+    ],
+    "intensity": 7.999999,
+    "range": 2.5,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light (7)",
+    "position": [
+      17.51149,
+      2.580018,
+      -33.22225
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.637691259,
+      0.2352941,
+      1.0
+    ],
+    "intensity": 0.53,
+    "range": 5.65,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light_vol (4)",
+    "position": [
+      -35.2205124,
+      3.47001839,
+      58.36175
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.754722834,
+      0.298507452,
+      1.0
+    ],
+    "intensity": 0.52,
+    "range": 5.52,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light",
+    "position": [
+      6.21921825,
+      2.10770416,
+      58.77875
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.754722834,
+      0.298507452,
+      1.0
+    ],
+    "intensity": 1.03,
+    "range": 4.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (17)",
+    "position": [
+      27.781208,
+      17.2167511,
+      -33.99398
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.6544118,
+      0.78549695,
+      1.0,
+      1.0
+    ],
+    "intensity": 6.24,
+    "range": 9.24058,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      50.01349,
+      0.1671381,
+      15.0437508
+    ],
+    "rotation": [
+      0.0,
+      -3.27825546E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      49.9614868,
+      0.432138443,
+      13.8947525
+    ],
+    "rotation": [
+      -0.09601483,
+      -3.114787E-07,
+      3.00453955E-08,
+      -0.99538
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 2.303231,
+    "range": 5.252566,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      49.9614868,
+      0.432137966,
+      14.6477509
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      4.02331352E-07
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "point light",
+    "position": [
+      28.0945625,
+      7.036115,
+      43.873
+    ],
+    "rotation": [
+      4.819401E-07,
+      0.7074301,
+      -0.706783354,
+      1.31737193E-06
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.3,
+    "range": 1.23,
+    "innerSpotAngle": 97.11431,
+    "spotAngle": 115.2,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (2)",
+    "position": [
+      28.0952339,
+      7.5779624,
+      43.873
+    ],
+    "rotation": [
+      4.3979324E-07,
+      0.7074301,
+      -0.706783354,
+      1.29629859E-06
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 7.5,
+    "range": 4.4094,
+    "innerSpotAngle": 79.41763,
+    "spotAngle": 121.1,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      55.7232132,
+      0.489784241,
+      54.3438
+    ],
+    "rotation": [
+      -7.678011E-15,
+      0.707107067,
+      -7.67800554E-15,
+      0.7071066
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 4.97,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      56.4734879,
+      0.7641573,
+      54.3017159
+    ],
+    "rotation": [
+      0.0,
+      -0.707107067,
+      0.0,
+      -0.7071066
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 3.2,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      56.1359863,
+      0.489784241,
+      54.3438
+    ],
+    "rotation": [
+      0.0,
+      -0.707106531,
+      0.0,
+      0.7071071
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "Point light window (13)",
+    "position": [
+      22.0994911,
+      2.77001858,
+      44.645752
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.6641791,
+      0.816825,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.12,
+    "range": 2.45,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      50.809906,
+      2.10749531,
+      41.679512
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      17.2546425,
+      4.930108,
+      35.0500069
+    ],
+    "rotation": [
+      0.0,
+      -0.4275394,
+      0.0,
+      0.9039968
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 1.68,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light",
+    "position": [
+      60.8849945,
+      2.55000019,
+      65.7931061
+    ],
+    "rotation": [
+      6.57472E-08,
+      -1.0,
+      2.08616257E-07,
+      -3.41370736E-08
+    ],
+    "color": [
+      0.365517259,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 0.5,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light (1)",
+    "position": [
+      60.8849945,
+      2.387,
+      64.7140045
+    ],
+    "rotation": [
+      6.57472E-08,
+      -1.0,
+      2.08616257E-07,
+      -3.41370736E-08
+    ],
+    "color": [
+      0.365517259,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 1.14401245,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light",
+    "position": [
+      50.72061,
+      3.42460251,
+      1.8380928
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.7352941,
+      0.338235319,
+      1.0
+    ],
+    "intensity": 1.7,
+    "range": 6.62002468,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light window (3)",
+    "position": [
+      17.48,
+      9.236,
+      41.845
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.6641791,
+      0.816825,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.2,
+    "range": 2.92385864,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light flicker tunnel2",
+    "position": [
+      18.615242,
+      10.7689266,
+      7.629938
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.849285,
+      0.432835817,
+      1.0
+    ],
+    "intensity": 2.95024276,
+    "range": 2.31,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      9.245,
+      3.375,
+      34.312
+    ],
+    "rotation": [
+      -3.57189151E-07,
+      0.9594125,
+      -0.282006681,
+      -1.21519054E-06
+    ],
+    "color": [
+      1.0,
+      0.85999316,
+      0.697,
+      1.0
+    ],
+    "intensity": 6.12,
+    "range": 9.90879,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      9.196994,
+      3.179,
+      31.528
+    ],
+    "rotation": [
+      0.0,
+      1.0,
+      0.0,
+      -1.28149975E-06
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 2.2,
+    "range": 3.84,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      9.248998,
+      3.375,
+      33.604
+    ],
+    "rotation": [
+      0.0,
+      -1.35600555E-06,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      1.0,
+      0.85999316,
+      0.697,
+      1.0
+    ],
+    "intensity": 4.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      62.9004822,
+      0.1671381,
+      6.834751
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      3.71536942E-07
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      62.9524841,
+      0.432138443,
+      7.98374939
+    ],
+    "rotation": [
+      3.4242337E-08,
+      -0.99538,
+      0.09601483,
+      3.54988117E-07
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 2.303231,
+    "range": 5.252566,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      62.9524841,
+      0.432137966,
+      7.230751
+    ],
+    "rotation": [
+      0.0,
+      4.46042748E-07,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      27.09549,
+      0.250062,
+      -3.89324951
+    ],
+    "rotation": [
+      7.450581E-09,
+      0.904224753,
+      7.450581E-09,
+      0.4270569
+    ],
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 3.79,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      38.7000427,
+      0.309584618,
+      -11.95265
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      47.9624863,
+      0.55301857,
+      -49.0882568
+    ],
+    "rotation": [
+      -0.06789276,
+      0.7038397,
+      -0.0678927153,
+      -0.7038402
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 0.0,
+    "range": 5.252566,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      47.0944824,
+      0.230018139,
+      -49.0362549
+    ],
+    "rotation": [
+      0.0,
+      0.7071066,
+      0.0,
+      -0.707107067
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.5,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      47.20948,
+      0.5530181,
+      -49.0882568
+    ],
+    "rotation": [
+      0.0,
+      -0.7071071,
+      0.0,
+      -0.707106531
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      54.2724838,
+      0.432137966,
+      14.6477509
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      4.02331352E-07
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      54.2724838,
+      0.432138443,
+      13.7417507
+    ],
+    "rotation": [
+      -0.09601483,
+      -3.114787E-07,
+      3.00453955E-08,
+      -0.99538
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 2.303231,
+    "range": 5.252566,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      54.3244858,
+      0.468137741,
+      14.3937511
+    ],
+    "rotation": [
+      0.0,
+      -3.27825546E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 1.11,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "Point light",
+    "position": [
+      47.0831451,
+      2.454494,
+      -55.01059
+    ],
+    "rotation": [
+      8.940697E-08,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.365517259,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 0.7586416,
+    "range": 0.5,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light (1)",
+    "position": [
+      47.0831451,
+      2.291494,
+      -53.931488
+    ],
+    "rotation": [
+      8.940697E-08,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.365517259,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.18321252,
+    "range": 1.14401245,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -17.64051,
+      -0.83216095,
+      45.8597
+    ],
+    "rotation": [
+      -0.06378369,
+      0.7017693,
+      -0.08922944,
+      -0.70391047
+    ],
+    "color": [
+      1.0,
+      0.7281948,
+      0.411764681,
+      1.0
+    ],
+    "intensity": 4.65,
+    "range": 8.49,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 101.6,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -19.73951,
+      -1.59740257,
+      46.25459
+    ],
+    "rotation": [
+      0.0127678495,
+      0.706990838,
+      -0.0127678439,
+      -0.706992269
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.37,
+    "range": 3.69,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -18.1305084,
+      -0.7693882,
+      46.1846428
+    ],
+    "rotation": [
+      0.012767842,
+      -0.7069923,
+      0.0127678514,
+      -0.7069908
+    ],
+    "color": [
+      0.8490566,
+      0.8078625,
+      0.560697734,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      41.8094864,
+      2.6000185,
+      -39.79825
+    ],
+    "rotation": [
+      0.0,
+      -0.707106531,
+      0.0,
+      0.7071071
+    ],
+    "color": [
+      1.0,
+      0.926517665,
+      0.6132076,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      41.056488,
+      2.6000185,
+      -39.79825
+    ],
+    "rotation": [
+      -0.123520754,
+      -0.6962349,
+      0.123520978,
+      -0.6962344
+    ],
+    "color": [
+      1.0,
+      0.85999316,
+      0.697,
+      1.0
+    ],
+    "intensity": 5.9,
+    "range": 8.24,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      43.43949,
+      1.40001822,
+      -39.85025
+    ],
+    "rotation": [
+      0.0,
+      -0.707107067,
+      0.0,
+      -0.7071066
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.12,
+    "range": 3.84,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      39.7728653,
+      -1.84500027,
+      -31.46839
+    ],
+    "rotation": [
+      0.0,
+      0.943877935,
+      0.0,
+      -0.330294728
+    ],
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.79348421,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      37.3859558,
+      0.3909254,
+      22.2034931
+    ],
+    "rotation": [
+      2.98023224E-08,
+      0.994092345,
+      2.98023224E-08,
+      -0.108538121
+    ],
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.34,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      13.9799986,
+      0.166999817,
+      22.326
+    ],
+    "rotation": [
+      7.450581E-09,
+      0.904224753,
+      7.450581E-09,
+      0.4270569
+    ],
+    "color": [
+      0.7058823,
+      0.853955448,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.79348421,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light (3)",
+    "position": [
+      55.6544876,
+      1.19001818,
+      -15.4932461
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.637691259,
+      0.2352941,
+      1.0
+    ],
+    "intensity": 0.8,
+    "range": 6.28,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      33.35552,
+      2.69699955,
+      34.8406372
+    ],
+    "rotation": [
+      0.0,
+      0.9999943,
+      0.0,
+      0.00338211074
+    ],
+    "color": [
+      0.625,
+      0.8137932,
+      1.0,
+      1.0
+    ],
+    "intensity": 0.73,
+    "range": 3.13,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      32.6643867,
+      3.13499975,
+      36.03999
+    ],
+    "rotation": [
+      0.0,
+      0.00338203623,
+      0.0,
+      -0.9999943
+    ],
+    "color": [
+      0.9705882,
+      0.9920893,
+      1.0,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 95.4536,
+    "spotAngle": 113.678955,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      32.6600571,
+      3.13500023,
+      36.6799736
+    ],
+    "rotation": [
+      0.000324734225,
+      0.995374262,
+      -0.0960142761,
+      0.00336650014
+    ],
+    "color": [
+      0.8602941,
+      0.942190647,
+      1.0,
+      1.0
+    ],
+    "intensity": 3.36,
+    "range": 4.09992361,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "Point light",
+    "position": [
+      32.053,
+      9.078,
+      38.46
+    ],
+    "rotation": [
+      -0.7071068,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.4137931,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 1.21,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light (1)",
+    "position": [
+      32.053,
+      10.5529995,
+      38.46
+    ],
+    "rotation": [
+      -0.7071068,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.4137931,
+      0.0,
+      1.0
+    ],
+    "intensity": 2.49,
+    "range": 1.78540421,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light (1)",
+    "position": [
+      14.5683279,
+      1.28600025,
+      23.2663822
+    ],
+    "rotation": [
+      -7.450581E-09,
+      0.9042248,
+      7.450581E-09,
+      0.427056968
+    ],
+    "color": [
+      0.448529422,
+      0.7261664,
+      1.0,
+      1.0
+    ],
+    "intensity": 0.0,
+    "range": 4.23,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light (7)",
+    "position": [
+      46.0204,
+      0.800997734,
+      -30.4226437
+    ],
+    "rotation": [
+      8.568168E-07,
+      -0.608761549,
+      4.284084E-07,
+      0.7933533
+    ],
+    "color": [
+      1.0,
+      0.8196655,
+      0.536764741,
+      1.0
+    ],
+    "intensity": 5.16,
+    "range": 6.48102236,
+    "innerSpotAngle": 67.90093,
+    "spotAngle": 86.25582,
+    "type": "Spot"
+  },
+  {
+    "name": "Point light window (14)",
+    "position": [
+      28.9804878,
+      2.77401829,
+      46.88575
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.6641791,
+      0.816825,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.12,
+    "range": 2.45,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -6.831712,
+      0.385830879,
+      38.7274437
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.94,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -19.2114868,
+      0.237699986,
+      21.7647324
+    ],
+    "rotation": [
+      -0.6690517,
+      0.5902607,
+      -0.228844136,
+      0.389348924
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light window (7)",
+    "position": [
+      30.179,
+      9.229,
+      41.583
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      0.6641791,
+      0.816825,
+      1.0,
+      1.0
+    ],
+    "intensity": 3.41,
+    "range": 2.41,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -41.3195038,
+      4.13701868,
+      51.6367531
+    ],
+    "rotation": [
+      -0.08853668,
+      -0.7015423,
+      0.08853687,
+      -0.70154196
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 5.9,
+    "range": 8.24,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -39.9095154,
+      4.14701843,
+      51.58475
+    ],
+    "rotation": [
+      0.0,
+      -0.707107067,
+      0.0,
+      -0.7071066
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 1.12,
+    "range": 3.84,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -40.5665131,
+      4.137018,
+      51.6367531
+    ],
+    "rotation": [
+      0.0,
+      -0.707106531,
+      0.0,
+      0.7071071
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -20.953,
+      5.0801,
+      25.922
+    ],
+    "rotation": [
+      0.5000004,
+      0.5000001,
+      -0.499999851,
+      0.499999732
+    ],
+    "color": [
+      0.9705882,
+      0.9920893,
+      1.0,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 95.4536,
+    "spotAngle": 113.678955,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -21.3779984,
+      5.98310041,
+      25.764
+    ],
+    "rotation": [
+      -0.499999881,
+      -0.4999998,
+      -0.5000004,
+      0.50000006
+    ],
+    "color": [
+      0.625,
+      0.8137932,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.36,
+    "range": 4.17359161,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -20.9449959,
+      4.3191,
+      25.922
+    ],
+    "rotation": [
+      -0.4067319,
+      -0.5784193,
+      -0.40673238,
+      0.578419566
+    ],
+    "color": [
+      0.7352941,
+      0.890466452,
+      1.0,
+      1.0
+    ],
+    "intensity": 3.781441,
+    "range": 10.47,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 75.8,
+    "type": "Spot"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      38.84558,
+      4.601692,
+      37.8812752
+    ],
+    "rotation": [
+      0.0,
+      0.969150066,
+      -2.98023224E-08,
+      -0.246471718
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -21.299511,
+      7.743657,
+      -9.928251
+    ],
+    "rotation": [
+      7.450581E-09,
+      0.904224753,
+      7.450581E-09,
+      0.4270569
+    ],
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.76,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light",
+    "position": [
+      -11.5038729,
+      2.790018,
+      26.8610229
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.7352359,
+      0.441176474,
+      1.0
+    ],
+    "intensity": 1.71,
+    "range": 7.45,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      10.3744879,
+      0.3360181,
+      6.03475
+    ],
+    "rotation": [
+      0.0,
+      -0.707106531,
+      0.0,
+      0.7071071
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      9.62149,
+      0.336018562,
+      6.034752
+    ],
+    "rotation": [
+      -0.0678927153,
+      -0.7038402,
+      0.06789276,
+      -0.7038397
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 2.303231,
+    "range": 5.252566,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      10.5514879,
+      0.3360181,
+      5.98275
+    ],
+    "rotation": [
+      0.0,
+      -0.707107067,
+      0.0,
+      -0.7071066
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      43.3403168,
+      0.230128288,
+      -54.74173
+    ],
+    "rotation": [
+      0.0,
+      0.969150066,
+      -2.98023224E-08,
+      -0.246471718
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (5)",
+    "position": [
+      25.4,
+      13.8767509,
+      30.39
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.6544118,
+      0.942799151,
+      1.0,
+      1.0
+    ],
+    "intensity": 3.32,
+    "range": 8.596012,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      60.768486,
+      0.7641573,
+      43.66279
+    ],
+    "rotation": [
+      0.0,
+      0.7071066,
+      0.0,
+      -0.707107067
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 3.2,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      61.51876,
+      0.489784241,
+      43.6207
+    ],
+    "rotation": [
+      7.67800554E-15,
+      -0.7071066,
+      -7.678011E-15,
+      0.707107067
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 4.97,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      61.1059875,
+      0.489784241,
+      43.6207
+    ],
+    "rotation": [
+      0.0,
+      -0.7071071,
+      0.0,
+      -0.707106531
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -6.43251133,
+      -3.62698174,
+      -21.69525
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.58,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "Point light",
+    "position": [
+      57.502037,
+      2.25317955,
+      19.61
+    ],
+    "rotation": [
+      0.7071068,
+      0.0,
+      0.0,
+      0.7071068
+    ],
+    "color": [
+      0.185,
+      0.1703276,
+      0.13875,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 10.77,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 100.9,
+    "type": "Spot"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -15.135251,
+      0.1330185,
+      -19.4554348
+    ],
+    "rotation": [
+      7.450581E-09,
+      0.904224753,
+      7.450581E-09,
+      0.4270569
+    ],
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 3.48,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      0.411488771,
+      -2.39234352,
+      4.317753
+    ],
+    "rotation": [
+      7.450581E-09,
+      0.904224753,
+      7.450581E-09,
+      0.4270569
+    ],
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.76,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (7)",
+    "position": [
+      -38.3000031,
+      16.26675,
+      35.64
+    ],
+    "rotation": [
+      0.500000238,
+      0.5000001,
+      -0.499999762,
+      0.49999994
+    ],
+    "color": [
+      0.6544118,
+      0.78549695,
+      1.0,
+      1.0
+    ],
+    "intensity": 3.32,
+    "range": 9.24058,
+    "innerSpotAngle": 21.5050888,
+    "spotAngle": 29.6,
+    "type": "Point"
+  },
+  {
+    "name": "NewMultiFlareLight_gas light (2)",
+    "position": [
+      28.77,
+      1.88756132,
+      13.937
+    ],
+    "rotation": [
+      -0.0003244777,
+      0.0003253166,
+      -0.70710516,
+      0.7071083
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 7.5,
+    "range": 5.6,
+    "innerSpotAngle": 79.41763,
+    "spotAngle": 121.1,
+    "type": "Spot"
+  },
+  {
+    "name": "point light",
+    "position": [
+      28.77,
+      1.88756084,
+      14.3108845
+    ],
+    "rotation": [
+      -0.000324467168,
+      0.000325327128,
+      -0.7071051,
+      0.7071084
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.3,
+    "range": 1.23,
+    "innerSpotAngle": 97.11431,
+    "spotAngle": 115.2,
+    "type": "Point"
+  },
+  {
+    "name": "point light (1)",
+    "position": [
+      28.1052361,
+      5.770483,
+      35.7665253
+    ],
+    "rotation": [
+      9.18329E-08,
+      0.8662538,
+      -0.499604285,
+      1.25540987E-06
+    ],
+    "color": [
+      0.8308824,
+      0.866353452,
+      1.0,
+      1.0
+    ],
+    "intensity": 0.66,
+    "range": 3.45,
+    "innerSpotAngle": 97.11431,
+    "spotAngle": 115.2,
+    "type": "Point"
+  },
+  {
+    "name": "Point light",
+    "position": [
+      37.9389954,
+      9.186,
+      32.36175
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.5514706,
+      0.5514706,
+      1.0
+    ],
+    "intensity": 1.76,
+    "range": 1.0,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      62.97048,
+      0.432138443,
+      13.8947525
+    ],
+    "rotation": [
+      -0.09601483,
+      -3.114787E-07,
+      3.00453955E-08,
+      -0.99538
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 2.303231,
+    "range": 5.252566,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      63.0224838,
+      0.1671381,
+      15.0437508
+    ],
+    "rotation": [
+      0.0,
+      -3.27825546E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      62.97048,
+      0.432137966,
+      14.6477509
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      4.02331352E-07
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      53.6224442,
+      1.18173552,
+      -33.1064
+    ],
+    "rotation": [
+      -2.84114151E-07,
+      4.371139E-08,
+      1.0,
+      -1.62403965E-14
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      53.6645355,
+      0.275252342,
+      -34.13752
+    ],
+    "rotation": [
+      -0.003220827,
+      -0.0217054486,
+      -0.9997301,
+      -0.00763787236
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 5.0,
+    "range": 4.55,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      53.6645355,
+      0.275252342,
+      -33.7247467
+    ],
+    "rotation": [
+      -1.0,
+      -1.94971484E-14,
+      -3.58619957E-07,
+      -4.371139E-08
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -51.5345154,
+      5.76301861,
+      56.09875
+    ],
+    "rotation": [
+      -0.4999998,
+      -0.4999998,
+      -0.5000002,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -51.5345154,
+      6.51600552,
+      56.09875
+    ],
+    "rotation": [
+      -0.558670163,
+      -0.4334604,
+      0.558670044,
+      -0.433460027
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 4.95,
+    "range": 8.24,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 103.4,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -51.5245132,
+      5.106018,
+      56.04675
+    ],
+    "rotation": [
+      -0.5000002,
+      -0.5000002,
+      0.499999821,
+      -0.499999821
+    ],
+    "color": [
+      1.0,
+      0.16911763,
+      0.16911763,
+      1.0
+    ],
+    "intensity": 1.12,
+    "range": 3.84,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light_vol (3)",
+    "position": [
+      -24.153511,
+      3.47001839,
+      44.59075
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.754722834,
+      0.298507452,
+      1.0
+    ],
+    "intensity": 0.52,
+    "range": 7.16,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      21.3707,
+      -1.62715912,
+      0.111171722
+    ],
+    "rotation": [
+      7.450581E-09,
+      0.904224753,
+      7.450581E-09,
+      0.4270569
+    ],
+    "color": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.79348421,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      58.6714859,
+      0.432137966,
+      5.220749
+    ],
+    "rotation": [
+      0.0,
+      -1.0,
+      0.0,
+      4.02331352E-07
+    ],
+    "color": [
+      1.0,
+      0.816835344,
+      0.382352948,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      58.7234879,
+      0.1671381,
+      5.616749
+    ],
+    "rotation": [
+      0.0,
+      -3.27825546E-07,
+      0.0,
+      -1.0
+    ],
+    "color": [
+      1.0,
+      0.7723631,
+      0.507352948,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 2.88197327,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      58.6714859,
+      0.432138443,
+      4.46775055
+    ],
+    "rotation": [
+      -0.09601483,
+      -3.114787E-07,
+      3.00453955E-08,
+      -0.99538
+    ],
+    "color": [
+      1.0,
+      0.745182633,
+      0.448529422,
+      1.0
+    ],
+    "intensity": 2.303231,
+    "range": 5.252566,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 87.3995056,
+    "type": "Spot"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      -16.4985085,
+      0.755018234,
+      -23.7672482
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 2.0,
+    "range": 2.77,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      71.24948,
+      4.57001829,
+      -43.28325
+    ],
+    "rotation": [
+      2.8449125E-07,
+      -0.7071068,
+      -0.7071068,
+      2.8449125E-07
+    ],
+    "color": [
+      1.0,
+      0.926517665,
+      0.6132076,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 84.66495,
+    "spotAngle": 103.453323,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      71.24948,
+      5.323017,
+      -43.3002472
+    ],
+    "rotation": [
+      0.7071068,
+      2.95385519E-07,
+      1.49606478E-07,
+      0.7071068
+    ],
+    "color": [
+      1.0,
+      0.85999316,
+      0.697,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 9.07,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 95.2,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      71.30148,
+      2.588018,
+      -43.3452454
+    ],
+    "rotation": [
+      -0.7071068,
+      -2.31807689E-07,
+      -2.31807689E-07,
+      -0.7071068
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.12,
+    "range": 4.75,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light_vol (2)",
+    "position": [
+      -0.18851161,
+      3.47001839,
+      44.59075
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.754722834,
+      0.298507452,
+      1.0
+    ],
+    "intensity": 0.52,
+    "range": 9.78,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      0.884488344,
+      -0.780981064,
+      -25.873251
+    ],
+    "rotation": [
+      -0.500000238,
+      0.5000002,
+      0.4999998,
+      0.499999851
+    ],
+    "color": [
+      0.9705882,
+      0.9920893,
+      1.0,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.9063336,
+    "innerSpotAngle": 95.4536,
+    "spotAngle": 113.678955,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      0.918488741,
+      -2.46398163,
+      -26.0312481
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      0.625,
+      0.8137932,
+      1.0,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 4.17359161,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      0.8764889,
+      -0.4549818,
+      -25.8732433
+    ],
+    "rotation": [
+      -0.499999821,
+      0.49999994,
+      -0.5000002,
+      -0.5000001
+    ],
+    "color": [
+      0.7352941,
+      0.890466452,
+      1.0,
+      1.0
+    ],
+    "intensity": 2.5,
+    "range": 10.47,
+    "innerSpotAngle": 68.96618,
+    "spotAngle": 110.0,
+    "type": "Spot"
+  },
+  {
+    "name": "glowstick light",
+    "position": [
+      45.4929962,
+      0.248566628,
+      32.296
+    ],
+    "rotation": [
+      0.0,
+      0.969150066,
+      -2.98023224E-08,
+      -0.246471718
+    ],
+    "color": [
+      0.4685316,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "intensity": 1.75,
+    "range": 2.15,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "glowstick light (1)",
+    "position": [
+      0.475489855,
+      -1.70098114,
+      -16.09825
+    ],
+    "rotation": [
+      1.49011612E-08,
+      0.904225,
+      1.49011612E-08,
+      0.427056432
+    ],
+    "color": [
+      1.0,
+      0.07857958,
+      0.0,
+      1.0
+    ],
+    "intensity": 0.26,
+    "range": 3.3,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "GI_light",
+    "position": [
+      -29.5009136,
+      1.30474,
+      58.5256767
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "color": [
+      1.0,
+      0.754722834,
+      0.298507452,
+      1.0
+    ],
+    "intensity": 1.19,
+    "range": 3.77602029,
+    "innerSpotAngle": 21.80208,
+    "spotAngle": 30.0,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -6.8125124,
+      -0.539981365,
+      33.79875
+    ],
+    "rotation": [
+      -0.500000238,
+      0.5000002,
+      0.4999998,
+      0.499999851
+    ],
+    "color": [
+      1.0,
+      0.849285,
+      0.432835817,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.76,
+    "innerSpotAngle": 113.693596,
+    "spotAngle": 129.7,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -29.8925076,
+      -0.592981339,
+      26.78175
+    ],
+    "rotation": [
+      -0.500000238,
+      0.5000002,
+      0.4999998,
+      0.499999851
+    ],
+    "color": [
+      1.0,
+      0.849285,
+      0.432835817,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.76,
+    "innerSpotAngle": 113.693596,
+    "spotAngle": 129.7,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -21.44051,
+      1.38601828,
+      26.78175
+    ],
+    "rotation": [
+      -0.500000238,
+      0.5000002,
+      0.4999998,
+      0.499999851
+    ],
+    "color": [
+      1.0,
+      0.849285,
+      0.432835817,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.76,
+    "innerSpotAngle": 113.693596,
+    "spotAngle": 129.7,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -37.57801,
+      0.494018555,
+      34.73475
+    ],
+    "rotation": [
+      -0.500000238,
+      0.5000002,
+      0.4999998,
+      0.499999851
+    ],
+    "color": [
+      1.0,
+      0.849285,
+      0.432835817,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.76,
+    "innerSpotAngle": 113.693596,
+    "spotAngle": 129.7,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      -44.2445145,
+      3.88501835,
+      46.14885
+    ],
+    "rotation": [
+      -0.500000238,
+      0.5000002,
+      0.4999998,
+      0.499999851
+    ],
+    "color": [
+      1.0,
+      0.849285,
+      0.432835817,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.76,
+    "innerSpotAngle": 113.693596,
+    "spotAngle": 129.7,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -44.2445145,
+      4.1160183,
+      46.14885
+    ],
+    "rotation": [
+      -0.499999821,
+      0.49999994,
+      -0.5000002,
+      -0.5000001
+    ],
+    "color": [
+      0.9716981,
+      0.685994446,
+      0.348344624,
+      1.0
+    ],
+    "intensity": 7.42,
+    "range": 4.5,
+    "innerSpotAngle": 81.06462,
+    "spotAngle": 104.9,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -37.57801,
+      0.7250185,
+      34.7347527
+    ],
+    "rotation": [
+      -0.499999821,
+      0.49999994,
+      -0.5000002,
+      -0.5000001
+    ],
+    "color": [
+      0.9716981,
+      0.685994446,
+      0.348344624,
+      1.0
+    ],
+    "intensity": 4.49,
+    "range": 4.5,
+    "innerSpotAngle": 81.06462,
+    "spotAngle": 104.9,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -6.8125124,
+      -0.3089819,
+      33.79875
+    ],
+    "rotation": [
+      -0.499999821,
+      0.49999994,
+      -0.5000002,
+      -0.5000001
+    ],
+    "color": [
+      0.9716981,
+      0.685994446,
+      0.348344624,
+      1.0
+    ],
+    "intensity": 4.49,
+    "range": 4.5,
+    "innerSpotAngle": 81.06462,
+    "spotAngle": 104.9,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -29.8925076,
+      -0.3619814,
+      26.7817516
+    ],
+    "rotation": [
+      -0.499999821,
+      0.49999994,
+      -0.5000002,
+      -0.5000001
+    ],
+    "color": [
+      0.9716981,
+      0.685994446,
+      0.348344624,
+      1.0
+    ],
+    "intensity": 4.49,
+    "range": 4.5,
+    "innerSpotAngle": 81.06462,
+    "spotAngle": 104.9,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      -21.44051,
+      1.61701822,
+      26.7817516
+    ],
+    "rotation": [
+      -0.499999821,
+      0.49999994,
+      -0.5000002,
+      -0.5000001
+    ],
+    "color": [
+      0.9716981,
+      0.685994446,
+      0.348344624,
+      1.0
+    ],
+    "intensity": 4.49,
+    "range": 4.5,
+    "innerSpotAngle": 81.06462,
+    "spotAngle": 104.9,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight (1)",
+    "position": [
+      -21.44051,
+      1.25501823,
+      26.76575
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 1.51,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight (1)",
+    "position": [
+      -29.8925076,
+      -0.723981857,
+      26.76575
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 1.51,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight (1)",
+    "position": [
+      -6.8125124,
+      -0.6709814,
+      33.782753
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 1.51,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight (1)",
+    "position": [
+      -44.2445145,
+      3.75401831,
+      46.13285
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 1.51,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight (1)",
+    "position": [
+      -37.57801,
+      0.363018036,
+      34.71875
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 1.51,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      14.9029989,
+      -1.64900017,
+      -32.209
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 0.7,
+    "range": 4.0,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      14.9029989,
+      -0.5549998,
+      -32.2290039
+    ],
+    "rotation": [
+      -0.500000238,
+      0.5000002,
+      0.4999998,
+      0.499999851
+    ],
+    "color": [
+      1.0,
+      0.849285,
+      0.432835817,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.76,
+    "innerSpotAngle": 113.693596,
+    "spotAngle": 129.7,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      14.9029989,
+      -0.324000359,
+      -32.2290039
+    ],
+    "rotation": [
+      -0.499999821,
+      0.49999994,
+      -0.5000002,
+      -0.5000001
+    ],
+    "color": [
+      0.9716981,
+      0.685994446,
+      0.348344624,
+      1.0
+    ],
+    "intensity": 4.49,
+    "range": 4.5,
+    "innerSpotAngle": 81.06462,
+    "spotAngle": 99.9,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight (1)",
+    "position": [
+      14.9029989,
+      -0.6859999,
+      -32.2450027
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 1.51,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -6.8125124,
+      -1.6339817,
+      33.8187523
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 0.7,
+    "range": 4.0,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -29.8925076,
+      -1.6869812,
+      26.80175
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 0.7,
+    "range": 4.0,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -21.44051,
+      0.2920184,
+      26.80175
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 0.7,
+    "range": 4.0,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -44.2445145,
+      2.45201826,
+      46.16885
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 0.7,
+    "range": 5.33,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      -37.57801,
+      -0.5999813,
+      34.7547531
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 0.7,
+    "range": 4.0,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      24.234,
+      2.0969,
+      -39.77246
+    ],
+    "rotation": [
+      -0.500000238,
+      0.5000002,
+      0.4999998,
+      0.499999851
+    ],
+    "color": [
+      1.0,
+      0.849285,
+      0.432835817,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.76,
+    "innerSpotAngle": 113.693596,
+    "spotAngle": 129.7,
+    "type": "Spot"
+  },
+  {
+    "name": "walllight",
+    "position": [
+      33.335,
+      2.0969,
+      -39.77246
+    ],
+    "rotation": [
+      -0.500000238,
+      0.5000002,
+      0.4999998,
+      0.499999851
+    ],
+    "color": [
+      1.0,
+      0.849285,
+      0.432835817,
+      1.0
+    ],
+    "intensity": 8.0,
+    "range": 0.76,
+    "innerSpotAngle": 113.693596,
+    "spotAngle": 129.7,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      33.335,
+      2.3279,
+      -39.7724571
+    ],
+    "rotation": [
+      -0.499999821,
+      0.49999994,
+      -0.5000002,
+      -0.5000001
+    ],
+    "color": [
+      0.9716981,
+      0.685994446,
+      0.348344624,
+      1.0
+    ],
+    "intensity": 4.49,
+    "range": 4.5,
+    "innerSpotAngle": 81.06462,
+    "spotAngle": 99.9,
+    "type": "Spot"
+  },
+  {
+    "name": "filllight",
+    "position": [
+      24.234,
+      2.3279,
+      -39.7724571
+    ],
+    "rotation": [
+      -0.499999821,
+      0.49999994,
+      -0.5000002,
+      -0.5000001
+    ],
+    "color": [
+      0.9716981,
+      0.685994446,
+      0.348344624,
+      1.0
+    ],
+    "intensity": 4.49,
+    "range": 4.5,
+    "innerSpotAngle": 81.06462,
+    "spotAngle": 99.9,
+    "type": "Spot"
+  },
+  {
+    "name": "lampGIlight (1)",
+    "position": [
+      24.234,
+      1.9659,
+      -39.78846
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 1.51,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight (1)",
+    "position": [
+      33.335,
+      1.9659,
+      -39.78846
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 1.0,
+    "range": 1.51,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      24.234,
+      0.7119,
+      -39.75246
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 0.7,
+    "range": 8.0,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  },
+  {
+    "name": "lampGIlight",
+    "position": [
+      33.335,
+      0.585899949,
+      -39.75246
+    ],
+    "rotation": [
+      0.499999821,
+      -0.499999881,
+      0.500000238,
+      0.5000002
+    ],
+    "color": [
+      1.0,
+      0.8267242,
+      0.625,
+      1.0
+    ],
+    "intensity": 0.7,
+    "range": 8.0,
+    "innerSpotAngle": 86.77285,
+    "spotAngle": 105.5,
+    "type": "Point"
+  }
+]
