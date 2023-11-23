@@ -6,6 +6,7 @@ from pathlib import Path
 import os
 
 POWER_MULTIPLIER = 10
+JSON_FILENAME = 'lights_reserve.json'
 
 def get_filepath_repo(keyword):
     repo_path = Path(os.path.realpath(bpy.path.abspath(bpy.data.texts['import_lights.py'].filepath))).parent.absolute()
@@ -36,7 +37,7 @@ def at_zero(loc):
     z_zero = math.isclose(loc[2], 0.0, abs_tol=1e-7)
     return x_zero and z_zero
 
-with open(get_filepath_repo('lights_factory.json'), 'r') as f:
+with open(get_filepath_repo(JSON_FILENAME), 'r') as f:
     light_data = json.load(f)
 
 for light in light_data:
