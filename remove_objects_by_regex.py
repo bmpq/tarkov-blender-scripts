@@ -82,7 +82,7 @@ print('Checking ' + str(len(bpy.context.scene.objects)) + ' objects')
 for obj in bpy.context.scene.objects:
     for regex in regex_list:
         pattern = re.compile(regex, re.IGNORECASE | re.DOTALL)
-        if pattern.match(obj.name):
+        if obj and pattern.match(obj.name):
             remove(obj)
             break
 
