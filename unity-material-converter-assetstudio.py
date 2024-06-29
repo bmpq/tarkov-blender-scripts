@@ -3,6 +3,9 @@
 
 import bpy
 
+if bpy.app.version >= (4, 0, 0):
+    raise Exception("this script does not support blender 4.0+")
+
 ## unity normal maps are packed in a specific way, this creates a node setup that unpacks them
 def create_nodegroup_normal_converter():
     tree = bpy.data.node_groups.new('Unpack.Unity.Normal', 'ShaderNodeTree')
